@@ -23,7 +23,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: backend
-          image: suppregistry.azurecr.io/supp-atendimento/backend:4.0.0
+          image: suppregistry.azurecr.io/supp-atendimento/backend:5.0.0
           ports:
             - containerPort: 9000
               protocol: TCP

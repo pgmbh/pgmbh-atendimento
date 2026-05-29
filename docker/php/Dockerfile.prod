@@ -29,9 +29,9 @@ COPY supp-atendimento-back-end/ /var/www/html/
 # Gera o autoloader otimizado final
 RUN composer dump-autoload --optimize
 
-# Garante que www-data (usuario do PHP-FPM) consegue escrever em var/cache e var/log
-RUN mkdir -p /var/www/html/var/cache /var/www/html/var/log && \
-    chown -R www-data:www-data /var/www/html/var
+# Garante que www-data (usuario do PHP-FPM) consegue escrever em var/cache, var/log e uploads
+RUN mkdir -p /var/www/html/var/cache /var/www/html/var/log /var/www/html/public/uploads/attachments && \
+    chown -R www-data:www-data /var/www/html/var /var/www/html/public/uploads
 
 # Expõe a porta do PHP-FPM
 EXPOSE 9000

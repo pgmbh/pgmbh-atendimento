@@ -15,7 +15,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: seed
-          image: suppregistry.azurecr.io/supp-atendimento/backend:4.0.0
+          image: suppregistry.azurecr.io/supp-atendimento/backend:5.0.0
           command: ["/bin/sh", "-c"]
           args:
             - |
