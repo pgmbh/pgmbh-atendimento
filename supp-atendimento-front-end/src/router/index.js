@@ -6,6 +6,10 @@ import { authService } from '@/services/auth.service';
 
 const routes = [
   {
+    path: '/',
+    redirect: '/login'
+  },
+  {
     path: '/dashboard',
     name: 'dashboard',
     component: DashboardView,
