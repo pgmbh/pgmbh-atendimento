@@ -140,6 +140,7 @@ class ServiceManager
             if ($adminAttendant) {
                 $service->setCreatedByAdmin(true);
                 $service->setCreatedByAdminAttendant($adminAttendant);
+                $service->setReponsible($adminAttendant);
             }
         }
 

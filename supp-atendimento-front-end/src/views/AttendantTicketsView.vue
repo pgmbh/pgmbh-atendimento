@@ -7,7 +7,7 @@
         <div class="tickets-page">
           <div class="d-flex justify-space-between align-center mb-4">
             <h2 class="text-h5 font-weight-medium">Meus Atendimentos</h2>
-            <v-btn v-if="isAdmin" color="primary" @click="openCreateDialog" class="btn-centered btn-centered-text">
+            <v-btn color="primary" @click="openCreateDialog" class="btn-centered btn-centered-text">
               Criar Chamado para Usuário
             </v-btn>
 
