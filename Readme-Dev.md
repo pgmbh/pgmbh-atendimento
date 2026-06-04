@@ -29,8 +29,8 @@ docker-compose down
 
 # comandos para subir do clickup
 
-  # Importar tudo (fixture)
+  # Banco já existente — só importa o que falta:
   php bin/console doctrine:fixtures:load --group=roadmap --append
-
-  # Reverter tudo (comando)
-  php bin/console app:revert-roadmap --force
+  
+  # Setup completo do zero:
+  php bin/console doctrine:fixtures:load

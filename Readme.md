@@ -59,9 +59,3 @@ kubectl delete -f kubernetes/ingress.yaml -n helpdesk
 
 
 
-Para produção:
-  # Banco já existente — só importa o que falta:
-  php bin/console doctrine:fixtures:load --group=roadmap --append
-  
-  # Setup completo do zero:
-  php bin/console doctrine:fixtures:load

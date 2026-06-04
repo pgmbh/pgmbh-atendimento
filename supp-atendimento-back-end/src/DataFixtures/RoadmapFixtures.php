@@ -3,10 +3,13 @@
 namespace App\DataFixtures;
 
 use App\Entity\Attendant;
+use App\Entity\Category;
 use App\Entity\Project;
+use App\Entity\Sector;
 use App\Entity\Service;
 use App\Entity\ServiceAttendant;
 use App\Entity\ServiceHistory;
+use App\Entity\ServiceType;
 use App\Entity\User;
 use App\Repository\AttendantRepository;
 use App\Repository\ProjectRepository;
@@ -21,13 +24,11 @@ use Doctrine\Persistence\ObjectManager;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 
 /**
- * Importa atividades do Cronograma.xlsx (projeto LJPGM) e do all_tasks.json (ClickUp).
+ * Fixture autossuficiente: cria toda a base (setores, categorias, tipos, usuários)
+ * e importa as atividades do Cronograma LJPGM e do ClickUp.
  *
- * Uso em banco já existente (AppFixtures já executado):
+ * Banco zerado ou já existente — funciona nos dois casos:
  *   php bin/console doctrine:fixtures:load --group=roadmap --append
- *
- * Uso em banco zerado (setup completo):
- *   php bin/console doctrine:fixtures:load
  */
 class RoadmapFixtures extends Fixture implements FixtureGroupInterface
 {
@@ -73,55 +74,123 @@ class RoadmapFixtures extends Fixture implements FixtureGroupInterface
     {
         assert($manager instanceof EntityManagerInterface);
 
-        // -----------------------------------------------------------------------
-        // Resolve setores base
-        // -----------------------------------------------------------------------
-        $sectorDev   = $this->sectorRepository->findOneBy(['name' => 'Dev']);
-        $sectorInfra = $this->sectorRepository->findOneBy(['name' => 'Infra']);
+        $this->ensureBaseData($manager);
 
-        if (!$sectorDev || !$sectorInfra) {
-            echo "[RoadmapFixtures] ERRO: Setores 'Dev' e/ou 'Infra' não encontrados. Execute AppFixtures primeiro.\n";
-            return;
-        }
+        $sectorDev       = $this->sectorRepository->findOneBy(['name' => 'Dev']);
+        $sectorInfra     = $this->sectorRepository->findOneBy(['name' => 'Infra']);
+        $attendantRafael = $this->attendantCache['rafael.assumpcao@pbh.gov.br'];
+        $userRafael      = $attendantRafael->getUser();
+        $tz              = new DateTimeZone('America/Sao_Paulo');
 
-        // -----------------------------------------------------------------------
-        // Resolve Rafael (responsável padrão do Cronograma e criador de projetos)
-        // -----------------------------------------------------------------------
-        $attendantRafael = $this->attendantRepository
-            ->createQueryBuilder('a')
-            ->join('a.user', 'u')
-            ->where('u.email = :email')
-            ->setParameter('email', 'rafael.assumpcao@pbh.gov.br')
-            ->setMaxResults(1)
-            ->getQuery()
-            ->getOneOrNullResult();
-
-        if (!$attendantRafael) {
-            echo "[RoadmapFixtures] ERRO: Atendente Rafael não encontrado. Execute AppFixtures primeiro.\n";
-            return;
-        }
-
-        $userRafael = $attendantRafael->getUser();
-
-        // Preenche os caches com Rafael para evitar lookups redundantes
-        $this->userCache[$userRafael->getEmail()]             = $userRafael;
-        $this->attendantCache[$userRafael->getEmail()]        = $attendantRafael;
-
-        $tz = new DateTimeZone('America/Sao_Paulo');
-
-        // -----------------------------------------------------------------------
-        // FONTE 1 — Cronograma.xlsx
-        // -----------------------------------------------------------------------
         $this->importCronograma($manager, $sectorDev, $attendantRafael, $userRafael, $tz);
-
-        // -----------------------------------------------------------------------
-        // FONTE 2 — all_tasks.json
-        // -----------------------------------------------------------------------
         $this->importClickUp($manager, $sectorDev, $sectorInfra, $attendantRafael, $userRafael, $tz);
 
-        // Flush final para qualquer sobra
         $manager->flush();
         echo "[RoadmapFixtures] Importação concluída.\n";
+    }
+
+    // =========================================================================
+    // Base data — garante setores, categorias, tipos de serviço e usuários
+    // =========================================================================
+
+    private function ensureBaseData(EntityManagerInterface $manager): void
+    {
+        // --- Setores ---
+        foreach (['Infra', 'Dev', 'Diretoria', 'Suporte'] as $name) {
+            if (!$this->sectorRepository->findOneBy(['name' => $name])) {
+                $s = new Sector();
+                $s->setName($name);
+                $manager->persist($s);
+            }
+        }
+
+        // --- Categorias ---
+        $catRepo = $manager->getRepository(Category::class);
+        foreach (['SUPP', 'Suporte', 'Planilha', 'Solicitação de E-mail'] as $name) {
+            if (!$catRepo->findOneBy(['name' => $name])) {
+                $c = new Category();
+                $c->setName($name);
+                $manager->persist($c);
+            }
+        }
+
+        // --- Tipos de serviço ---
+        $stRepo = $manager->getRepository(ServiceType::class);
+        foreach (['Triagem', 'Bug', 'Implantação', 'Solicitação', 'Manutenção', 'Instalação'] as $name) {
+            if (!$stRepo->findOneBy(['name' => $name])) {
+                $st = new ServiceType();
+                $st->setName($name);
+                $manager->persist($st);
+            }
+        }
+
+        $manager->flush();
+
+        // --- Setores (agora garantidamente existem) ---
+        $sectorInfra = $this->sectorRepository->findOneBy(['name' => 'Infra']);
+        $sectorDev   = $this->sectorRepository->findOneBy(['name' => 'Dev']);
+        $sectorDir   = $this->sectorRepository->findOneBy(['name' => 'Diretoria']);
+        $sectorSup   = $this->sectorRepository->findOneBy(['name' => 'Suporte']);
+
+        // --- Usuários/atendentes base ---
+        // [nome, email, função, setor, roles, status]
+        $baseAttendants = [
+            ['Rafael Assumpcao de Oliveira',  'rafael.assumpcao@pbh.gov.br',       'Admin',                $sectorDir,   ['ROLE_USER', 'ROLE_ATTENDANT', 'ROLE_ADMIN'], 'AVAILABLE'],
+            ['Marco Ribeiro',                 'marco.a.ribeiro@pbh.gov.br',        'Atendente',            $sectorInfra, ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Danilo Rodrigues César',        'danilo.cesar@pbh.gov.br',           'Atendente',            $sectorInfra, ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Danilo de Souza Lima',          'danilo.dlima@pbh.gov.br',           'Atendente',            $sectorDev,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Isaac Emanuel Santos Martins',  'isaac.martins@pbh.gov.br',          'Atendente',            $sectorDev,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Cristhian Ramos',               'cristhian.r@pbh.gov.br',            'Atendente',            $sectorSup,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Paulo Henrique Meireles Araujo','paulohenr.araujo@edu.pbh.gov.br',   'Atendente',            $sectorSup,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Larissa Evelyn',                'larissa.evelyn@pbh.gov.br',         'Atendente',            $sectorSup,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Lucas Almeida',                 'lucas.almeida@pbh.gov.br',          'Programador Backend',  $sectorDev,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Mariana Silva',                 'mariana.silva@pbh.gov.br',          'Programador DevOps',   $sectorSup,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Pedro Henrique Costa',          'pedro.costa@pbh.gov.br',            'Analista de Sistemas', $sectorDev,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'BUSY'],
+            ['Juliana Ferreira',              'juliana.ferreira@pbh.gov.br',       'Analista de Suporte',  $sectorInfra, ['ROLE_USER', 'ROLE_ATTENDANT'], 'AVAILABLE'],
+            ['Bruno Cardoso',                 'bruno.cardoso@pbh.gov.br',          'Arquiteto de Software',$sectorDev,   ['ROLE_USER', 'ROLE_ATTENDANT'], 'OFFLINE'],
+        ];
+
+        foreach ($baseAttendants as [$name, $email, $function, $sector, $roles, $status]) {
+            $existing = $this->attendantRepository
+                ->createQueryBuilder('a')->join('a.user', 'u')
+                ->where('u.email = :e')->setParameter('e', $email)
+                ->setMaxResults(1)->getQuery()->getOneOrNullResult();
+
+            if ($existing) {
+                $this->attendantCache[$email] = $existing;
+                $this->userCache[$email]      = $existing->getUser();
+                continue;
+            }
+
+            $user = $this->userRepository->findOneBy(['email' => $email]);
+            if (!$user) {
+                $user = new User();
+                $user->setName(mb_substr($name, 0, 50))->setEmail($email)
+                     ->setRoles($roles)->setIsAttendant(true)
+                     ->setPassword($this->passwordHasher->hashPassword($user, self::DEFAULT_PASSWORD));
+                $manager->persist($user);
+            }
+
+            $attendant = new Attendant();
+            $attendant->setName(mb_substr($name, 0, 100))->setFunction($function)
+                      ->setStatus($status)->setSector($sector)->setUser($user);
+            $manager->persist($attendant);
+
+            $this->userCache[$email]      = $user;
+            $this->attendantCache[$email] = $attendant;
+        }
+
+        // Usuário comum (solicitante padrão)
+        if (!$this->userRepository->findOneBy(['email' => 'joao@gmail.com'])) {
+            $joao = new User();
+            $joao->setName('João')->setEmail('joao@gmail.com')
+                 ->setRoles(['ROLE_USER'])->setIsAttendant(false)
+                 ->setPassword($this->passwordHasher->hashPassword($joao, self::DEFAULT_PASSWORD));
+            $manager->persist($joao);
+        }
+
+        $manager->flush();
+        echo "[RoadmapFixtures] Base de dados garantida (setores, categorias, tipos, usuários).\n";
     }
 
     // =========================================================================
