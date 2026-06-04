@@ -3,10 +3,13 @@
 namespace App\Command;
 
 use App\Entity\Attendant;
+use App\Entity\Project;
 use App\Entity\Service;
+use App\Entity\ServiceAttendant;
 use App\Entity\ServiceHistory;
 use App\Entity\User;
 use App\Repository\AttendantRepository;
+use App\Repository\ProjectRepository;
 use App\Repository\SectorRepository;
 use App\Repository\UserRepository;
 use DateTime;
@@ -57,6 +60,7 @@ class ImportRoadmapCommand extends Command
         private readonly SectorRepository            $sectorRepository,
         private readonly UserRepository              $userRepository,
         private readonly AttendantRepository         $attendantRepository,
+        private readonly ProjectRepository           $projectRepository,
     ) {
         parent::__construct();
     }
@@ -106,6 +110,20 @@ class ImportRoadmapCommand extends Command
         if (!$sectorDev || !$sectorInfra) {
             $io->error('Setores "Dev" e/ou "Infra" não encontrados. Execute as fixtures primeiro.');
             return Command::FAILURE;
+        }
+
+        // --- Resolve projeto SUPP ---
+        $suppProject = $this->entityManager
+            ->createQueryBuilder()
+            ->select('p')
+            ->from(Project::class, 'p')
+            ->where('p.acronym LIKE :q OR p.name LIKE :q')
+            ->setParameter('q', '%SUPP%')
+            ->setMaxResults(1)
+            ->getQuery()
+            ->getOneOrNullResult();
+        if (!$suppProject) {
+            $io->warning('Projeto com "SUPP" não encontrado — tickets serão importados sem sistema vinculado.');
         }
 
         $tz = new DateTimeZone('America/Sao_Paulo');
@@ -233,9 +251,28 @@ class ImportRoadmapCommand extends Command
                 ->setDateUpdate($dateUpdate)
                 ->setDateConclusion($dateConclusion)
                 ->setDeadline($deadline)
-                ->setCreatedByAdmin(false);
+                ->setCreatedByAdmin(false)
+                ->setProject($suppProject);
 
             $this->entityManager->persist($service);
+
+            // --- Cria ServiceAttendant para assignees extras (além do responsible) ---
+            foreach (array_slice($task['assignees'] ?? [], 1) as $extraAssignee) {
+                $extraEmail = $this->normalizeEmail($extraAssignee['email'] ?? '');
+                $extraName  = $extraAssignee['username'] ?? 'Atendente ClickUp';
+                [$extraAttendant, $newUsersX, $newAttendantsX] = $this->resolveAttendant(
+                    $extraEmail, $extraName, $sectorDev, $sectorInfra
+                );
+                $usersCreated      += $newUsersX;
+                $attendantsCreated += $newAttendantsX;
+
+                $sa = new ServiceAttendant();
+                $sa->setService($service);
+                $sa->setAttendant($extraAttendant);
+                $sa->setAssignedBy($responsible ?? $extraAttendant);
+                $sa->setAssignedAt($dateCreate);
+                $this->entityManager->persist($sa);
+            }
 
             // --- Cria ServiceHistory inicial ---
             $history = new ServiceHistory();
@@ -255,8 +292,6 @@ class ImportRoadmapCommand extends Command
 
             if ($batch >= self::BATCH_SIZE) {
                 $this->entityManager->flush();
-                $this->entityManager->clear(Service::class);
-                $this->entityManager->clear(ServiceHistory::class);
                 $batch = 0;
             }
 

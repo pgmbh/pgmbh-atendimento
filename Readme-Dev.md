@@ -24,3 +24,13 @@ docker-compose --profile dev up -d --build
 
 # Para parar os serviços
 docker-compose down
+
+```
+
+# comandos para subir do clickup
+
+# reverter
+php bin/console app:revert-roadmap --force 
+
+# adicionar
+php bin/console app:import-roadmap /tmp/all_tasks.json 

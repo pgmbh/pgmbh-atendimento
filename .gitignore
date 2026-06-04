@@ -1,4 +1,8 @@
-arquivos
+arquivos/*
+!arquivos/clickup/
+arquivos/clickup/config.txt
+arquivos/clickup/instrucoes.md
+arquivos/clickup/script.md
 CLAUDE.md
 
 supp-atendimento-back-end/.env

@@ -381,7 +381,7 @@ class ServiceController extends AbstractController
             $categoryId = $request->query->get('category_id');
             $serviceTypeId = $request->query->get('service_type_id');
             $projectId = $request->query->get('project_id');
-            $excludeStatus = $request->query->get('exclude_status');
+            $excludeStatuses = array_filter(explode(',', $request->query->get('exclude_status', '')));
 
             // Parâmetros de paginação
             $page = $request->query->get('page', 1);
@@ -443,8 +443,8 @@ class ServiceController extends AbstractController
                     $keepService = false;
                 }
 
-                // Filtro para excluir status específico
-                if ($excludeStatus && $service->getStatus() === $excludeStatus) {
+                // Filtro para excluir status específicos
+                if (!empty($excludeStatuses) && in_array($service->getStatus(), $excludeStatuses, true)) {
                     $keepService = false;
                 }
 
