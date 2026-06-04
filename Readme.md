@@ -56,3 +56,12 @@ kubectl delete -f kubernetes/ingress.yaml -n helpdesk
   ├─────┼──────────────────────────────┼─────────────────────────────┼───────────────────────┼────────┤
   │ 8   │ Bruno Cardoso                │ bruno.cardoso@pbh.gov.br    │ Arquiteto de Software │ Dev    │
   └─────┴──────────────────────────────┴─────────────────────────────┴───────────────────────┴────────┘
+
+
+
+Para produção:
+  # Banco já existente — só importa o que falta:
+  php bin/console doctrine:fixtures:load --group=roadmap --append
+  
+  # Setup completo do zero:
+  php bin/console doctrine:fixtures:load

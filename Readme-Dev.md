@@ -24,3 +24,13 @@ docker-compose --profile dev up -d --build
 
 # Para parar os serviços
 docker-compose down
+
+```
+
+# comandos para subir do clickup
+
+  # Importar tudo (fixture)
+  php bin/console doctrine:fixtures:load --group=roadmap --append
+
+  # Reverter tudo (comando)
+  php bin/console app:revert-roadmap --force

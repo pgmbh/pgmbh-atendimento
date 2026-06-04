@@ -1,0 +1,7 @@
+token = SEU_TOKEN_AQUI
+
+[lists]
+Desenvolvimento = ID_DA_LISTA
+Infra / Devops  = ID_DA_LISTA
+Assuntos Gerais = ID_DA_LISTA
+SUPP Roadmap    = ID_DA_LISTA

@@ -132,13 +132,6 @@ const categories = ref([]);
 const serviceTypes = ref([]);
 const projects = ref([]);
 
-watch(() => formData.value.category_id, () => {
-  // Mantém o projeto quando o diálogo está travado a um projeto específico
-  if (!props.lockedProject) {
-    formData.value.project_id = null;
-  }
-});
-
 // Opciones de prioridad
 const priorityOptions = [
   { title: 'Baixa', value: 'BAIXA' },
@@ -159,6 +152,12 @@ const formData = ref({
   project_id: null,
   deadline: null,
   files: []
+});
+
+watch(() => formData.value.category_id, () => {
+  if (!props.lockedProject) {
+    formData.value.project_id = null;
+  }
 });
 
 // Formatação da data para exibição

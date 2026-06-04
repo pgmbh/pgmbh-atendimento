@@ -73,12 +73,12 @@
                     Limpar
                   </v-btn>
 
-                  <v-btn 
-                    color="black" 
+                  <v-btn
+                    color="black"
                     :variant="showCompleted ? 'flat' : 'outlined'"
-                    @click="toggleCompleted" 
-                    :disabled="loading" 
-                    class="btn-centered"
+                    @click="toggleCompleted"
+                    :disabled="loading"
+                    class="btn-centered me-2"
                     :title="showCompleted ? 'Ocultar Concluídos' : 'Exibir Concluídos'"
                   >
                     <svg v-if="showCompleted" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="me-2">
@@ -91,6 +91,20 @@
                       <circle cx="12" cy="12" r="3" fill="white"/>
                     </svg>
                     {{ showCompleted ? 'Ocultar Concluídos' : 'Exibir Concluídos' }}
+                  </v-btn>
+
+                  <v-btn
+                    color="red-darken-2"
+                    :variant="showCancelled ? 'flat' : 'outlined'"
+                    @click="toggleCancelled"
+                    :disabled="loading"
+                    class="btn-centered"
+                    :title="showCancelled ? 'Ocultar Cancelados' : 'Exibir Cancelados'"
+                  >
+                    <v-icon size="16" class="me-2">
+                      {{ showCancelled ? 'mdi-cancel' : 'mdi-cancel' }}
+                    </v-icon>
+                    {{ showCancelled ? 'Ocultar Cancelados' : 'Exibir Cancelados' }}
                   </v-btn>
                 </v-col>
               </v-row>
@@ -105,21 +119,51 @@
             <v-table hover>
               <thead>
                 <tr>
-                  <th class="text-left">Número</th>
+                  <th class="text-left sortable-th" @click="changeSort('title')">
+                    Número
+                    <v-icon size="x-small" :class="sortField === 'title' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'title' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
                   <th class="text-left">Solicitante</th>
-                  <th class="text-left">Prioridade</th>
-                  <th class="text-left">Status</th>
+                  <th class="text-left sortable-th" @click="changeSort('priority')">
+                    Prioridade
+                    <v-icon size="x-small" :class="sortField === 'priority' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'priority' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
+                  <th class="text-left sortable-th" @click="changeSort('status')">
+                    Status
+                    <v-icon size="x-small" :class="sortField === 'status' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'status' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
                   <th class="text-left">Setor</th>
                   <th class="text-left">Sistema</th>
-                  <th class="text-left">Data Criação</th>
-                  <th class="text-left">Prazo</th>
-                  <th class="text-left">Data Conclusão</th>
+                  <th class="text-left sortable-th" @click="changeSort('created_at')">
+                    Data Criação
+                    <v-icon size="x-small" :class="sortField === 'created_at' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'created_at' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
+                  <th class="text-left sortable-th" @click="changeSort('deadline')">
+                    Prazo
+                    <v-icon size="x-small" :class="sortField === 'deadline' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'deadline' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
+                  <th class="text-left sortable-th" @click="changeSort('conclusion_date')">
+                    Data Conclusão
+                    <v-icon size="x-small" :class="sortField === 'conclusion_date' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'conclusion_date' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
                   <th class="text-center">Ações</th>
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="ticket in sortedTickets" :key="ticket.id">
-                  <td>{{ ticket.title }}</td>
+                <tr v-for="ticket in tickets" :key="ticket.id">
+                  <td>#{{ ticket.id }}</td>
                   <td>{{ ticket.requester?.name }}</td> <!-- Nova célula -->
                   <td>
                     <v-chip :color="getPriorityColor(ticket.priority)"
@@ -172,20 +216,20 @@
                 Mostrando {{ tickets.length }} de {{ meta.total }} registros
               </div>
               <div class="pagination-controls">
-                <!-- Botão Anterior -->
                 <v-btn :disabled="currentPage === 1" @click="handlePageChange(currentPage - 1)" size="small"
                   variant="text" class="pagination-button">
                   Anterior
                 </v-btn>
 
-                <!-- Números das páginas -->
-                <v-btn v-for="page in meta.last_page" :key="page" :color="currentPage === page ? 'primary' : ''"
-                  :variant="currentPage === page ? 'flat' : 'text'" size="small" @click="handlePageChange(page)"
-                  class="pagination-button">
-                  {{ page }}
-                </v-btn>
+                <template v-for="page in visiblePages" :key="page">
+                  <span v-if="page === '...'" class="pagination-ellipsis">…</span>
+                  <v-btn v-else :color="currentPage === page ? 'primary' : ''"
+                    :variant="currentPage === page ? 'flat' : 'text'" size="small"
+                    @click="handlePageChange(page)" class="pagination-button">
+                    {{ page }}
+                  </v-btn>
+                </template>
 
-                <!-- Botão Próximo -->
                 <v-btn :disabled="currentPage === meta.last_page" @click="handlePageChange(currentPage + 1)"
                   size="small" variant="text" class="pagination-button">
                   Próximo
@@ -540,6 +584,8 @@ const resetFilters = () => {
   searchProject.value = '';
   startDate.value = null;
   endDate.value = null;
+  showCompleted.value = false;
+  showCancelled.value = false;
 
   // Recarrega os dados sem filtros
   currentPage.value = 1;
@@ -548,7 +594,12 @@ const resetFilters = () => {
 
 const toggleCompleted = () => {
   showCompleted.value = !showCompleted.value;
-  // Recarrega os dados com o novo filtro
+  currentPage.value = 1;
+  loadTickets(1);
+};
+
+const toggleCancelled = () => {
+  showCancelled.value = !showCancelled.value;
   currentPage.value = 1;
   loadTickets(1);
 };
@@ -561,7 +612,8 @@ const searchCategory = ref('');
 const searchServiceType = ref('');
 const searchProject = ref('');
 const projects = ref([]);
-const showCompleted = ref(true);
+const showCompleted = ref(false);
+const showCancelled = ref(false);
 
 // Valores das datas
 const startDate = ref(null);
@@ -663,6 +715,8 @@ const projectOptions = computed(() => {
 });
 
 const currentPage = ref(1);
+const sortField = ref('created_at');
+const sortOrder = ref('desc');
 
 const meta = ref({
   current_page: 1,
@@ -670,6 +724,31 @@ const meta = ref({
   per_page: 5,
   total: 0
 });
+
+const visiblePages = computed(() => {
+  const total = meta.value.last_page;
+  const current = currentPage.value;
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  const pages = [1];
+  if (current > 3) pages.push('...');
+  for (let i = Math.max(2, current - 1); i <= Math.min(total - 1, current + 1); i++) {
+    pages.push(i);
+  }
+  if (current < total - 2) pages.push('...');
+  pages.push(total);
+  return pages;
+});
+
+const changeSort = (field) => {
+  if (sortField.value === field) {
+    sortOrder.value = sortOrder.value === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortField.value = field;
+    sortOrder.value = 'asc';
+  }
+  currentPage.value = 1;
+  loadTickets(1);
+};
 
 
 const sectors = ref([])
@@ -723,6 +802,7 @@ const translateStatus = (status) => {
   const translations = {
     'new': 'NOVO',
     'NEW': 'NOVO',
+    'NOVO': 'NOVO',
     'OPEN': 'ABERTO',
     'IN_PROGRESS': 'EM ANDAMENTO',
     'RESOLVED': 'RESOLVIDO',
@@ -1023,6 +1103,7 @@ const transferTicket = async () => {
 
 
 const handlePageChange = async (page) => {
+  currentPage.value = page;
   await loadTickets(page);
 };
 
@@ -1048,8 +1129,8 @@ const loadTickets = async (page = 1) => {
     const params = new URLSearchParams();
     params.append('page', page.toString());
     params.append('per_page', '10');
-    params.append('sort', 'created_at');
-    params.append('order', 'desc');
+    params.append('sort', sortField.value);
+    params.append('order', sortOrder.value);
 
     // Adicionar filtros somente se existirem valores
     if (searchTitle.value) {
@@ -1091,9 +1172,12 @@ const loadTickets = async (page = 1) => {
       params.append('end_date', formattedEndDate);
     }
 
-    // Adicionar filtro de tickets concluídos
-    if (!showCompleted.value) {
-      params.append('exclude_status', 'CONCLUDED');
+    // Montar lista de status excluídos
+    const excludedStatuses = [];
+    if (!showCompleted.value) excludedStatuses.push('CONCLUDED');
+    if (!showCancelled.value) excludedStatuses.push('CANCELADO');
+    if (excludedStatuses.length > 0) {
+      params.append('exclude_status', excludedStatuses.join(','));
     }
 
     // Log para debug da URL construída
@@ -1651,6 +1735,36 @@ onMounted(() => {
   align-items: center !important;
   justify-content: center !important;
   gap: 4px !important;
+}
+
+.sortable-th {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.sortable-th:hover {
+  background-color: #ebebeb !important;
+}
+
+.sort-icon-active {
+  color: #1a237e;
+  margin-left: 2px;
+}
+
+.sort-icon-idle {
+  color: #bbb;
+  margin-left: 2px;
+}
+
+.pagination-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
 }
 
 /* Estilo para prazos vencidos */
