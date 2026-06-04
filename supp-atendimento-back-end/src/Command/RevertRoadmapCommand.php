@@ -14,11 +14,11 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
     name: 'app:revert-roadmap',
-    description: 'Reverte a importação do SUPP Roadmap, removendo os tickets e históricos criados pelo app:import-roadmap',
+    description: 'Reverte tudo que foi importado pelo RoadmapFixtures (marcadores [ClickUp #] e [Crono #])',
 )]
 class RevertRoadmapCommand extends Command
 {
-    private const MARKER = '[ClickUp #';
+    private const MARKERS = ['[ClickUp #', '[Crono #'];
     private const BATCH_SIZE = 50;
 
     public function __construct(
@@ -40,25 +40,27 @@ class RevertRoadmapCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
-        $io->title('Reversão da importação SUPP Roadmap');
+        $io->title('Reversão da importação RoadmapFixtures');
 
-        // Conta quantos serviços serão removidos
-        $count = (int) $this->entityManager
-            ->createQueryBuilder()
+        $qb = $this->entityManager->createQueryBuilder()
             ->select('COUNT(s.id)')
-            ->from(Service::class, 's')
-            ->where('s.description LIKE :marker')
-            ->setParameter('marker', '%' . self::MARKER . '%')
-            ->getQuery()
-            ->getSingleScalarResult();
+            ->from(Service::class, 's');
+
+        $orX = $qb->expr()->orX();
+        foreach (self::MARKERS as $i => $marker) {
+            $orX->add($qb->expr()->like('s.description', ':m' . $i));
+            $qb->setParameter('m' . $i, '%' . $marker . '%');
+        }
+
+        $count = (int) $qb->where($orX)->getQuery()->getSingleScalarResult();
 
         if ($count === 0) {
-            $io->info('Nenhum ticket importado do ClickUp encontrado. Nada a fazer.');
+            $io->info('Nenhum ticket importado encontrado. Nada a fazer.');
             return Command::SUCCESS;
         }
 
         $io->warning(sprintf(
-            '%d ticket(s) importados do ClickUp serão removidos junto com seus históricos.',
+            '%d ticket(s) importados serão removidos junto com seus históricos.',
             $count
         ));
 
@@ -75,15 +77,14 @@ class RevertRoadmapCommand extends Command
         $io->progressStart($count);
 
         while (true) {
-            $services = $this->entityManager
-                ->createQueryBuilder()
-                ->select('s')
-                ->from(Service::class, 's')
-                ->where('s.description LIKE :marker')
-                ->setParameter('marker', '%' . self::MARKER . '%')
-                ->setMaxResults(self::BATCH_SIZE)
-                ->getQuery()
-                ->getResult();
+            $qb2 = $this->entityManager->createQueryBuilder()
+                ->select('s')->from(Service::class, 's');
+            $orX2 = $qb2->expr()->orX();
+            foreach (self::MARKERS as $i => $marker) {
+                $orX2->add($qb2->expr()->like('s.description', ':m' . $i));
+                $qb2->setParameter('m' . $i, '%' . $marker . '%');
+            }
+            $services = $qb2->where($orX2)->setMaxResults(self::BATCH_SIZE)->getQuery()->getResult();
 
             if (empty($services)) {
                 break;

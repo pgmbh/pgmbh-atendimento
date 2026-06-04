@@ -29,8 +29,8 @@ docker-compose down
 
 # comandos para subir do clickup
 
-# reverter
-php bin/console app:revert-roadmap --force 
+  # Importar tudo (fixture)
+  php bin/console doctrine:fixtures:load --group=roadmap --append
 
-# adicionar
-php bin/console app:import-roadmap /tmp/all_tasks.json 
+  # Reverter tudo (comando)
+  php bin/console app:revert-roadmap --force
