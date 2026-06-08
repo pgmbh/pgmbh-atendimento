@@ -25,7 +25,7 @@ kubectl create secret tls supp-pgmbh-tls-secret \
   --key=certificado-supp/supp-pgmbh-chave.key
 secret/supp-pgmbh-tls-secret created
 
-# Ingress para criação do Host de acesso supp-atendimento.pgmbh.org
+# Ingress para criação do Host de acesso helpdesk.pgmbh.org
 kubectl apply -f kubernetes/ingress.yaml -n supp-atendimento
 
 # Verificar os pods:

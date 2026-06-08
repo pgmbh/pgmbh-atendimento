@@ -1,6 +1,6 @@
 # Deploy do `supp-atendimento` no AKS PROD — Passo a passo
 
-Guia operacional para subir o projeto no cluster `aks-supp-prod`, namespace `supp-atendimento`, com ingress em `https://supp-atendimento.pgmbh.org`.
+Guia operacional para subir o projeto no cluster `aks-supp-prod`, namespace `supp-atendimento`, com ingress em `https://helpdesk.pgmbh.org`.
 
 ---
 
@@ -55,7 +55,7 @@ Esperado: tags `6.0.0` (backend) e `3.0.0` (webserver). Se não existirem, build
 ### 1.2 Confirmar DNS do host de produção
 
 ```bash
-dig +short supp-atendimento.pgmbh.org
+dig +short helpdesk.pgmbh.org
 # Esperado: 20.201.103.122 (IP do Traefik no aks-supp-prod)
 ```
 
@@ -69,7 +69,7 @@ cd /supp-core/supp-atendimento
 ls kubernetes/                          # 8 yamls
 ls certificado-supp/                    # supp-pgmbh-certificado.crt + supp-pgmbh-chave.key
 openssl x509 -in certificado-supp/supp-pgmbh-certificado.crt -noout -dates -subject
-# Confira: notAfter no futuro e subject compatível com supp-atendimento.pgmbh.org
+# Confira: notAfter no futuro e subject compatível com helpdesk.pgmbh.org
 ```
 
 ---
@@ -267,7 +267,7 @@ pod/webserver-xxx      1/1   Running
 pod/mailhog-xxx        1/1   Running   (se subiu)
 service/backend        ClusterIP   ...   9000/TCP
 service/webserver      ClusterIP   ...   80/TCP
-ingress/...            traefik    supp-atendimento.pgmbh.org   20.201.103.122
+ingress/...            traefik    helpdesk.pgmbh.org   20.201.103.122
 ```
 
 ### 10.2 Testar sem depender do DNS público
@@ -278,14 +278,14 @@ kubectl -n supp-atendimento run curl-test --rm -i --image=curlimages/curl --rest
   curl -sS http://webserver/ -o /dev/null -w "HTTP %{http_code}\n"
 
 # Externo via IP do Traefik com Host header
-curl -kI https://20.201.103.122 -H "Host: supp-atendimento.pgmbh.org"
+curl -kI https://20.201.103.122 -H "Host: helpdesk.pgmbh.org"
 # Esperado: HTTP/2 200 ou 302
 ```
 
 ### 10.3 Testar pelo DNS (se já propagou)
 
 ```bash
-curl -I https://supp-atendimento.pgmbh.org
+curl -I https://helpdesk.pgmbh.org
 # Abra no navegador para confirmar o frontend Vue
 ```
 
@@ -294,7 +294,7 @@ curl -I https://supp-atendimento.pgmbh.org
 Se rodou Opção A na Fase 8:
 
 ```bash
-curl -X POST https://supp-atendimento.pgmbh.org/api/login_check \
+curl -X POST https://helpdesk.pgmbh.org/api/login_check \
   -H "Content-Type: application/json" \
   -d '{"username":"rafael.assumpcao@pbh.gov.br","password":"<senha-da-fixture>"}'
 ```
@@ -354,7 +354,7 @@ CREATE SCHEMA public;
 kubectl config use-context aks-supp-prod
 
 # Verificações
-dig +short supp-atendimento.pgmbh.org      # = 20.201.103.122 ?
+dig +short helpdesk.pgmbh.org      # = 20.201.103.122 ?
 
 # Chaves JWT (uma vez)
 PASSPHRASE="aa75c85dfc63d2584dd56a47881d521f1399480d8143fe75e1ba8f915e2348b0"
@@ -392,5 +392,5 @@ kubectl apply -f kubernetes/ingress.yaml
 
 # Validação
 kubectl -n supp-atendimento get pods,svc,ingress
-curl -kI https://20.201.103.122 -H "Host: supp-atendimento.pgmbh.org"
+curl -kI https://20.201.103.122 -H "Host: helpdesk.pgmbh.org"
 ```

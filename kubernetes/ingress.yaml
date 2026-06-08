@@ -10,10 +10,10 @@ spec:
   ingressClassName: traefik
   tls:
     - hosts:
-        - supp-atendimento.pgmbh.org
+        - helpdesk.pgmbh.org
       secretName: supp-pgmbh-tls-secret
   rules:
-    - host: supp-atendimento.pgmbh.org
+    - host: helpdesk.pgmbh.org
       http:
         paths:
           - path: /

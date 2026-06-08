@@ -23,7 +23,7 @@ spec:
       restartPolicy: Always
       containers:
         - name: webserver
-          image: suppregistry.azurecr.io/supp-atendimento/webserver:3.0.0
+          image: suppregistry.azurecr.io/supp-atendimento/webserver:3.0.2
           ports:
             - containerPort: 80
               protocol: TCP
