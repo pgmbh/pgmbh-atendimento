@@ -29,7 +29,6 @@ COPY supp-atendimento-back-end /var/www/html/
 
 # Arquivos de dados para os fixtures (ficam em /var/www/html/arquivos/)
 COPY arquivos/clickup/all_tasks.json /var/www/html/arquivos/clickup/all_tasks.json
-COPY arquivos/Cronograma.xlsx /var/www/html/arquivos/Cronograma.xlsx
 
 # Dependências de produção. --no-scripts evita que os auto-scripts do Symfony
 # (cache:clear / assets:install) rodem como root durante o build, deixando

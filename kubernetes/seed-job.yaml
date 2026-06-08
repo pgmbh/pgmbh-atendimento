@@ -15,7 +15,7 @@ spec:
       restartPolicy: Never
       containers:
         - name: seed
-          image: suppregistry.azurecr.io/supp-atendimento/backend:6.0.0
+          image: suppregistry.azurecr.io/supp-atendimento/backend:6.0.5
           command: ["/bin/sh", "-c"]
           args:
             - |
@@ -26,8 +26,8 @@ spec:
               composer install --no-interaction --working-dir=/var/www/html
               echo "==> Executando migrations"
               env APP_ENV=dev php /var/www/html/bin/console doctrine:migrations:migrate --no-interaction --allow-no-migration
-              echo "==> Carregando fixtures (--append: nao apaga dados existentes)"
-              env APP_ENV=dev php /var/www/html/bin/console doctrine:fixtures:load --no-interaction --append
+              echo "==> Carregando fixtures do grupo roadmap (--append: nao apaga dados existentes)"
+              env APP_ENV=dev php /var/www/html/bin/console doctrine:fixtures:load --no-interaction --append --group=roadmap
               echo "==> Seed finalizado com sucesso"
           volumeMounts:
             - name: env-prod

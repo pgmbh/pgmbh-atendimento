@@ -1,11 +1,11 @@
 
 # Para realizar Build do Projeto:
-docker build -t suppregistry.azurecr.io/supp-atendimento/supp-backend-kubernetes:1.0.1 -f ./docker/php/Dockerfile .
-docker build -t suppregistry.azurecr.io/supp-atendimento/supp-webserver-kubernetes:1.0.1 -f ./docker/nginx/Dockerfile .
+docker build -t suppregistry.azurecr.io/supp-atendimento/backend:6.0.5 -f ./docker/php/Dockerfile .
+docker build -t suppregistry.azurecr.io/supp-atendimento/webserver:3.0.3 -f ./docker/nginx/Dockerfile .
 
 # Enviar as imagems para azure:
-docker push suppregistry.azurecr.io/supp-atendimento/supp-backend-kubernetes:1.0.1
-docker push suppregistry.azurecr.io/supp-atendimento/supp-webserver-kubernetes:1.0.1
+docker push suppregistry.azurecr.io/supp-atendimento/backend:6.0.5
+docker push suppregistry.azurecr.io/supp-atendimento/webserver:3.0.3
 
 
 # Criar namespace do supp-atendimento:
