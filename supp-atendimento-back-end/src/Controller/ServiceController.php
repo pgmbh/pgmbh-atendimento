@@ -386,186 +386,182 @@ class ServiceController extends AbstractController
     public function listByAttendant(int $id, Request $request): JsonResponse
     {
         try {
-            // Obter parâmetros de filtragem
-            $title = $request->query->get('title');
-            $description = $request->query->get('description');
-            $requester = $request->query->get('requester');
-            $status = $request->query->get('status');
-            $priority = $request->query->get('priority');
-            $categoryId = $request->query->get('category_id');
-            $serviceTypeId = $request->query->get('service_type_id');
-            $projectId = $request->query->get('project_id');
-            $tagId = $request->query->get('tag_id');
-            $excludeStatuses = array_filter(explode(',', $request->query->get('exclude_status', '')));
-            $sortField = $request->query->get('sort', 'created_at');
-            $sortOrder = $request->query->get('order', 'desc');
-
-            // Parâmetros de paginação
-            $page = $request->query->get('page', 1);
-            $perPage = $request->query->get('per_page', 10);
-
-            // Usar o método específico do ServiceManager que já verifica se é admin
             $attendant = $this->entityManager->getRepository(Attendant::class)->find($id);
             if (!$attendant) {
-                return new JsonResponse([
-                    'success' => false,
-                    'message' => 'Atendente não encontrado'
-                ], 404);
+                return new JsonResponse(['success' => false, 'message' => 'Atendente não encontrado'], 404);
             }
 
-            // Obter serviços usando a função apropriada
             $services = $this->serviceManager->getServicesByAttendant($id);
 
+            return $this->buildServiceListResponse($services, $request);
+        } catch (\Exception $e) {
+            return new JsonResponse(['success' => false, 'message' => 'Error fetching services: ' . $e->getMessage()], 500);
+        }
+    }
 
-            // Aplicar filtros manualmente
-            $filteredServices = [];
-            foreach ($services as $service) {
-                $keepService = true;
-
-                // Filtro por título
-                if ($title && !str_contains(strtolower($service->getTitle()), strtolower($title))) {
-                    $keepService = false;
-                }
-
-                // Filtro por descrição
-                if ($description && !str_contains(strtolower($service->getDescription() ?? ''), strtolower($description))) {
-                    $keepService = false;
-                }
-
-                // Filtro por solicitante
-                if (
-                    $requester && $service->getRequester() &&
-                    !str_contains(strtolower($service->getRequester()->getName()), strtolower($requester))
-                ) {
-                    $keepService = false;
-                }
-
-                // Filtro por status
-                if ($status && $service->getStatus() !== $status) {
-                    $keepService = false;
-                }
-
-                // Filtro por prioridade
-                if ($priority && $service->getPriority() !== $priority) {
-                    $keepService = false;
-                }
-
-                // Filtro por categoria
-                if ($categoryId && (!$service->getCategory() || $service->getCategory()->getId() != $categoryId)) {
-                    $keepService = false;
-                }
-
-                // Filtro por tipo de serviço
-                if ($serviceTypeId && (!$service->getServiceType() || $service->getServiceType()->getId() != $serviceTypeId)) {
-                    $keepService = false;
-                }
-
-                // Filtro por sistema (projeto)
-                if ($projectId && (!$service->getProject() || $service->getProject()->getId() != $projectId)) {
-                    $keepService = false;
-                }
-
-                // Filtro para excluir status específicos
-                if (!empty($excludeStatuses) && in_array($service->getStatus(), $excludeStatuses, true)) {
-                    $keepService = false;
-                }
-
-                // Filtro por etiqueta
-                if ($tagId) {
-                    $tagIds = array_map(fn($t) => $t->getId(), $service->getTags()->toArray());
-                    if (!in_array((int)$tagId, $tagIds, true)) {
-                        $keepService = false;
-                    }
-                }
-
-                if ($keepService) {
-                    $filteredServices[] = $service;
-                }
+    #[Route('/admin/all', methods: ['GET'])]
+    public function listAllForAdmin(Request $request): JsonResponse
+    {
+        try {
+            $user = $this->getUser();
+            $attendant = $this->entityManager->getRepository(Attendant::class)->findOneBy(['user' => $user]);
+            if (!$attendant || $attendant->getFunction() !== 'Admin') {
+                return new JsonResponse(['success' => false, 'message' => 'Acesso negado. Apenas Admin.'], 403);
             }
 
-            // Ordenação dinâmica conforme parâmetros sort/order
-            $priorityWeight = ['URGENTE' => 0, 'ALTA' => 1, 'NORMAL' => 2, 'BAIXA' => 3];
-            usort($filteredServices, function ($a, $b) use ($sortField, $sortOrder, $priorityWeight) {
-                $asc = $sortOrder === 'asc';
-                $cmp = match ($sortField) {
-                    'id'              => $a->getId() <=> $b->getId(),
-                    'title'           => strnatcasecmp($a->getTitle() ?? '', $b->getTitle() ?? ''),
-                    'description'     => strnatcasecmp($a->getDescription() ?? '', $b->getDescription() ?? ''),
-                    'status'          => strcmp($a->getStatus() ?? '', $b->getStatus() ?? ''),
-                    'priority'        => ($priorityWeight[$a->getPriority()] ?? 4) <=> ($priorityWeight[$b->getPriority()] ?? 4),
-                    'deadline'        => $a->getDeadline() <=> $b->getDeadline(),
-                    'conclusion_date' => $a->getDateConclusion() <=> $b->getDateConclusion(),
-                    default           => $b->getDateCreate() <=> $a->getDateCreate(), // created_at desc
-                };
-                // Para created_at o padrão já é desc; para os demais respeitamos $asc
-                if ($sortField === 'created_at') return $cmp;
-                return $asc ? $cmp : -$cmp;
-            });
+            $services = $this->serviceManager->getAllServices();
 
-            // Aplicar paginação
-            $total = count($filteredServices);
-            $paginatedServices = array_slice($filteredServices, ($page - 1) * $perPage, $perPage);
-
-            // Formatação dos dados para a resposta
-            $response = array_map(function ($service) {
-                return [
-                    'id' => $service->getId(),
-                    'title' => $service->getTitle(),
-                    'description' => $service->getDescription(),
-                    'status' => $service->getStatus(),
-                    'priority' => $service->getPriority(),
-                    'requester' => [
-                        'id' => $service->getRequester()?->getId(),
-                        'name' => $service->getRequester()?->getName(),
-                        'email' => $service->getRequester()?->getEmail(),
-                    ],
-                    'sector' => [
-                        'id' => $service->getSector()?->getId(),
-                        'name' => $service->getSector()?->getName(),
-                    ],
-                    'category' => $service->getCategory() ? [
-                        'id' => $service->getCategory()->getId(),
-                        'name' => $service->getCategory()->getName(),
-                        'description' => $service->getCategory()->getDescription()
-                    ] : null,
-                    // Adicionando informações de tipo de serviço
-                    'serviceType' => $service->getServiceType() ? [
-                        'id' => $service->getServiceType()->getId(),
-                        'name' => $service->getServiceType()->getName(),
-                        'description' => $service->getServiceType()->getDescription()
-                    ] : null,
-                    // Sistema (projeto) vinculado ao chamado
-                    'project' => $service->getProject() ? [
-                        'id' => $service->getProject()->getId(),
-                        'name' => $service->getProject()->getName(),
-                        'acronym' => $service->getProject()->getAcronym(),
-                    ] : null,
-                    'dates' => [
-                        'created' => $service->getDateCreate()?->format('Y-m-d H:i:s'),
-                        'updated' => $service->getDateUpdate()?->format('Y-m-d H:i:s'),
-                        'concluded' => $service->getDateConclusion()?->format('Y-m-d H:i:s'),
-                        'deadline' => $service->getDeadline()?->format('Y-m-d H:i:s'),
-                    ],
-                    'tags' => $this->serializeTags($service),
-                ];
-            }, $paginatedServices);
-
-            return new JsonResponse([
-                'success' => true,
-                'data' => $response,
-                'meta' => [
-                    'total' => $total,
-                    'per_page' => (int)$perPage,
-                    'current_page' => (int)$page,
-                    'last_page' => ceil($total / $perPage)
-                ]
-            ]);
+            return $this->buildServiceListResponse($services, $request);
         } catch (\Exception $e) {
-            return new JsonResponse([
-                'success' => false,
-                'message' => 'Error fetching services: ' . $e->getMessage()
-            ], 500);
+            return new JsonResponse(['success' => false, 'message' => 'Error fetching services: ' . $e->getMessage()], 500);
         }
+    }
+
+    /** Helper: aplica filtros, ordenação, paginação e serialização sobre um array de Service. */
+    private function buildServiceListResponse(array $services, Request $request): JsonResponse
+    {
+        // Parâmetros de filtragem
+        $title          = $request->query->get('title');
+        $description    = $request->query->get('description');
+        $requester      = $request->query->get('requester');
+        $status         = $request->query->get('status');
+        $priority       = $request->query->get('priority');
+        $categoryId     = $request->query->get('category_id');
+        $serviceTypeId  = $request->query->get('service_type_id');
+        $projectId      = $request->query->get('project_id');
+        $tagId          = $request->query->get('tag_id');
+        $attendantId    = $request->query->get('attendant_id');
+        $excludeStatuses = array_filter(explode(',', $request->query->get('exclude_status', '')));
+        $sortField      = $request->query->get('sort', 'created_at');
+        $sortOrder      = $request->query->get('order', 'desc');
+        $page           = $request->query->get('page', 1);
+        $perPage        = $request->query->get('per_page', 10);
+
+        // Aplicar filtros
+        $filteredServices = [];
+        foreach ($services as $service) {
+            $keepService = true;
+
+            if ($title && !str_contains(strtolower($service->getTitle()), strtolower($title))) {
+                $keepService = false;
+            }
+            if ($description && !str_contains(strtolower($service->getDescription() ?? ''), strtolower($description))) {
+                $keepService = false;
+            }
+            if ($requester && $service->getRequester() && !str_contains(strtolower($service->getRequester()->getName()), strtolower($requester))) {
+                $keepService = false;
+            }
+            if ($status && $service->getStatus() !== $status) {
+                $keepService = false;
+            }
+            if ($priority && $service->getPriority() !== $priority) {
+                $keepService = false;
+            }
+            if ($categoryId && (!$service->getCategory() || $service->getCategory()->getId() != $categoryId)) {
+                $keepService = false;
+            }
+            if ($serviceTypeId && (!$service->getServiceType() || $service->getServiceType()->getId() != $serviceTypeId)) {
+                $keepService = false;
+            }
+            if ($projectId && (!$service->getProject() || $service->getProject()->getId() != $projectId)) {
+                $keepService = false;
+            }
+            if (!empty($excludeStatuses) && in_array($service->getStatus(), $excludeStatuses, true)) {
+                $keepService = false;
+            }
+            if ($tagId) {
+                $tagIds = array_map(fn($t) => $t->getId(), $service->getTags()->toArray());
+                if (!in_array((int)$tagId, $tagIds, true)) {
+                    $keepService = false;
+                }
+            }
+            if ($attendantId && (!$service->getReponsible() || $service->getReponsible()->getId() != $attendantId)) {
+                $keepService = false;
+            }
+
+            if ($keepService) {
+                $filteredServices[] = $service;
+            }
+        }
+
+        // Ordenação dinâmica
+        $priorityWeight = ['URGENTE' => 0, 'ALTA' => 1, 'NORMAL' => 2, 'BAIXA' => 3];
+        usort($filteredServices, function ($a, $b) use ($sortField, $sortOrder, $priorityWeight) {
+            $asc = $sortOrder === 'asc';
+            $cmp = match ($sortField) {
+                'id'              => $a->getId() <=> $b->getId(),
+                'title'           => strnatcasecmp($a->getTitle() ?? '', $b->getTitle() ?? ''),
+                'description'     => strnatcasecmp($a->getDescription() ?? '', $b->getDescription() ?? ''),
+                'status'          => strcmp($a->getStatus() ?? '', $b->getStatus() ?? ''),
+                'priority'        => ($priorityWeight[$a->getPriority()] ?? 4) <=> ($priorityWeight[$b->getPriority()] ?? 4),
+                'deadline'        => $a->getDeadline() <=> $b->getDeadline(),
+                'conclusion_date' => $a->getDateConclusion() <=> $b->getDateConclusion(),
+                default           => $b->getDateCreate() <=> $a->getDateCreate(),
+            };
+            if ($sortField === 'created_at') return $cmp;
+            return $asc ? $cmp : -$cmp;
+        });
+
+        // Paginação
+        $total = count($filteredServices);
+        $paginatedServices = array_slice($filteredServices, ($page - 1) * $perPage, $perPage);
+
+        // Serialização
+        $response = array_map(function ($service) {
+            return [
+                'id'          => $service->getId(),
+                'title'       => $service->getTitle(),
+                'description' => $service->getDescription(),
+                'status'      => $service->getStatus(),
+                'priority'    => $service->getPriority(),
+                'requester'   => [
+                    'id'    => $service->getRequester()?->getId(),
+                    'name'  => $service->getRequester()?->getName(),
+                    'email' => $service->getRequester()?->getEmail(),
+                ],
+                'responsible' => $service->getReponsible() ? [
+                    'id'   => $service->getReponsible()->getId(),
+                    'name' => $service->getReponsible()->getName(),
+                ] : null,
+                'sector' => [
+                    'id'   => $service->getSector()?->getId(),
+                    'name' => $service->getSector()?->getName(),
+                ],
+                'category' => $service->getCategory() ? [
+                    'id'          => $service->getCategory()->getId(),
+                    'name'        => $service->getCategory()->getName(),
+                    'description' => $service->getCategory()->getDescription(),
+                ] : null,
+                'serviceType' => $service->getServiceType() ? [
+                    'id'          => $service->getServiceType()->getId(),
+                    'name'        => $service->getServiceType()->getName(),
+                    'description' => $service->getServiceType()->getDescription(),
+                ] : null,
+                'project' => $service->getProject() ? [
+                    'id'      => $service->getProject()->getId(),
+                    'name'    => $service->getProject()->getName(),
+                    'acronym' => $service->getProject()->getAcronym(),
+                ] : null,
+                'dates' => [
+                    'created'   => $service->getDateCreate()?->format('Y-m-d H:i:s'),
+                    'updated'   => $service->getDateUpdate()?->format('Y-m-d H:i:s'),
+                    'concluded' => $service->getDateConclusion()?->format('Y-m-d H:i:s'),
+                    'deadline'  => $service->getDeadline()?->format('Y-m-d H:i:s'),
+                ],
+                'tags' => $this->serializeTags($service),
+            ];
+        }, $paginatedServices);
+
+        return new JsonResponse([
+            'success' => true,
+            'data'    => $response,
+            'meta'    => [
+                'total'        => $total,
+                'per_page'     => (int)$perPage,
+                'current_page' => (int)$page,
+                'last_page'    => ceil($total / $perPage),
+            ],
+        ]);
     }
 
     #[Route('/{id}/status', methods: ['PUT'])]

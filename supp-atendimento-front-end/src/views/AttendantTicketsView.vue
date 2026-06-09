@@ -6,13 +6,17 @@
       <div class="dashboard-content" :style="{ marginLeft: sidebarCollapsed ? '60px' : '250px' }">
         <div class="tickets-page">
           <div class="d-flex justify-space-between align-center mb-4">
-            <h2 class="text-h5 font-weight-medium">Meus Atendimentos</h2>
+            <h2 class="text-h5 font-weight-medium">Atendimentos</h2>
             <v-btn color="primary" @click="openCreateDialog" class="btn-centered btn-centered-text">
               Criar Chamado para Usuário
             </v-btn>
-
-
           </div>
+
+          <!-- Abas: Meus Atendimentos | Todos os Chamados (admin-only) -->
+          <v-tabs v-model="activeTab" class="mb-4" color="primary">
+            <v-tab value="mine">Meus Atendimentos</v-tab>
+            <v-tab value="all" v-if="isAdmin">Todos os Chamados</v-tab>
+          </v-tabs>
 
           <v-card class="mb-4">
             <v-card-text>
@@ -60,6 +64,12 @@
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchTag" :items="tagFilterOptions" item-title="title"
                     item-value="value" label="Etiqueta" outlined dense @update:model-value="handleSearch"></v-select>
+                </v-col>
+
+                <!-- Filtro de Atendente (só na aba Todos os Chamados) -->
+                <v-col cols="12" sm="3" v-if="activeTab === 'all'">
+                  <v-select v-model="searchAttendant" :items="attendantFilterOptions" item-title="title"
+                    item-value="value" label="Atendente" outlined dense @update:model-value="handleSearch"></v-select>
                 </v-col>
 
                 <!-- Filtro de Período -->
@@ -151,6 +161,7 @@
                   </th>
                   <th class="text-left">Etiquetas</th>
                   <th class="text-left">Solicitante</th>
+                  <th v-if="activeTab === 'all'" class="text-left">Atendente</th>
                   <th class="text-left sortable-th" @click="changeSort('priority')">
                     Prioridade
                     <v-icon size="x-small" :class="sortField === 'priority' ? 'sort-icon-active' : 'sort-icon-idle'">
@@ -199,6 +210,7 @@
                     </v-chip>
                   </td>
                   <td>{{ ticket.requester?.name }}</td>
+                  <td v-if="activeTab === 'all'">{{ ticket.responsible?.name || '-' }}</td>
                   <td>
                     <v-chip :color="getPriorityColor(ticket.priority)"
                       :text-color="getPriorityTextColor(ticket.priority)" size="small" class="priority-chip">
@@ -217,21 +229,23 @@
                   <td>{{ ticket.dates.concluded ? formatDate(ticket.dates.concluded) : '-' }}</td>
                   <td class="text-center">
                     <div class="action-buttons">
-                      <v-tooltip text="Evoluir atendimento" location="top">
-                        <template #activator="{ props }">
-                          <v-btn v-bind="props" size="small" color="primary" icon="mdi-pencil"
-                            @click="openEvolveDialog(ticket)"
-                            :disabled="ticket.status === 'CONCLUDED' || ticket.status === 'RESOLVED'"></v-btn>
-                        </template>
-                      </v-tooltip>
+                      <template v-if="activeTab === 'mine'">
+                        <v-tooltip text="Evoluir atendimento" location="top">
+                          <template #activator="{ props }">
+                            <v-btn v-bind="props" size="small" color="primary" icon="mdi-pencil"
+                              @click="openEvolveDialog(ticket)"
+                              :disabled="ticket.status === 'CONCLUDED' || ticket.status === 'RESOLVED'"></v-btn>
+                          </template>
+                        </v-tooltip>
 
-                      <v-tooltip text="Transferir atendimento" location="top">
-                        <template #activator="{ props }">
-                          <v-btn v-bind="props" size="small" color="primary" icon="mdi-account-arrow-right"
-                            @click="openTransferDialog(ticket)"
-                            :disabled="ticket.status === 'CONCLUDED' || ticket.status === 'RESOLVED'"></v-btn>
-                        </template>
-                      </v-tooltip>
+                        <v-tooltip text="Transferir atendimento" location="top">
+                          <template #activator="{ props }">
+                            <v-btn v-bind="props" size="small" color="primary" icon="mdi-account-arrow-right"
+                              @click="openTransferDialog(ticket)"
+                              :disabled="ticket.status === 'CONCLUDED' || ticket.status === 'RESOLVED'"></v-btn>
+                          </template>
+                        </v-tooltip>
+                      </template>
 
                       <v-tooltip text="Ver histórico" location="top">
                         <template #activator="{ props }">
@@ -545,6 +559,13 @@ const { sidebarCollapsed } = useSidebar()
 const loading = ref(false)
 const tickets = ref([])
 
+// Aba ativa: 'mine' = Meus Atendimentos | 'all' = Todos os Chamados (admin)
+const activeTab = ref('mine')
+watch(activeTab, () => {
+  currentPage.value = 1
+  loadTickets(1)
+})
+
 // Dentro do script setup
 const loadCategoriesview = async () => {
   try {
@@ -645,6 +666,7 @@ const resetFilters = () => {
   searchCategory.value = '';
   searchServiceType.value = '';
   searchProject.value = '';
+  searchAttendant.value = '';
   startDate.value = null;
   endDate.value = null;
   showCompleted.value = false;
@@ -671,6 +693,7 @@ const searchTitle = ref('');
 const searchRequester = ref('');
 const searchDescription = ref('');
 const searchTag = ref('');
+const searchAttendant = ref('');
 const availableTags = ref([]);
 const searchStatus = ref('');
 const searchPriority = ref('');
@@ -785,6 +808,13 @@ const tagFilterOptions = computed(() => {
   return [
     { title: 'Todas as etiquetas', value: '' },
     ...availableTags.value.map(t => ({ title: t.name, value: t.id }))
+  ];
+});
+
+const attendantFilterOptions = computed(() => {
+  return [
+    { title: 'Todos os atendentes', value: '' },
+    ...allAttendants.value.map(a => ({ title: a.name, value: a.id }))
   ];
 });
 
@@ -1242,6 +1272,9 @@ const loadTickets = async (page = 1) => {
     if (searchProject.value) {
       params.append('project_id', searchProject.value);
     }
+    if (activeTab.value === 'all' && searchAttendant.value) {
+      params.append('attendant_id', searchAttendant.value);
+    }
 
     // Adicionar filtros de data
     if (startDate.value) {
@@ -1268,11 +1301,16 @@ const loadTickets = async (page = 1) => {
       params.append('exclude_status', excludedStatuses.join(','));
     }
 
+    // URL depende da aba ativa
+    const baseUrl = activeTab.value === 'all'
+      ? `/service/admin/all`
+      : `/service/attendant/${attendant.id}`;
+
     // Log para debug da URL construída
-    console.log('URL da requisição:', `/service/attendant/${attendant.id}?${params.toString()}`);
+    console.log('URL da requisição:', `${baseUrl}?${params.toString()}`);
 
     // Fazer a requisição
-    const response = await api.get(`/service/attendant/${attendant.id}?${params.toString()}`);
+    const response = await api.get(`${baseUrl}?${params.toString()}`);
 
     // Log da resposta para debug
     console.log('Dados recebidos:', response.data);
@@ -1443,6 +1481,7 @@ onMounted(() => {
   loadProjects();
   loadCategoriesAndServiceTypes();
   loadTags();
+  if (isAdmin.value) loadAttendants();
 })
 </script>
 
