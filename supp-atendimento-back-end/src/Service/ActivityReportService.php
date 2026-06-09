@@ -24,7 +24,17 @@ class ActivityReportService
         $qb = $this->entityManager->getRepository(ServiceHistory::class)
             ->createQueryBuilder('sh')
             ->join('sh.service', 's')
-            ->where('sh.responsible = :attendant')
+            ->where(
+                // Histórico diretamente atribuído ao atendente (via Evoluir/updateStatus)
+                // OU histórico de ticket atribuído ao atendente como responsável principal
+                // OU histórico de ticket atribuído ao atendente via service_attendant
+                'sh.responsible = :attendant
+                 OR (s.reponsible = :attendant AND sh.responsible IS NULL)
+                 OR (sh.responsible IS NULL AND EXISTS (
+                     SELECT sa FROM App\Entity\ServiceAttendant sa
+                     WHERE sa.service = s AND sa.attendant = :attendant
+                 ))'
+            )
             ->andWhere('sh.comment IS NOT NULL')
             ->andWhere('sh.comment != :empty')
             ->andWhere('sh.date_history BETWEEN :from AND :to')
