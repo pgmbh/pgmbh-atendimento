@@ -600,8 +600,8 @@ class ServiceController extends AbstractController
             $serviceTypeId = $updateData['service_type_id'] ?? null;
             $priority = $updateData['priority'] ?? null;
             $projectId = isset($updateData['project_id']) ? (int)$updateData['project_id'] : null;
-
-
+            // null = não enviado (não mexer nas tags); [] = remover todas; [ids...] = substituir
+            $tagIds = array_key_exists('tag_ids', $updateData) ? array_map('intval', (array)$updateData['tag_ids']) : null;
 
             // Obter o usuário logado
             $user = $this->getUser();
@@ -626,7 +626,8 @@ class ServiceController extends AbstractController
                 categoryId: $categoryId,
                 serviceTypeId: $serviceTypeId,
                 priority: $priority,
-                projectId: $projectId
+                projectId: $projectId,
+                tagIds: $tagIds
             );
 
             // Prepara a resposta com os dados atualizados
@@ -923,6 +924,11 @@ class ServiceController extends AbstractController
             $service_type_id = $request->request->get('service_type_id');
 
             $project_id = $request->request->get('project_id');
+            // tag_ids pode vir como tag_ids[] (array) ou tag_ids (valor único)
+            $tag_ids = array_values(array_filter(
+                array_map('intval', $request->request->all('tag_ids')),
+                fn($id) => $id > 0
+            ));
 
             $data = [
                 'title' => $title,
@@ -935,7 +941,8 @@ class ServiceController extends AbstractController
                 'project_id' => $project_id,
                 'created_by_admin' => true,
                 'created_by_admin_id' => $created_by_admin_id, // ID do atendente admin
-                'files' => $files
+                'files' => $files,
+                'tag_ids' => $tag_ids,
             ];
 
 

@@ -181,6 +181,14 @@ class ServiceManager
             }
         }
 
+        // Atribuir etiquetas (tags) ao serviço
+        foreach (($data['tag_ids'] ?? []) as $tagId) {
+            $tag = $this->entityManager->getRepository(Tag::class)->find($tagId);
+            if ($tag) {
+                $service->addTag($tag);
+            }
+        }
+
         // Persistir o serviço
         $this->entityManager->persist($service);
 
@@ -213,7 +221,8 @@ class ServiceManager
         ?int $categoryId = null,
         ?int $serviceTypeId = null,
         ?string $priority = null,
-        ?int $projectId = null
+        ?int $projectId = null,
+        ?array $tagIds = null
     ): void {
 
         //   die('parou uuuuuuuuuuuuuuuuu');
@@ -296,6 +305,19 @@ class ServiceManager
         // Se status for CONCLUDED, atualizar data de conclusão
         if (strtoupper($newStatus) === 'CONCLUDED') {
             $service->setDateConclusion(new DateTime('now', $this->timezone));
+        }
+
+        // Sincronizar etiquetas (tags): null = não mexer; [] = remover todas; [ids...] = substituir
+        if ($tagIds !== null) {
+            foreach ($service->getTags()->toArray() as $existing) {
+                $service->removeTag($existing);
+            }
+            foreach ($tagIds as $tagId) {
+                $tag = $this->entityManager->getRepository(Tag::class)->find($tagId);
+                if ($tag) {
+                    $service->addTag($tag);
+                }
+            }
         }
 
         $this->entityManager->flush();

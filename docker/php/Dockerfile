@@ -41,10 +41,6 @@ RUN mkdir -p /var/www/html/var/cache \
              /var/www/html/public/uploads/attachments \
  && chown -R www-data:www-data /var/www/html
 
-# Warmup do cache executado COMO www-data para que toda a árvore
-# var/cache/prod nasça com o dono certo do FPM.
-RUN su -s /bin/sh www-data -c "APP_ENV=prod php /var/www/html/bin/console cache:warmup --no-debug"
-
 # Configuração PHP customizada
 COPY supp-atendimento-back-end/php.ini /usr/local/etc/php/conf.d/app.ini
 

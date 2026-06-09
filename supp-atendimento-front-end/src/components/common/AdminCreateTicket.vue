@@ -46,6 +46,32 @@
                 label="Tipo de Atendimento*" required variant="outlined" density="comfortable"></v-select>
             </v-col>
 
+            <!-- Etiquetas -->
+            <v-col cols="12">
+              <v-autocomplete
+                v-model="formData.tag_ids"
+                :items="tags"
+                item-title="name"
+                item-value="id"
+                label="Etiquetas"
+                multiple
+                chips
+                closable-chips
+                clearable
+                variant="outlined"
+                density="comfortable"
+              >
+                <template v-slot:chip="{ props: chipProps, item }">
+                  <v-chip
+                    v-bind="chipProps"
+                    :color="item.raw.color || 'primary'"
+                    variant="flat"
+                    size="small"
+                  >{{ item.raw.name }}</v-chip>
+                </template>
+              </v-autocomplete>
+            </v-col>
+
             <!-- Projeto — sempre visível quando travado a um projeto; senão só para categoria "Sistemas" -->
             <v-col cols="12" v-if="lockedProject || categories.find(c => Number(c.id) === Number(formData.category_id))?.name?.toLowerCase() === 'sistemas'">
               <v-autocomplete
@@ -131,6 +157,7 @@ const sectors = ref([]);
 const categories = ref([]);
 const serviceTypes = ref([]);
 const projects = ref([]);
+const tags = ref([]);
 
 // Opciones de prioridad
 const priorityOptions = [
@@ -151,7 +178,8 @@ const formData = ref({
   service_type_id: null,
   project_id: null,
   deadline: null,
-  files: []
+  files: [],
+  tag_ids: []
 });
 
 watch(() => formData.value.category_id, () => {
@@ -270,6 +298,15 @@ const loadProjects = async () => {
   }
 };
 
+const loadTags = async () => {
+  try {
+    const response = await api.get('/tags');
+    tags.value = response.data.data || [];
+  } catch (error) {
+    console.error('Erro ao carregar etiquetas:', error);
+  }
+};
+
 
 // Cerrar el diálogo y resetear el formulario
 const closeDialog = () => {
@@ -311,6 +348,11 @@ const submitForm = async () => {
     submitData.append('created_by_admin', 'true');
     if (formData.value.project_id) {
       submitData.append('project_id', formData.value.project_id);
+    }
+
+    // Adicionar etiquetas (tag_ids[])
+    if (formData.value.tag_ids && formData.value.tag_ids.length > 0) {
+      formData.value.tag_ids.forEach(id => submitData.append('tag_ids[]', id));
     }
 
     // Adicionar deadline se foi definido
@@ -376,6 +418,7 @@ onMounted(() => {
   loadCategories();
   loadServiceTypes();
   loadProjects();
+  loadTags();
 });
 </script>
 

@@ -357,6 +357,33 @@
           <v-date-picker v-model="evolveDialog.deadline" @update:model-value="evolveDialog.deadlineMenu = false" locale="pt-BR"></v-date-picker>
         </v-menu>
       </v-col>
+
+      <!-- Etiquetas (admin only) -->
+      <v-col cols="12">
+        <v-autocomplete
+          v-model="evolveDialog.tag_ids"
+          :items="availableTags"
+          item-title="name"
+          item-value="id"
+          label="Etiquetas"
+          multiple
+          chips
+          closable-chips
+          clearable
+          variant="outlined"
+          density="comfortable"
+          :disabled="evolveDialog.loading"
+        >
+          <template v-slot:chip="{ props: chipProps, item }">
+            <v-chip
+              v-bind="chipProps"
+              :color="item.raw.color || 'primary'"
+              variant="flat"
+              size="small"
+            >{{ item.raw.name }}</v-chip>
+          </template>
+        </v-autocomplete>
+      </v-col>
     </template>
 
     <!-- BLOCO PARA ATENDENTES COMUNS (AGORA ESTÁ CORRETAMENTE LIGADO AO V-IF) -->
@@ -670,11 +697,12 @@ const evolveDialog = ref({
   show: false,
   ticket: {
     attachments: [] // Inicialização explícita
-  }, 
+  },
   newStatus: '',
   comment: '',
   category_id: null,
   service_type_id: null,
+  tag_ids: [],
   deadline: null,
   deadlineMenu: false,
   formattedDeadline: '',
@@ -984,7 +1012,9 @@ const openEvolveDialog = async (ticket) => {
       // Atualizar os valores nos campos do formulário
       evolveDialog.value.category_id = categoryId;
       evolveDialog.value.service_type_id = serviceTypeId;
-      
+      // Inicializar etiquetas a partir do ticket carregado
+      evolveDialog.value.tag_ids = (response.data.data.tags || []).map(t => t.id);
+
       // Configurar deadline
       if (response.data.data.dates?.deadline) {
         evolveDialog.value.deadline = new Date(response.data.data.dates.deadline);
@@ -1070,6 +1100,8 @@ const evolveTicket = async () => {
       if (evolveDialog.value.service_type_id) {
         mainUpdateData.service_type_id = evolveDialog.value.service_type_id;
       }
+      // Sempre envia tag_ids (inclusive vazio) para permitir remoção de todas as etiquetas
+      mainUpdateData.tag_ids = evolveDialog.value.tag_ids;
     }
 
     // 2. Faz a chamada para atualizar o status e outros campos
