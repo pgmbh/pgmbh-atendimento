@@ -10,11 +10,13 @@
     </div>
     <v-data-table
       v-else
+      v-model:sort-by="sortBy"
       :headers="headers"
       :items="items"
       :loading="loading"
       item-value="id"
       hover
+      @update:sort-by="$emit('update:sortBy', $event)"
     >
       <template #item.date_start="{ item }">{{ formatDate(item.date_start) }}</template>
       <template #item.date_conclusion="{ item }">
@@ -44,11 +46,16 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
 defineProps({
   items: { type: Array, default: () => [] },
   projectName: { type: String, default: '' },
   loading: { type: Boolean, default: false },
 })
+defineEmits(['update:sortBy'])
+
+const sortBy = ref([])
 
 const headers = [
   { title: 'ID', key: 'id', sortable: true, width: '60px' },

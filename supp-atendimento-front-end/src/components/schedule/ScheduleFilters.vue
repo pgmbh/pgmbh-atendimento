@@ -25,7 +25,7 @@
           <v-expansion-panel-text>
             <v-row>
               <v-col cols="12" sm="3">
-                <v-select v-model="filters.status" :items="statusOptions" label="Status" clearable />
+                <v-select v-model="filters.status" :items="statusOptions" item-title="title" item-value="value" label="Status" clearable />
               </v-col>
               <v-col cols="12" sm="3">
                 <v-text-field v-model="filters.date_from" label="Data Início" type="date" />
@@ -54,7 +54,15 @@ const projectStore = useProjectStore()
 
 const selectedProject = ref(null)
 const filters = ref({ status: null, date_from: null, date_to: null })
-const statusOptions = ['ABERTO', 'EM ANDAMENTO', 'CONCLUIDO', 'CANCELADO']
+const statusOptions = [
+  { title: 'Novo', value: 'NOVO' },
+  { title: 'Aberto', value: 'OPEN' },
+  { title: 'Em Andamento', value: 'IN_PROGRESS' },
+  { title: 'Resolvido', value: 'RESOLVED' },
+  { title: 'Retorno', value: 'RETORNO' },
+  { title: 'Concluído', value: 'CONCLUDED' },
+  { title: 'Cancelado', value: 'CANCELADO' },
+]
 
 function onProjectChange(project) {
   emit('project-selected', project || null)

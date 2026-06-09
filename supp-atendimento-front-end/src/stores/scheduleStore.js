@@ -54,6 +54,13 @@ export const useScheduleStore = defineStore('schedule', {
       await this.fetchSchedule()
     },
 
+    async setFilters(updates) {
+      Object.entries(updates).forEach(([k, v]) => {
+        if (k !== 'project_id' && k in this.filters) this.filters[k] = v
+      })
+      await this.fetchSchedule()
+    },
+
     clearFilters() {
       const projectId = this.filters.project_id
       this.filters = {

@@ -62,7 +62,7 @@ function exportPdf() {
         <td>${formatDate(item.date_start)}</td>
         <td>${conclusion}</td>
         <td>${translateStatus(item.status) || ''}</td>
-        <td>${(item.observation || '').substring(0, 150)}</td>
+        <td>${item.observation || ''}</td>
       </tr>`
   }).join('')
 
@@ -86,6 +86,14 @@ function exportPdf() {
   <p class="project-title">${projectLabel}</p>
   <p class="meta">Gerado em: ${generatedAt} | Usuário: ${userName}</p>
   <table>
+    <colgroup>
+      <col class="col-id" />
+      <col class="col-title" />
+      <col class="col-start" />
+      <col class="col-end" />
+      <col class="col-status" />
+      <col class="col-obs" />
+    </colgroup>
     <thead>
       <tr>
         <th>ID</th>
@@ -93,7 +101,7 @@ function exportPdf() {
         <th>Início</th>
         <th>Conclusão</th>
         <th>Status</th>
-        <th>Observação</th>
+        <th>Descrição</th>
       </tr>
     </thead>
     <tbody>
@@ -121,16 +129,22 @@ body { font-family: Arial, sans-serif; font-size: 10px; margin: 0; padding: 0; }
 .header-text h2, .header-text h3 { margin: 0; }
 .project-title { font-size: 14px; font-weight: bold; margin-bottom: 4px; }
 .meta { font-size: 9px; color: #666; margin-bottom: 8px; }
-table { width: 100%; border-collapse: collapse; }
-th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; }
+table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; vertical-align: top; word-break: break-word; white-space: pre-wrap; overflow-wrap: break-word; }
 th { background-color: #1565C0; color: white; }
 tr:nth-child(even) { background-color: #f5f5f5; }
+col.col-id      { width: 4%; }
+col.col-title   { width: 22%; }
+col.col-start   { width: 9%; }
+col.col-end     { width: 9%; }
+col.col-status  { width: 9%; }
+col.col-obs     { width: 47%; }
 @media print {
   body { font-family: Arial, sans-serif; font-size: 10px; }
   .no-print { display: none !important; }
   .project-title { font-size: 14px; font-weight: bold; margin-bottom: 8px; }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { border: 1px solid #ccc; padding: 4px 8px; }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; vertical-align: top; word-break: break-word; white-space: pre-wrap; overflow-wrap: break-word; }
   th { background-color: #1565C0; color: white; }
   tr:nth-child(even) { background-color: #f5f5f5; }
   @page { size: A4 landscape; margin: 1cm; }

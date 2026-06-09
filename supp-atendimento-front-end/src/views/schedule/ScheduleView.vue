@@ -9,7 +9,7 @@
             <h2 class="text-h5 font-weight-medium">Cronograma de Atividades</h2>
             <SchedulePdfExport
               :disabled="!scheduleStore.selectedProject"
-              :items="scheduleStore.items"
+              :items="sortedItemsForPdf"
               :project="scheduleStore.selectedProject"
             />
           </div>
@@ -28,6 +28,7 @@
               :items="scheduleStore.items"
               :project-name="`[${scheduleStore.selectedProject.acronym}] ${scheduleStore.selectedProject.name}`"
               :loading="scheduleStore.loading"
+              @update:sort-by="tableSortBy = $event"
             />
           </template>
         </div>
@@ -37,7 +38,7 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { useScheduleStore } from '@/stores/scheduleStore'
 import { useProjectStore } from '@/stores/projectStore'
@@ -53,14 +54,27 @@ const scheduleStore = useScheduleStore()
 const projectStore = useProjectStore()
 const { sidebarCollapsed } = useSidebar()
 
+const tableSortBy = ref([])
+
+const sortedItemsForPdf = computed(() => {
+  if (!tableSortBy.value.length) return scheduleStore.items
+  return [...scheduleStore.items].sort((a, b) => {
+    for (const { key, order } of tableSortBy.value) {
+      const aVal = a[key] ?? ''
+      const bVal = b[key] ?? ''
+      const cmp = String(aVal).localeCompare(String(bVal), 'pt-BR', { numeric: true })
+      if (cmp !== 0) return order === 'asc' ? cmp : -cmp
+    }
+    return 0
+  })
+})
+
 function onProjectSelected(project) {
   scheduleStore.selectProject(project)
 }
 
 function onFiltersChanged(filters) {
-  Object.entries(filters).forEach(([k, v]) => {
-    if (k !== 'project_id') scheduleStore.setFilter(k, v)
-  })
+  scheduleStore.setFilters(filters)
 }
 
 onMounted(async () => {

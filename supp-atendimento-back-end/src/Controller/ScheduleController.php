@@ -44,7 +44,9 @@ class ScheduleController extends AbstractController
 
         $status = $request->query->get('status');
         if ($status) {
-            $qb->andWhere('s.status = :status')->setParameter('status', $status);
+            $qb->join('s.statusEntity', 'st')
+               ->andWhere('st.name = :status')
+               ->setParameter('status', $status);
         }
 
         $sectorId = $request->query->get('sector_id');
