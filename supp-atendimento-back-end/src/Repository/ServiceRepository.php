@@ -22,10 +22,11 @@ class ServiceRepository extends ServiceEntityRepository
     public function countByStatusForUser(User $user): array
     {
         $rows = $this->createQueryBuilder('s')
-            ->select('s.status, COUNT(s.id) as total')
+            ->select('st.name as status, COUNT(s.id) as total')
+            ->join('s.statusEntity', 'st')
             ->where('s.requester = :user')
             ->setParameter('user', $user)
-            ->groupBy('s.status')
+            ->groupBy('st.name')
             ->getQuery()
             ->getArrayResult();
 
@@ -41,10 +42,11 @@ class ServiceRepository extends ServiceEntityRepository
     public function countByPriorityForUser(User $user): array
     {
         $rows = $this->createQueryBuilder('s')
-            ->select('s.priority, COUNT(s.id) as total')
+            ->select('pr.name as priority, COUNT(s.id) as total')
+            ->join('s.priorityEntity', 'pr')
             ->where('s.requester = :user')
             ->setParameter('user', $user)
-            ->groupBy('s.priority')
+            ->groupBy('pr.name')
             ->getQuery()
             ->getArrayResult();
 
@@ -59,16 +61,16 @@ class ServiceRepository extends ServiceEntityRepository
 
     public function countActiveByStatusForAttendant(Attendant $attendant): array
     {
-        $id = $attendant->getId();
         $rows = $this->createQueryBuilder('s')
-            ->select('s.status, COUNT(s.id) as total')
+            ->select('st.name as status, COUNT(s.id) as total')
+            ->join('s.statusEntity', 'st')
             ->where(
                 's.reponsible = :attendant OR EXISTS (SELECT sa FROM App\Entity\ServiceAttendant sa WHERE sa.service = s AND sa.attendant = :attendant)'
             )
-            ->andWhere('s.status NOT IN (:excluded)')
+            ->andWhere('st.name NOT IN (:excluded)')
             ->setParameter('attendant', $attendant)
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
-            ->groupBy('s.status')
+            ->groupBy('st.name')
             ->getQuery()
             ->getArrayResult();
 
@@ -85,10 +87,11 @@ class ServiceRepository extends ServiceEntityRepository
     {
         return (int) $this->createQueryBuilder('s')
             ->select('COUNT(s.id)')
+            ->join('s.statusEntity', 'st')
             ->where(
                 's.reponsible = :attendant OR EXISTS (SELECT sa FROM App\Entity\ServiceAttendant sa WHERE sa.service = s AND sa.attendant = :attendant)'
             )
-            ->andWhere('s.status NOT IN (:excluded)')
+            ->andWhere('st.name NOT IN (:excluded)')
             ->setParameter('attendant', $attendant)
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
             ->getQuery()
@@ -99,8 +102,9 @@ class ServiceRepository extends ServiceEntityRepository
     {
         return (int) $this->createQueryBuilder('s')
             ->select('COUNT(s.id)')
+            ->join('s.statusEntity', 'st')
             ->where('s.sector = :sector')
-            ->andWhere('s.status NOT IN (:excluded)')
+            ->andWhere('st.name NOT IN (:excluded)')
             ->setParameter('sector', $sector)
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
             ->getQuery()
@@ -111,12 +115,13 @@ class ServiceRepository extends ServiceEntityRepository
     {
         return (int) $this->createQueryBuilder('s')
             ->select('COUNT(s.id)')
+            ->join('s.statusEntity', 'st')
             ->where(
                 's.reponsible = :attendant OR EXISTS (SELECT sa FROM App\Entity\ServiceAttendant sa WHERE sa.service = s AND sa.attendant = :attendant)'
             )
-            ->andWhere('s.status = :status')
+            ->andWhere('st.name = :statusName')
             ->setParameter('attendant', $attendant)
-            ->setParameter('status', 'IN_PROGRESS')
+            ->setParameter('statusName', 'IN_PROGRESS')
             ->getQuery()
             ->getSingleScalarResult();
     }
@@ -125,13 +130,15 @@ class ServiceRepository extends ServiceEntityRepository
     {
         return (int) $this->createQueryBuilder('s')
             ->select('COUNT(s.id)')
+            ->join('s.statusEntity', 'st')
+            ->join('s.priorityEntity', 'pr')
             ->where(
                 's.reponsible = :attendant OR EXISTS (SELECT sa FROM App\Entity\ServiceAttendant sa WHERE sa.service = s AND sa.attendant = :attendant)'
             )
-            ->andWhere('s.priority = :priority')
-            ->andWhere('s.status NOT IN (:excluded)')
+            ->andWhere('pr.name = :priorityName')
+            ->andWhere('st.name NOT IN (:excluded)')
             ->setParameter('attendant', $attendant)
-            ->setParameter('priority', 'URGENTE')
+            ->setParameter('priorityName', 'URGENTE')
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
             ->getQuery()
             ->getSingleScalarResult();
@@ -149,8 +156,9 @@ class ServiceRepository extends ServiceEntityRepository
     {
         return (int) $this->createQueryBuilder('s')
             ->select('COUNT(s.id)')
+            ->join('s.statusEntity', 'st')
             ->where('s.reponsible IS NULL')
-            ->andWhere('s.status NOT IN (:excluded)')
+            ->andWhere('st.name NOT IN (:excluded)')
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
             ->getQuery()
             ->getSingleScalarResult();
@@ -161,7 +169,8 @@ class ServiceRepository extends ServiceEntityRepository
         $rows = $this->createQueryBuilder('s')
             ->select('sec.name as sector, COUNT(s.id) as total')
             ->join('s.sector', 'sec')
-            ->where('s.status NOT IN (:excluded)')
+            ->join('s.statusEntity', 'st')
+            ->where('st.name NOT IN (:excluded)')
             ->setParameter('excluded', ['CONCLUDED', 'CANCELADO'])
             ->groupBy('sec.id, sec.name')
             ->orderBy('total', 'DESC')
@@ -174,8 +183,9 @@ class ServiceRepository extends ServiceEntityRepository
     public function countByStatusSystem(): array
     {
         $rows = $this->createQueryBuilder('s')
-            ->select('s.status, COUNT(s.id) as total')
-            ->groupBy('s.status')
+            ->select('st.name as status, COUNT(s.id) as total')
+            ->join('s.statusEntity', 'st')
+            ->groupBy('st.name')
             ->getQuery()
             ->getArrayResult();
 
@@ -191,15 +201,17 @@ class ServiceRepository extends ServiceEntityRepository
     public function findByProject(int $projectId, array $filters = []): array
     {
         $qb = $this->createQueryBuilder('s')
+            ->join('s.statusEntity', 'st')
+            ->join('s.priorityEntity', 'pr')
             ->where('s.project = :projectId')
             ->setParameter('projectId', $projectId)
             ->orderBy('s.date_create', 'DESC');
 
         if (!empty($filters['status'])) {
-            $qb->andWhere('s.status = :status')->setParameter('status', $filters['status']);
+            $qb->andWhere('st.name = :statusName')->setParameter('statusName', $filters['status']);
         }
         if (!empty($filters['priority'])) {
-            $qb->andWhere('s.priority = :priority')->setParameter('priority', $filters['priority']);
+            $qb->andWhere('pr.name = :priorityName')->setParameter('priorityName', $filters['priority']);
         }
         if (!empty($filters['date_from'])) {
             $qb->andWhere('s.date_create >= :date_from')->setParameter('date_from', new \DateTime($filters['date_from']));

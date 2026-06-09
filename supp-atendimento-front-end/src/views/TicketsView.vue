@@ -308,7 +308,9 @@ const getStatusColor = (status) => {
     'RESOLVED': 'green',
     'CANCELADO': 'red',
     'RETORNO': 'cyan',
-    'CONCLUDED': 'purple'
+    'CONCLUDED': 'purple',
+    'backlog': 'blue-grey',
+    'product backlog': 'blue-grey',
   }
   return colors[status] || 'grey'
 }
@@ -387,7 +389,9 @@ const statusOptions = [
   { title: 'Resolvido', value: 'RESOLVED' },
   { title: 'Cancelado', value: 'CANCELADO' },
   { title: 'Retorno', value: 'RETORNO' },
-  { title: 'Concluído', value: 'CONCLUDED' }
+  { title: 'Concluído', value: 'CONCLUDED' },
+  { title: 'Backlog', value: 'backlog' },
+  { title: 'Product Backlog', value: 'product backlog' },
 ];
 const priorityOptions = [
   { title: 'Todas as prioridades', value: '' },
@@ -442,7 +446,9 @@ const translateStatus = (status) => {
     'RESOLVED': 'RESOLVIDO',
     'CANCELADO': 'CANCELADO',
     'RETORNO': 'RETORNO',
-    'CONCLUDED': 'CONCLUÍDO'
+    'CONCLUDED': 'CONCLUÍDO',
+    'backlog': 'BACKLOG',
+    'product backlog': 'PRODUCT BACKLOG',
   };
   return translations[status] || status;
 };

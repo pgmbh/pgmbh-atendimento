@@ -71,6 +71,18 @@
               </v-chip>
             </div>
           </v-col>
+
+          <v-col cols="12" v-if="ticket?.tags && ticket.tags.length > 0">
+            <div class="metadata-item flex-wrap" style="gap: 4px;">
+              <v-icon size="small" class="mr-1">mdi-label-multiple-outline</v-icon>
+              <span class="metadata-label">Etiquetas:</span>
+              <v-chip v-for="tag in ticket.tags" :key="tag.id"
+                size="x-small" class="me-1"
+                :style="{ backgroundColor: tag.color, color: '#fff' }">
+                {{ tag.name }}
+              </v-chip>
+            </div>
+          </v-col>
         </v-row>
       </v-card-text>
 
@@ -226,7 +238,9 @@ const getStatusColor = (status) => {
     'RESOLVED': 'green',
     'CANCELADO': 'red',
     'RETORNO': 'cyan',
-    'CONCLUDED': 'purple'
+    'CONCLUDED': 'purple',
+    'backlog': 'blue-grey',
+    'product backlog': 'blue-grey',
   }
   return colors[status] || 'grey'
 }
@@ -239,7 +253,9 @@ const translateStatus = (status) => {
     'RESOLVED': 'Resolvido',
     'CANCELADO': 'Cancelado',
     'RETORNO': 'Retorno',
-    'CONCLUDED': 'Concluído'
+    'CONCLUDED': 'Concluído',
+    'backlog': 'Backlog',
+    'product backlog': 'Product Backlog',
   }
   return translations[status] || status
 }

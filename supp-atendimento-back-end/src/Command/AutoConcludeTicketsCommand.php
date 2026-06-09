@@ -4,6 +4,7 @@ namespace App\Command;
 
 use App\Entity\Service;
 use App\Entity\ServiceHistory;
+use App\Entity\Status;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -45,9 +46,10 @@ class AutoConcludeTicketsCommand extends Command
         $tickets = $queryBuilder
             ->select('s')
             ->from(Service::class, 's')
-            ->where('s.status = :status')
+            ->join('s.statusEntity', 'st')
+            ->where('st.name = :statusName')
             ->andWhere('s.date_update <= :limitDate')
-            ->setParameter('status', 'RESOLVED')
+            ->setParameter('statusName', 'RESOLVED')
             ->setParameter('limitDate', $limitDate)
             ->getQuery()
             ->getResult();
@@ -57,7 +59,8 @@ class AutoConcludeTicketsCommand extends Command
         foreach ($tickets as $ticket) {
             try {
                 // Atualizar status para CONCLUDED
-                $ticket->setStatus('CONCLUDED');
+                $concludedStatus = $this->entityManager->getRepository(Status::class)->findOneBy(['name' => 'CONCLUDED']);
+                $ticket->setStatusEntity($concludedStatus);
                 $ticket->setDateConclusion(new DateTime('now', $this->timezone));
                 $ticket->setDateUpdate(new DateTime('now', $this->timezone));
 

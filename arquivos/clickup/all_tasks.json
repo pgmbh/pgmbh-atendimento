@@ -6819,6 +6819,129 @@
         }
     },
     {
+        "id": "86ahyqjhq",
+        "custom_id": null,
+        "custom_item_id": 0,
+        "name": "teste",
+        "text_content": "",
+        "description": "",
+        "status": {
+            "status": "Closed",
+            "id": "sc901325692540_t1k8XaLr",
+            "color": "#008844",
+            "type": "closed",
+            "orderindex": 9
+        },
+        "orderindex": "39908619.00027530000000000000000000000000",
+        "date_created": "1781009247782",
+        "date_updated": "1781009259165",
+        "date_closed": "1781009259165",
+        "date_done": "1781009256016",
+        "archived": false,
+        "creator": {
+            "id": 82105363,
+            "username": "Danilo de Souza Lima",
+            "color": "#263238",
+            "email": "danilo.dlima@pbh.gov.br",
+            "profilePicture": null
+        },
+        "assignees": [],
+        "group_assignees": [],
+        "watchers": [
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            }
+        ],
+        "checklists": [],
+        "tags": [],
+        "parent": null,
+        "top_level_parent": null,
+        "priority": null,
+        "due_date": null,
+        "start_date": null,
+        "points": null,
+        "time_estimate": null,
+        "custom_fields": [
+            {
+                "id": "3db4a293-2a2e-4d69-9a80-e2ae2d384078",
+                "name": "Branch",
+                "type": "short_text",
+                "type_config": [],
+                "date_created": "1760624924517",
+                "hide_from_guests": false,
+                "required": false
+            },
+            {
+                "id": "525f664d-69e2-4bf2-976d-b467bb3778ff",
+                "name": "Lista Arquivos Modificados",
+                "type": "text",
+                "type_config": [],
+                "date_created": "1773085063931",
+                "hide_from_guests": false,
+                "required": false
+            },
+            {
+                "id": "f63d1ba0-1aa3-404e-a75a-0e93be4345a5",
+                "name": "Resumo da Implementação",
+                "type": "text",
+                "type_config": [],
+                "date_created": "1772736989728",
+                "hide_from_guests": false,
+                "required": false
+            }
+        ],
+        "dependencies": [],
+        "linked_tasks": [],
+        "locations": [],
+        "team_id": "9013331665",
+        "url": "https:\/\/app.clickup.com\/t\/86ahyqjhq",
+        "sharing": {
+            "public": false,
+            "public_share_expires_on": null,
+            "public_fields": [
+                "assignees",
+                "priority",
+                "due_date",
+                "content",
+                "comments",
+                "attachments",
+                "customFields",
+                "subtasks",
+                "tags",
+                "checklists",
+                "coverimage"
+            ],
+            "token": null,
+            "seo_optimized": false
+        },
+        "permission_level": "create",
+        "list": {
+            "id": "901325692540",
+            "name": "SUPP Roadmap",
+            "access": true
+        },
+        "project": {
+            "id": "901317292070",
+            "name": "Roadmap",
+            "hidden": false,
+            "access": true
+        },
+        "folder": {
+            "id": "901317292070",
+            "name": "Roadmap",
+            "hidden": false,
+            "access": true
+        },
+        "space": {
+            "id": "90131370524"
+        }
+    },
+    {
         "id": "86ahvxdm4",
         "custom_id": null,
         "custom_item_id": 0,
@@ -7575,11 +7698,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -7591,11 +7714,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -8143,19 +8266,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -8272,14 +8395,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -8293,6 +8408,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -8508,15 +8631,15 @@
         "checklists": [],
         "tags": [
             {
-                "name": "aprimoramento",
-                "tag_fg": "#0197a7",
-                "tag_bg": "#0197a7",
-                "creator": 82105391
-            },
-            {
                 "name": "esforço:alto",
                 "tag_fg": "#3e2724",
                 "tag_bg": "#3e2724",
+                "creator": 82105391
+            },
+            {
+                "name": "aprimoramento",
+                "tag_fg": "#0197a7",
+                "tag_bg": "#0197a7",
                 "creator": 82105391
             }
         ],
@@ -8636,6 +8759,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -8649,20 +8780,20 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -8676,14 +8807,6 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -8853,19 +8976,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -9000,30 +9123,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105365,
-                "username": "Danilo Rodrigues Cesar",
-                "color": "#536cfe",
-                "initials": "DC",
-                "email": "danilo.cesar@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105390,
                 "username": "Cristhian Ramos",
                 "color": "#006063",
@@ -9040,11 +9139,35 @@
                 "profilePicture": null
             },
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 112073980,
                 "username": "Paulo Henrique Meireles de Araujo",
                 "color": "#3e2724",
                 "initials": "PA",
                 "email": "paulohenr.araujo@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105365,
+                "username": "Danilo Rodrigues Cesar",
+                "color": "#536cfe",
+                "initials": "DC",
+                "email": "danilo.cesar@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -9067,6 +9190,14 @@
                 "profilePicture": null
             },
             {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 112073980,
                 "username": "Paulo Henrique Meireles de Araujo",
                 "color": "#3e2724",
@@ -9075,11 +9206,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
+                "id": 296501808,
+                "username": "Fernando Andrade Ducha",
+                "color": "#595d66",
+                "initials": "FD",
+                "email": "fernando.ducha@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -9104,14 +9235,6 @@
                 "color": "#536cfe",
                 "initials": "DC",
                 "email": "danilo.cesar@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 296501808,
-                "username": "Fernando Andrade Ducha",
-                "color": "#595d66",
-                "initials": "FD",
-                "email": "fernando.ducha@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -9267,19 +9390,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -9627,19 +9750,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -10132,19 +10255,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -10159,14 +10282,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -10180,6 +10295,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -10335,6 +10458,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -10348,14 +10479,6 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -10666,19 +10789,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -11405,14 +11528,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -11426,6 +11541,14 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -11587,19 +11710,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -12498,19 +12621,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -12689,19 +12812,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -12863,6 +12986,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -12876,14 +13007,6 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -13072,15 +13195,15 @@
         "checklists": [],
         "tags": [
             {
-                "name": "esforço:baixo",
-                "tag_fg": "#e16b16",
-                "tag_bg": "#e16b16",
-                "creator": 82105391
-            },
-            {
                 "name": "correção de bugs",
                 "tag_fg": "#cddc39",
                 "tag_bg": "#cddc39",
+                "creator": 82105391
+            },
+            {
+                "name": "esforço:baixo",
+                "tag_fg": "#e16b16",
+                "tag_bg": "#e16b16",
                 "creator": 82105391
             }
         ],
@@ -13235,19 +13358,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -13384,19 +13507,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -13566,19 +13689,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -13748,6 +13871,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -13761,14 +13892,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -14329,19 +14452,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -14476,14 +14599,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -14497,6 +14612,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -14511,19 +14634,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -14685,19 +14808,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -14842,11 +14965,11 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -14858,11 +14981,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -15024,19 +15147,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -15233,6 +15356,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -15247,28 +15378,20 @@
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
             }
         ],
         "checklists": [],
         "tags": [
             {
-                "name": "novo recurso",
-                "tag_fg": "#d60800",
-                "tag_bg": "#d60800",
-                "creator": 82105391
-            },
-            {
                 "name": "esforço:baixo",
                 "tag_fg": "#e16b16",
                 "tag_bg": "#e16b16",
+                "creator": 82105391
+            },
+            {
+                "name": "novo recurso",
+                "tag_fg": "#d60800",
+                "tag_bg": "#d60800",
                 "creator": 82105391
             }
         ],
@@ -15415,19 +15538,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -15599,19 +15722,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -15922,6 +16045,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -15935,14 +16066,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -16131,6 +16254,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -16144,14 +16275,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -16280,14 +16403,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -16301,17 +16416,25 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -16323,11 +16446,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -16456,6 +16579,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -16469,14 +16600,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -16659,6 +16782,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -16672,14 +16803,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -17201,19 +17324,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -17348,14 +17471,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -17369,6 +17484,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -17530,19 +17653,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -17731,19 +17854,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105390,
                 "username": "Cristhian Ramos",
                 "color": "#006063",
                 "initials": "CR",
                 "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -17897,19 +18020,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -18237,19 +18360,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105365,
                 "username": "Danilo Rodrigues Cesar",
                 "color": "#536cfe",
                 "initials": "DC",
                 "email": "danilo.cesar@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -18419,14 +18542,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105365,
                 "username": "Danilo Rodrigues Cesar",
                 "color": "#536cfe",
@@ -18440,6 +18555,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -18601,14 +18724,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -18622,6 +18737,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -18783,14 +18906,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -18804,6 +18919,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -18973,19 +19096,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -19155,19 +19278,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -19511,11 +19634,11 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -19527,11 +19650,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -19848,19 +19971,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -19875,19 +19998,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -20030,6 +20153,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -20060,14 +20191,6 @@
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
             }
         ],
         "group_assignees": [],
@@ -20089,19 +20212,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105390,
                 "username": "Cristhian Ramos",
                 "color": "#006063",
                 "initials": "CR",
                 "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -20287,14 +20410,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -20308,6 +20423,14 @@
                 "color": "#536cfe",
                 "initials": "DC",
                 "email": "danilo.cesar@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -20857,14 +20980,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -20878,6 +20993,14 @@
                 "color": "#006063",
                 "initials": "CR",
                 "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -21411,14 +21534,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -21432,6 +21547,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -22262,6 +22385,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -22275,28 +22406,12 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -22310,6 +22425,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -22471,6 +22594,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -22484,14 +22615,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -22993,19 +23116,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -23167,14 +23290,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -23188,6 +23303,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -23504,6 +23627,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -23517,14 +23648,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -23539,19 +23662,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -23721,34 +23844,34 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
             }
         ],
         "checklists": [],
         "tags": [
             {
-                "name": "esforço:médio",
-                "tag_fg": "#c51162",
-                "tag_bg": "#c51162",
-                "creator": 82105391
-            },
-            {
                 "name": "correção de bugs",
                 "tag_fg": "#cddc39",
                 "tag_bg": "#cddc39",
+                "creator": 82105391
+            },
+            {
+                "name": "esforço:médio",
+                "tag_fg": "#c51162",
+                "tag_bg": "#c51162",
                 "creator": 82105391
             }
         ],
@@ -24219,19 +24342,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -24366,19 +24489,19 @@
         },
         "assignees": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -24532,19 +24655,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -24559,19 +24682,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -24714,14 +24837,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -24735,6 +24850,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -24904,19 +25027,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -25105,6 +25228,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -25118,14 +25249,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -25260,6 +25383,14 @@
         },
         "assignees": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -25273,14 +25404,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -25632,19 +25755,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -25806,6 +25929,14 @@
         },
         "assignees": [
             {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -25819,28 +25950,12 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -25854,6 +25969,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -25988,11 +26111,11 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -26004,11 +26127,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -26170,11 +26293,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -26186,11 +26309,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -26352,6 +26475,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -26365,14 +26496,6 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -26534,11 +26657,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -26550,11 +26673,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -26716,11 +26839,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -26732,17 +26855,25 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -26756,14 +26887,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -26906,19 +27029,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -27080,11 +27203,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -27096,17 +27219,25 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -27120,14 +27251,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -27420,19 +27543,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -27594,11 +27717,11 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -27610,11 +27733,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -27776,14 +27899,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -27797,6 +27912,14 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -27958,19 +28081,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -27985,6 +28108,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -27998,14 +28129,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -28140,11 +28263,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -28156,11 +28279,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -28322,11 +28445,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -28338,11 +28461,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -28504,14 +28627,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -28525,6 +28640,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -28694,19 +28817,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -28868,19 +28991,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -29058,19 +29181,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -29232,6 +29355,14 @@
         },
         "assignees": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -29245,14 +29376,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -29414,19 +29537,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -29596,19 +29719,19 @@
         },
         "assignees": [
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -29770,19 +29893,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -29944,11 +30067,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -29960,11 +30083,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -30120,6 +30243,14 @@
         },
         "assignees": [
             {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -30133,14 +30264,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -30310,19 +30433,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -30486,19 +30609,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -30654,14 +30777,6 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -30675,6 +30790,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -30838,19 +30961,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -31018,11 +31141,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -31034,11 +31157,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -31370,11 +31493,11 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82105365,
+                "username": "Danilo Rodrigues Cesar",
+                "color": "#536cfe",
+                "initials": "DC",
+                "email": "danilo.cesar@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -31386,11 +31509,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105365,
-                "username": "Danilo Rodrigues Cesar",
-                "color": "#536cfe",
-                "initials": "DC",
-                "email": "danilo.cesar@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -31560,19 +31683,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105390,
-                "username": "Cristhian Ramos",
-                "color": "#006063",
-                "initials": "CR",
-                "email": "cristhian.ramos@edu.pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105390,
+                "username": "Cristhian Ramos",
+                "color": "#006063",
+                "initials": "CR",
+                "email": "cristhian.ramos@edu.pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -31734,14 +31857,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -31755,6 +31870,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -31916,11 +32039,11 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -31932,11 +32055,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -32280,11 +32403,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -32296,11 +32419,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -32462,6 +32585,14 @@
         },
         "assignees": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -32475,14 +32606,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -32644,19 +32767,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -32826,14 +32949,6 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -32847,6 +32962,14 @@
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -33340,19 +33463,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -33704,19 +33827,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -33886,19 +34009,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -34095,19 +34218,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -34250,14 +34373,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -34271,6 +34386,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -34798,19 +34921,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -34972,14 +35095,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -34988,11 +35103,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -35001,6 +35116,14 @@
                 "color": "#006063",
                 "initials": "CR",
                 "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -35178,19 +35301,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -36262,19 +36385,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105390,
                 "username": "Cristhian Ramos",
                 "color": "#006063",
                 "initials": "CR",
                 "email": "cristhian.ramos@edu.pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -36428,14 +36551,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -36449,6 +36564,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -36792,6 +36915,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -36805,14 +36936,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -37100,14 +37223,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -37121,6 +37236,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -37276,6 +37399,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -37289,14 +37420,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -37458,14 +37581,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -37479,6 +37594,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -37640,6 +37763,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -37653,14 +37784,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -37822,14 +37945,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -37843,6 +37958,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -38004,6 +38127,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -38017,14 +38148,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -38186,19 +38309,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -38376,19 +38499,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -38732,11 +38855,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -38748,11 +38871,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -38914,19 +39037,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -39096,6 +39219,14 @@
         },
         "assignees": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
@@ -39109,14 +39240,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -39278,19 +39401,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -39468,19 +39591,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -40006,19 +40129,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82108344,
                 "username": "Isaac Martins",
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -40188,19 +40311,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -40552,14 +40675,6 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -40573,6 +40688,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -40734,19 +40857,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -40916,19 +41039,19 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -42548,19 +42671,19 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -42730,14 +42853,6 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -42751,6 +42866,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -42784,15 +42907,15 @@
         "checklists": [],
         "tags": [
             {
-                "name": "novo recurso",
-                "tag_fg": "#d60800",
-                "tag_bg": "#d60800",
-                "creator": 82105391
-            },
-            {
                 "name": "esforço:baixo",
                 "tag_fg": "#e16b16",
                 "tag_bg": "#e16b16",
+                "creator": 82105391
+            },
+            {
+                "name": "novo recurso",
+                "tag_fg": "#d60800",
+                "tag_bg": "#d60800",
                 "creator": 82105391
             }
         ],
@@ -42912,6 +43035,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -42925,28 +43056,12 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -42960,6 +43075,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -43094,6 +43217,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -43107,28 +43238,12 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -43142,6 +43257,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -43663,19 +43786,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -43992,11 +44115,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -44008,11 +44131,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -44201,14 +44324,6 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -44222,6 +44337,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -44364,19 +44487,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -44546,19 +44669,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -44720,11 +44843,11 @@
         },
         "assignees": [
             {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -44736,11 +44859,11 @@
                 "profilePicture": null
             },
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -44904,32 +45027,24 @@
                 "profilePicture": null
             },
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
             }
         ],
         "group_assignees": [],
         "watchers": [
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
             {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
@@ -44944,6 +45059,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -45078,14 +45201,6 @@
         },
         "assignees": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -45099,6 +45214,14 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -45260,19 +45383,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -45442,14 +45565,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -45463,6 +45578,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -45632,19 +45755,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -45988,19 +46111,19 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -46170,6 +46293,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -46183,14 +46314,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -46379,6 +46502,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -46392,14 +46523,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -46534,14 +46657,6 @@
         },
         "assignees": [
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -46555,6 +46670,14 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -46724,19 +46847,19 @@
                 "profilePicture": null
             },
             {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -46898,6 +47021,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -46911,14 +47042,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -48172,6 +48295,14 @@
         },
         "assignees": [
             {
+                "id": 82108344,
+                "username": "Isaac Martins",
+                "color": "#455963",
+                "initials": "IM",
+                "email": "isaac.martins@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
@@ -48185,14 +48316,6 @@
                 "color": "#e16b16",
                 "initials": "RO",
                 "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82108344,
-                "username": "Isaac Martins",
-                "color": "#455963",
-                "initials": "IM",
-                "email": "isaac.martins@pbh.gov.br",
                 "profilePicture": null
             }
         ],
@@ -50383,19 +50506,19 @@
         "group_assignees": [],
         "watchers": [
             {
-                "id": 82105391,
-                "username": "Rafael Assumpcao de Oliveira",
-                "color": "#e16b16",
-                "initials": "RO",
-                "email": "rafael.assumpcao@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
                 "id": 82105363,
                 "username": "Danilo de Souza Lima",
                 "color": "#263238",
                 "initials": "DL",
                 "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
+                "id": 82105391,
+                "username": "Rafael Assumpcao de Oliveira",
+                "color": "#e16b16",
+                "initials": "RO",
+                "email": "rafael.assumpcao@pbh.gov.br",
                 "profilePicture": null
             },
             {
@@ -52369,6 +52492,14 @@
         "group_assignees": [],
         "watchers": [
             {
+                "id": 82105363,
+                "username": "Danilo de Souza Lima",
+                "color": "#263238",
+                "initials": "DL",
+                "email": "danilo.dlima@pbh.gov.br",
+                "profilePicture": null
+            },
+            {
                 "id": 82105391,
                 "username": "Rafael Assumpcao de Oliveira",
                 "color": "#e16b16",
@@ -52382,14 +52513,6 @@
                 "color": "#455963",
                 "initials": "IM",
                 "email": "isaac.martins@pbh.gov.br",
-                "profilePicture": null
-            },
-            {
-                "id": 82105363,
-                "username": "Danilo de Souza Lima",
-                "color": "#263238",
-                "initials": "DL",
-                "email": "danilo.dlima@pbh.gov.br",
                 "profilePicture": null
             }
         ],

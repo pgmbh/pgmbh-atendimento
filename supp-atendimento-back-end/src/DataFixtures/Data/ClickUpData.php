@@ -1,5 +1,4 @@
 <?php
-
 // Gerado automaticamente a partir de all_tasks.json — não editar manualmente.
 return array (
   0 => 
@@ -19,22 +18,14 @@ Menu para colocar o item \'Excluir Em Lote\'',
     'date_updated' => '1771854881356',
     'date_closed' => '1771854876931',
     'date_done' => '1771854876931',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   1 => 
   array (
@@ -55,24 +46,16 @@ Essa tela vai em processo judiciais , 3 pontinhos e movimentar',
     'priority' => '',
     'date_created' => '1770230583772',
     'date_updated' => '1770407615345',
-    'date_closed' => NULL,
-    'date_done' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
     'due_date' => '1770188400000',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   2 => 
   array (
@@ -88,24 +71,16 @@ Essa tela vai em processo judiciais , 3 pontinhos e movimentar',
     'priority' => '',
     'date_created' => '1770216508331',
     'date_updated' => '1770230567124',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   3 => 
   array (
@@ -119,24 +94,16 @@ Essa tela vai em processo judiciais , 3 pontinhos e movimentar',
     'priority' => '',
     'date_created' => '1770148352977',
     'date_updated' => '1770212554223',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   4 => 
   array (
@@ -152,24 +119,16 @@ Verificar nos lugares formato grid, lista, e na coluna \'Tarefas Adm Relacionada
     'priority' => '',
     'date_created' => '1770061275976',
     'date_updated' => '1770148338031',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   5 => 
   array (
@@ -189,24 +148,16 @@ Envio de documentos
     'priority' => '',
     'date_created' => '1770053737373',
     'date_updated' => '1770060094821',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   6 => 
   array (
@@ -249,24 +200,16 @@ php bin/console messenger:consume pdpj_api_cnj -vvv',
     'priority' => '',
     'date_created' => '1769705406628',
     'date_updated' => '1770053731671',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   7 => 
   array (
@@ -284,22 +227,14 @@ Branch para consultar o que foi feito:',
     'date_updated' => '1769705389411',
     'date_closed' => '1769705389411',
     'date_done' => '1769705389411',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   8 => 
   array (
@@ -324,22 +259,14 @@ Adicionar o operador logico NÃO, o padrão é o OU',
     'date_updated' => '1769536189136',
     'date_closed' => '1769536189136',
     'date_done' => '1769536189136',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   9 => 
   array (
@@ -413,17 +340,13 @@ Problema secundário: erro de formato do NUP na listagem das petições iniciais
     'date_updated' => '1769536381998',
     'date_closed' => '1769536381998',
     'date_done' => '1769536381998',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   10 => 
   array (
@@ -461,19 +384,15 @@ src/@cdk/models/tarefa.model.ts',
     'priority' => '',
     'date_created' => '1765998577894',
     'date_updated' => '1769536246302',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   11 => 
   array (
@@ -489,17 +408,13 @@ src/@cdk/models/tarefa.model.ts',
     'date_updated' => '1766000978384',
     'date_closed' => '1766000978384',
     'date_done' => '1766000978384',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   12 => 
   array (
@@ -515,17 +430,13 @@ src/@cdk/models/tarefa.model.ts',
     'date_updated' => '1765894037918',
     'date_closed' => '1765893950292',
     'date_done' => '1765893950292',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   13 => 
   array (
@@ -558,22 +469,14 @@ supp-administrativo-backend-develop/src/Command/Tarefa/MessageHandlers/Distribui
     'date_updated' => '1769536200426',
     'date_closed' => '1769536200426',
     'date_done' => '1769536200426',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   14 => 
   array (
@@ -592,17 +495,13 @@ Nome do repositório: preferencias-visualizacao-grid-banco',
     'date_updated' => '1765283664906',
     'date_closed' => '1765283192219',
     'date_done' => '1765283192219',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   15 => 
   array (
@@ -659,17 +558,13 @@ Implementação concluída! Aqui está o resumo do que foi feito:
     'date_updated' => '1765291794845',
     'date_closed' => '1765291794845',
     'date_done' => '1765291794845',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   16 => 
   array (
@@ -764,12 +659,11 @@ Implementação concluída! Aqui está o resumo do que foi feito:
     'date_updated' => '1764877479509',
     'date_closed' => '1764877479509',
     'date_done' => '1764877479509',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   17 => 
   array (
@@ -818,19 +712,15 @@ OBS: Verificar se uma classe que poderia gerar uma  interface/subclase com o nov
     'priority' => 'normal',
     'date_created' => '1764607031676',
     'date_updated' => '1767802878187',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   18 => 
   array (
@@ -907,14 +797,10 @@ Agora a implementação funcionará em qualquer ambiente, seja o nome cadastrado
     'due_date' => '1764313200000',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   19 => 
   array (
@@ -933,22 +819,14 @@ Colocar tambem no tarefa-detail supp-administrativo-frontend-develop/src/app/mai
     'date_updated' => '1765291813239',
     'date_closed' => '1765291813239',
     'date_done' => '1765291813239',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   20 => 
   array (
@@ -1006,22 +884,14 @@ Funcionalidade para carregar os interessados do processo pelo seu polo
     'date_updated' => '1762777483543',
     'date_closed' => '1762777483543',
     'date_done' => '1762777483543',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   21 => 
   array (
@@ -1037,19 +907,15 @@ consumo de informaçao no painel',
     'priority' => '',
     'date_created' => '1761933951923',
     'date_updated' => '1769536235436',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   22 => 
   array (
@@ -1229,22 +1095,14 @@ Usuário seleciona: [Estagiário A, B, C]
     'date_updated' => '1762777527356',
     'date_closed' => '1762777527356',
     'date_done' => '1762777527356',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   23 => 
   array (
@@ -1267,17 +1125,13 @@ src/@cdk/services/tarefa.service.ts',
     'date_updated' => '1761826304877',
     'date_closed' => '1761826304877',
     'date_done' => '1761826304877',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   24 => 
   array (
@@ -1349,17 +1203,13 @@ Rastrear quando acionado pelo supp
     'date_updated' => '1769536206744',
     'date_closed' => '1769536206744',
     'date_done' => '1769536206744',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   25 => 
   array (
@@ -1379,17 +1229,13 @@ http://191.233.0.139:4200/apps/coordenador/unidade/31/modelos/listar',
     'date_updated' => '1761159890085',
     'date_closed' => '1761159890085',
     'date_done' => '1761159890085',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   26 => 
   array (
@@ -1404,14 +1250,13 @@ Ocorre em alguns casos que ao ajuizar o status nao muda de autuado para ajuizado
     'priority' => '',
     'date_created' => '1761052067704',
     'date_updated' => '1767802936692',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   27 => 
   array (
@@ -1431,17 +1276,13 @@ O procurador ao remeter o oficio deve ser possível criar uma tarefa para a secr
     'date_updated' => '1761826287314',
     'date_closed' => '1761826287314',
     'date_done' => '1761826287314',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   28 => 
   array (
@@ -1474,17 +1315,13 @@ supp-administrativo-backend-develop/config/packages/rate_listener.yaml
     'date_updated' => '1769536203045',
     'date_closed' => '1769536203045',
     'date_done' => '1769536203045',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array ( 'defeito' ),
   ),
   29 => 
   array (
@@ -1698,22 +1535,14 @@ Descricao da trigger
     'date_updated' => '1769536197124',
     'date_closed' => '1769536197124',
     'date_done' => '1769536197124',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array ( 'nova funcionalidade' ),
   ),
   30 => 
   array (
@@ -1738,14 +1567,10 @@ Para solução dessa demanda, foram criadas duas regras customizadas no services
     'due_date' => '1743404400000',
     'creator_email' => 'isaac.martins@pbh.gov.br',
     'creator_name' => 'Isaac Martins',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   31 => 
   array (
@@ -1761,12 +1586,11 @@ Para solução dessa demanda, foram criadas duas regras customizadas no services
     'date_updated' => '1760535949943',
     'date_closed' => '1760535949943',
     'date_done' => '1760535949943',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   32 => 
   array (
@@ -1784,17 +1608,13 @@ Começar pelo TJMG',
     'date_updated' => '1745437604021',
     'date_closed' => '1745437604021',
     'date_done' => '1745437604021',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   33 => 
   array (
@@ -1810,17 +1630,13 @@ Começar pelo TJMG',
     'date_updated' => '1760536020842',
     'date_closed' => '1760536020842',
     'date_done' => '1760536020842',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   34 => 
   array (
@@ -1835,14 +1651,13 @@ Atualmente esta sendo setado no codigo',
     'priority' => 'low',
     'date_created' => '1736775758156',
     'date_updated' => '1736775824593',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   35 => 
   array (
@@ -1877,17 +1692,13 @@ Por comarca
     'date_updated' => '1760536031457',
     'date_closed' => '1760536031457',
     'date_done' => '1760536031457',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   36 => 
   array (
@@ -1910,14 +1721,10 @@ Gravar os dados no banco de  dados',
     'due_date' => '1727766000000',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   37 => 
   array (
@@ -1985,24 +1792,16 @@ CREATE TABLE public.jd_historico_situacao_processo
     'priority' => '',
     'date_created' => '1726593858756',
     'date_updated' => '1771871802586',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   38 => 
   array (
@@ -2018,12 +1817,11 @@ CREATE TABLE public.jd_historico_situacao_processo
     'date_updated' => '1760535925601',
     'date_closed' => '1760535925601',
     'date_done' => '1760535925601',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   39 => 
   array (
@@ -2037,14 +1835,13 @@ CREATE TABLE public.jd_historico_situacao_processo
     'priority' => '',
     'date_created' => '1726592950661',
     'date_updated' => '1726858416446',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   40 => 
   array (
@@ -2058,14 +1855,13 @@ CREATE TABLE public.jd_historico_situacao_processo
     'priority' => '',
     'date_created' => '1726592940419',
     'date_updated' => '1726592940419',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   41 => 
   array (
@@ -2079,14 +1875,13 @@ CREATE TABLE public.jd_historico_situacao_processo
     'priority' => '',
     'date_created' => '1726592924846',
     'date_updated' => '1726592924846',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   42 => 
   array (
@@ -2105,17 +1900,13 @@ Busca cdas agrupamento',
     'date_updated' => '1760535980242',
     'date_closed' => '1736773395411',
     'date_done' => '1736773395411',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   43 => 
   array (
@@ -2140,12 +1931,11 @@ Código Serviço: TESTEACESSO',
     'date_updated' => '1736773281477',
     'date_closed' => '1736773281476',
     'date_done' => '1736773281476',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   44 => 
   array (
@@ -2168,19 +1958,11 @@ https://app.diagrams.net/#G12Wq-OwfUZOUFzkcoP_SVfDlAzAuskOr1#%7B%22pageId%22%3A%
     'due_date' => '1725519600000',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   45 => 
   array (
@@ -2199,9 +1981,8 @@ https://app.diagrams.net/#G12Wq-OwfUZOUFzkcoP_SVfDlAzAuskOr1#%7B%22pageId%22%3A%
     'due_date' => '1722409200000',
     'creator_email' => 'marco.a.ribeiro@pbh.gov.br',
     'creator_name' => 'Marco Ribeiro',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   46 => 
   array (
@@ -2220,9 +2001,8 @@ https://app.diagrams.net/#G12Wq-OwfUZOUFzkcoP_SVfDlAzAuskOr1#%7B%22pageId%22%3A%
     'due_date' => '1722495600000',
     'creator_email' => 'marco.a.ribeiro@pbh.gov.br',
     'creator_name' => 'Marco Ribeiro',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array ( 'defeito' ),
   ),
   47 => 
   array (
@@ -2300,24 +2080,16 @@ O origemDadosErrosExibidos garante que um erro nunca seja exibido duas vezes, me
     'priority' => '',
     'date_created' => '1767802716244',
     'date_updated' => '1768593938070',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
+  ),
+    'tags' => array (  ),
   ),
   48 => 
   array (
@@ -2332,19 +2104,15 @@ O xml eproc pode ser acionado no consultarTabelasMNI, la tem todos os tipos de d
     'priority' => 'high',
     'date_created' => '1767719391726',
     'date_updated' => '1767725984698',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
+  ),
+    'tags' => array (  ),
   ),
   49 => 
   array (
@@ -2358,14 +2126,13 @@ O xml eproc pode ser acionado no consultarTabelasMNI, la tem todos os tipos de d
     'priority' => '',
     'date_created' => '1726848586626',
     'date_updated' => '1726848646370',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'cristhian.ramos@edu.pbh.gov.br',
     'creator_name' => 'Cristhian Ramos',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   50 => 
   array (
@@ -2384,29 +2151,17 @@ Docker',
     'priority' => 'urgent',
     'date_created' => '1726769586317',
     'date_updated' => '1726772381932',
-    'date_closed' => NULL,
-    'date_done' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
     'due_date' => '1727074800000',
     'creator_email' => 'cristhian.ramos@edu.pbh.gov.br',
     'creator_name' => 'Cristhian Ramos',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      2 => 
-      array (
-        'email' => 'marco.a.ribeiro@pbh.gov.br',
-        'username' => 'Marco Ribeiro',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'marco.a.ribeiro@pbh.gov.br', 'username' => 'Marco Ribeiro' )
+  ),
+    'tags' => array (  ),
   ),
   51 => 
   array (
@@ -2421,14 +2176,13 @@ E o supp-administrativo-frontend do dia 04/09/2024',
     'priority' => '',
     'date_created' => '1720035625568',
     'date_updated' => '1726772407670',
-    'date_closed' => NULL,
-    'date_done' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
     'due_date' => '1726815600000',
     'creator_email' => 'marco.a.ribeiro@pbh.gov.br',
     'creator_name' => 'Marco Ribeiro',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array (  ),
   ),
   52 => 
   array (
@@ -2449,39 +2203,19 @@ Divida',
     'priority' => '',
     'date_created' => '1726775470960',
     'date_updated' => '1726776336283',
-    'date_closed' => NULL,
-    'date_done' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
     'due_date' => '1726815600000',
     'creator_email' => 'cristhian.ramos@edu.pbh.gov.br',
     'creator_name' => 'Cristhian Ramos',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      3 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      4 => 
-      array (
-        'email' => 'marco.a.ribeiro@pbh.gov.br',
-        'username' => 'Marco Ribeiro',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'marco.a.ribeiro@pbh.gov.br', 'username' => 'Marco Ribeiro' )
+  ),
+    'tags' => array (  ),
   ),
   53 => 
   array (
@@ -2495,41 +2229,41 @@ Divida',
     'priority' => '',
     'date_created' => '1726771077589',
     'date_updated' => '1726771180168',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'cristhian.ramos@edu.pbh.gov.br',
     'creator_name' => 'Cristhian Ramos',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      3 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      4 => 
-      array (
-        'email' => 'marco.a.ribeiro@pbh.gov.br',
-        'username' => 'Marco Ribeiro',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'marco.a.ribeiro@pbh.gov.br', 'username' => 'Marco Ribeiro' )
+  ),
+    'tags' => array (  ),
   ),
   54 => 
+  array (
+    'id' => '86ahyqjhq',
+    'name' => 'teste',
+    'description' => '',
+    'url' => 'https://app.clickup.com/t/86ahyqjhq',
+    'list_name' => 'SUPP Roadmap',
+    'status' => 'Closed',
+    'status_type' => 'closed',
+    'priority' => '',
+    'date_created' => '1781009247782',
+    'date_updated' => '1781009259165',
+    'date_closed' => '1781009259165',
+    'date_done' => '1781009256016',
+    'due_date' => '',
+    'creator_email' => 'danilo.dlima@pbh.gov.br',
+    'creator_name' => 'Danilo de Souza Lima',
+    'assignees' => array (),
+    'tags' => array (  ),
+  ),
+  55 => 
   array (
     'id' => '86ahvxdm4',
     'name' => 'Adicionar criterio de busca elastisearch no evento da tarefa',
@@ -2543,29 +2277,17 @@ Divida',
     'date_updated' => '1780462314523',
     'date_closed' => '1780462314523',
     'date_done' => '1780462314523',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  55 => 
+    'tags' => array ( 'esforço:alto', 'novo recurso' ),
+  ),
+  56 => 
   array (
     'id' => '86ahm58jm',
     'name' => 'Busca de Tipo de Documento na alteração',
@@ -2579,29 +2301,17 @@ Divida',
     'date_updated' => '1779338263128',
     'date_closed' => '1779338259931',
     'date_done' => '1779338259931',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  56 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  57 => 
   array (
     'id' => '86ahg51q2',
     'name' => 'Sugerir especie de tarefa e destinatario em modelos de oficio',
@@ -2615,29 +2325,17 @@ Divida',
     'date_updated' => '1778797314769',
     'date_closed' => '1778797314769',
     'date_done' => '1778797314769',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  57 => 
+    'tags' => array ( 'esforço:alto', 'novo recurso' ),
+  ),
+  58 => 
   array (
     'id' => '86ahcu4e4',
     'name' => 'Salva opções de filtro mais usados nas tarefas',
@@ -2651,29 +2349,17 @@ Divida',
     'date_updated' => '1778388225194',
     'date_closed' => '1778388225194',
     'date_done' => '1778388225194',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  58 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  59 => 
   array (
     'id' => '86ahcu4cf',
     'name' => 'Remessa de ofício: Criar forma de bloquear a remessa pelos estagiários de alguns ofícios',
@@ -2687,29 +2373,17 @@ Divida',
     'date_updated' => '1778780018902',
     'date_closed' => '1778780013800',
     'date_done' => '1778780013800',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  59 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  60 => 
   array (
     'id' => '86ahcu49j',
     'name' => 'Criar ação de etiqueta - setar tarefa urgente',
@@ -2723,29 +2397,17 @@ Divida',
     'date_updated' => '1778304347037',
     'date_closed' => '1778304347037',
     'date_done' => '1778304347037',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  60 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  61 => 
   array (
     'id' => '86ah4w7zb',
     'name' => 'Validar processo Divida',
@@ -2818,29 +2480,17 @@ A validação solicitada é um guard de segurança: impedir o flush final de Pet
     'date_updated' => '1779308198673',
     'date_closed' => '1778863358193',
     'date_done' => '1778863358193',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  61 => 
+    'tags' => array (  ),
+  ),
+  62 => 
   array (
     'id' => '86ah4w7p2',
     'name' => 'Criar Casos de testes Divida',
@@ -2855,31 +2505,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => '',
     'date_created' => '1777381131514',
     'date_updated' => '1777438999564',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  62 => 
+    'tags' => array (  ),
+  ),
+  63 => 
   array (
     'id' => '86ah38uq8',
     'name' => 'Alterar submeter aprovação para aceitar distribuição automatica',
@@ -2893,29 +2531,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1777071313694',
     'date_closed' => '1777071313694',
     'date_done' => '1777071313694',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  63 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  64 => 
   array (
     'id' => '86agyub1j',
     'name' => 'Melhoria Divida Siatu',
@@ -2938,29 +2564,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1777071248018',
     'date_closed' => '1777071248018',
     'date_done' => '1777071248018',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  64 => 
+    'tags' => array ( 'esforço:alto', 'aprimoramento' ),
+  ),
+  65 => 
   array (
     'id' => '86agybqt3',
     'name' => 'Criar auditoria de colunas editadas na tarefa',
@@ -2974,29 +2588,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1776818505265',
     'date_closed' => '1776818505265',
     'date_done' => '1776818505265',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  65 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  66 => 
   array (
     'id' => '86agybqn5',
     'name' => 'Criar histórico de tarefa',
@@ -3010,29 +2612,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1776411212441',
     'date_closed' => '1776411212441',
     'date_done' => '1776411212441',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  66 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  67 => 
   array (
     'id' => '86aguf3z4',
     'name' => 'Criação de IA local para integrar no SUPP',
@@ -3044,51 +2634,23 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'normal',
     'date_created' => '1775894785030',
     'date_updated' => '1778872102567',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      3 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      4 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      5 => 
-      array (
-        'email' => 'paulohenr.araujo@edu.pbh.gov.br',
-        'username' => 'Paulo Henrique Meireles de Araujo',
-      ),
-      6 => 
-      array (
-        'email' => 'fernando.ducha@pbh.gov.br',
-        'username' => 'Fernando Andrade Ducha',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'paulohenr.araujo@edu.pbh.gov.br', 'username' => 'Paulo Henrique Meireles de Araujo' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'fernando.ducha@pbh.gov.br', 'username' => 'Fernando Andrade Ducha' )
   ),
-  67 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  68 => 
   array (
     'id' => '86aguf3ya',
     'name' => 'Desabilitar geração automática da etiqueta Redistribuída',
@@ -3100,31 +2662,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'low',
     'date_created' => '1775894695283',
     'date_updated' => '1775894705670',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  68 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  69 => 
   array (
     'id' => '86aguf3xw',
     'name' => 'Forma de não permitir modelo de ofício de ser selecionado em minuta de tarefa judicial',
@@ -3136,31 +2686,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'low',
     'date_created' => '1775894650270',
     'date_updated' => '1775894728687',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  69 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  70 => 
   array (
     'id' => '86aguf3xa',
     'name' => 'Bloquear uso da espécie "Adotar Providências Administrativas"',
@@ -3172,31 +2710,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'low',
     'date_created' => '1775894549788',
     'date_updated' => '1775894587070',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  70 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  71 => 
   array (
     'id' => '86aguf3vm',
     'name' => 'Criar ação de etiqueta que altera o Status da Tarefa',
@@ -3210,29 +2736,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1776492547856',
     'date_closed' => '1776492547856',
     'date_done' => '1776492547856',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  71 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  72 => 
   array (
     'id' => '86aguf3tm',
     'name' => 'Criar área no editor do modelo onde poderão ser gerados comentários em relação ao modelo',
@@ -3246,29 +2760,17 @@ Os casos de testes devem suprir os cenarios
     'date_updated' => '1776551570411',
     'date_closed' => '1776551570411',
     'date_done' => '1776551570411',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  72 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  73 => 
   array (
     'id' => '86aguf3qt',
     'name' => 'Mensagem de confirmação ao clicar em Apor Ciência',
@@ -3280,31 +2782,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'low',
     'date_created' => '1775894370963',
     'date_updated' => '1775894391963',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  73 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  74 => 
   array (
     'id' => '86aguf3qg',
     'name' => 'Permitir usuário a ordenar pastas da forma que quiser',
@@ -3316,31 +2806,19 @@ Os casos de testes devem suprir os cenarios
     'priority' => 'low',
     'date_created' => '1775894325288',
     'date_updated' => '1776490275571',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  74 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  75 => 
   array (
     'id' => '86aguf3pr',
     'name' => 'Bloquear colunas chaves de serem escondidas por estagiários',
@@ -3372,29 +2850,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1778304304123',
     'date_closed' => '1778304304123',
     'date_done' => '1778304304123',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  75 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  76 => 
   array (
     'id' => '86agm5ktx',
     'name' => 'Fix bug que ao colar documento externo, lista numerada passava dos limites do editor',
@@ -3408,29 +2874,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1775090296058',
     'date_closed' => '1775090279105',
     'date_done' => '1775090279105',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  76 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  77 => 
   array (
     'id' => '86agm5kk8',
     'name' => 'Implementação do KEDA para escalonamento do php-worker atraves de quantidade de filas',
@@ -3444,24 +2898,16 @@ CLASSE PROCESSUAL',
     'date_updated' => '1775090244413',
     'date_closed' => '1775090244413',
     'date_done' => '1775090244413',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  77 => 
+    'tags' => array ( 'melhoria de desempenho', 'esforço:alto' ),
+  ),
+  78 => 
   array (
     'id' => '86agennb7',
     'name' => 'Identificar qual oficio na tarefa destino do oficio',
@@ -3475,29 +2921,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1774487976077',
     'date_closed' => '1774487976077',
     'date_done' => '1774487976077',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  78 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  79 => 
   array (
     'id' => '86agenmyw',
     'name' => 'Fix do download de processo consumir muita memoria do navegador',
@@ -3511,29 +2945,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1774487963000',
     'date_closed' => '1774487963000',
     'date_done' => '1774487963000',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  79 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  80 => 
   array (
     'id' => '86agdyh57',
     'name' => 'Criar consulta por página no grid',
@@ -3547,29 +2969,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1776492558924',
     'date_closed' => '1776490290628',
     'date_done' => '1776490290628',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  80 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  81 => 
   array (
     'id' => '86agdyg7q',
     'name' => 'Criar critério de regra de etiqueta que detecte quando há mais uma tarefa judicial aberta naquele processo',
@@ -3583,29 +2993,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1774487968517',
     'date_closed' => '1774487968517',
     'date_done' => '1774487968517',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  81 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  82 => 
   array (
     'id' => '86agdy9pt',
     'name' => 'Alteração para componente digital sempre abrir no formato Largura da Pagina',
@@ -3619,29 +3017,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1774392736798',
     'date_closed' => '1774392736798',
     'date_done' => '1774392736798',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  82 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  83 => 
   array (
     'id' => '86agdy9c3',
     'name' => 'Fix do bug que Limpar Filtro não limpava campos do formulario',
@@ -3655,29 +3041,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1774392696114',
     'date_closed' => '1774392696114',
     'date_done' => '1774392696114',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  83 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  84 => 
   array (
     'id' => '86agahwrh',
     'name' => 'Atualização dos Contadores, utilizar metodo novo da AGU',
@@ -3691,29 +3065,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1773958967865',
     'date_closed' => '1773958967865',
     'date_done' => '1773958967865',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  84 => 
+    'tags' => array ( 'esforço:médio', 'melhoria de desempenho' ),
+  ),
+  85 => 
   array (
     'id' => '86agahvfq',
     'name' => 'Fix Juntada exibindo criador do documento ao inves da atividade',
@@ -3727,29 +3089,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1773958789520',
     'date_closed' => '1773958789520',
     'date_done' => '1773958789520',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  85 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  86 => 
   array (
     'id' => '86ag85efu',
     'name' => 'Etiquetar por criterio de palavra',
@@ -3763,29 +3113,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1773878301246',
     'date_closed' => '1773878301246',
     'date_done' => '1773878301246',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'danilo.dlima@pbh.gov.br',
     'creator_name' => 'Danilo de Souza Lima',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  86 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  87 => 
   array (
     'id' => '86ag61gmf',
     'name' => 'Correção da Chancela',
@@ -3799,29 +3137,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1773958812658',
     'date_closed' => '1773454644754',
     'date_done' => '1773454644754',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  87 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  88 => 
   array (
     'id' => '86ag4nju4',
     'name' => 'Adição de filtro de eventos nas juntadas do processo',
@@ -3835,29 +3161,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1773334169585',
     'date_closed' => '1773334156771',
     'date_done' => '1773334156771',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  88 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  89 => 
   array (
     'id' => '86afxnmwn',
     'name' => 'Bug da tarefa sendo criada duplicada',
@@ -3871,29 +3185,17 @@ CLASSE PROCESSUAL',
     'date_updated' => '1772674086403',
     'date_closed' => '1772674086403',
     'date_done' => '1772665147266',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  89 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  90 => 
   array (
     'id' => '86afwxmqz',
     'name' => 'Filtro tarefa relacionada (tem/não tem mensagem nova)',
@@ -3915,29 +3217,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772765485680',
     'date_closed' => '1772765475822',
     'date_done' => '1772765475822',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  90 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  91 => 
   array (
     'id' => '86afrz2j2',
     'name' => 'Corrigido bug da ação de etiqueta que não atualizava frontend em tempo real',
@@ -3951,29 +3241,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772154615668',
     'date_closed' => '1772154615668',
     'date_done' => '1772154615668',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  91 => 
+    'tags' => array ( 'esforço:médio', 'correção de bugs' ),
+  ),
+  92 => 
   array (
     'id' => '86afrz2dk',
     'name' => 'Concluidas agora aparece em todas as tarefas coordenadas',
@@ -3987,29 +3265,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772154566875',
     'date_closed' => '1772154566875',
     'date_done' => '1772154566875',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  92 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  93 => 
   array (
     'id' => '86afrz277',
     'name' => 'Criação de flag para execução automática de ação de etiqueta, mesmo se nao for o criador',
@@ -4023,29 +3289,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772154517564',
     'date_closed' => '1772154517564',
     'date_done' => '1772154517564',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  93 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  94 => 
   array (
     'id' => '86afqzmxr',
     'name' => 'Adicionar processos vinculados ao header do processo',
@@ -4059,29 +3313,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772076029384',
     'date_closed' => '1772076029384',
     'date_done' => '1772074674362',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  94 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  95 => 
   array (
     'id' => '86afqzmff',
     'name' => 'Criar campo Correlatas no processo',
@@ -4095,29 +3337,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772076029384',
     'date_closed' => '1772076029384',
     'date_done' => '1772074674362',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  95 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  96 => 
   array (
     'id' => '86afqzma0',
     'name' => 'Forma de abrir tarefa pelo ID dela para admins',
@@ -4131,29 +3361,17 @@ backend/src/Repository/TarefaRepository.php',
     'date_updated' => '1772076029384',
     'date_closed' => '1772076029384',
     'date_done' => '1772074674362',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  96 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  97 => 
   array (
     'id' => '86afpqxpw',
     'name' => 'Bug: Oficio com anexo gerava erro Not Found quando remetido',
@@ -4170,26 +3388,14 @@ backend/src/Repository/TarefaRepository.php',
     'due_date' => '1771916400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  97 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  98 => 
   array (
     'id' => '86afpqjbb',
     'name' => 'Marcação no chat da tarefa enviar e-mail como notificação',
@@ -4208,29 +3414,17 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'date_updated' => '1772583429668',
     'date_closed' => '1772583336825',
     'date_done' => '1772583336825',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  98 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  99 => 
   array (
     'id' => '86afph0gw',
     'name' => 'Criar função de marcação no chat',
@@ -4247,26 +3441,14 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'due_date' => '1771916400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  99 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  100 => 
   array (
     'id' => '86afnuenc',
     'name' => 'Otimização da atividade-tarefa-bloco para listar minutas mais rápido',
@@ -4283,26 +3465,14 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'due_date' => '1771830000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  100 => 
+    'tags' => array ( 'esforço:alto', 'aprimoramento' ),
+  ),
+  101 => 
   array (
     'id' => '86afmj63t',
     'name' => 'Implementação da pesquisa absoluta no filtro, conteúdo entre aspas',
@@ -4319,26 +3489,14 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'due_date' => '1771570800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  101 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  102 => 
   array (
     'id' => '86afmf3xp',
     'name' => 'Integração com JUCEMG',
@@ -4350,31 +3508,19 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'priority' => 'low',
     'date_created' => '1771753030835',
     'date_updated' => '1775894134678',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  102 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  103 => 
   array (
     'id' => '86afmf3xg',
     'name' => 'Integração com DENATRAN',
@@ -4386,31 +3532,19 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'priority' => 'low',
     'date_created' => '1771753005336',
     'date_updated' => '1775894099954',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  103 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  104 => 
   array (
     'id' => '86afmf3t7',
     'name' => 'Otimização no download de processo e consulta documento',
@@ -4427,26 +3561,14 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'due_date' => '1771570800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  104 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  105 => 
   array (
     'id' => '86afmf3rn',
     'name' => 'Correção de bug que resposta SOAP do TJMG fechava abruptamente fazendo o SUPP pensar que era erro.',
@@ -4463,26 +3585,14 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'due_date' => '1771570800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  105 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  106 => 
   array (
     'id' => '86afmeb2a',
     'name' => 'Utilizar outro tipo de petição automaticamente mesmo se a classe processual for diferente',
@@ -4494,31 +3604,19 @@ Link: http://localhost:4200/apps/tarefas/administrativo/processo/16/tarefa/232/p
     'priority' => 'low',
     'date_created' => '1771733835643',
     'date_updated' => '1771733835643',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  106 => 
+    'tags' => array ( 'aprimoramento' ),
+  ),
+  107 => 
   array (
     'id' => '86afmeb28',
     'name' => 'Função de copiar etiqueta entre setores',
@@ -4531,31 +3629,19 @@ Origem da Sugestão: Ana Magnabosco',
     'priority' => 'low',
     'date_created' => '1771733835376',
     'date_updated' => '1771733835376',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  107 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  108 => 
   array (
     'id' => '86afmeb25',
     'name' => 'Criação de Grupo de Assessores',
@@ -4568,31 +3654,19 @@ Origem da Sugestão: Felipe Mantuano',
     'priority' => 'low',
     'date_created' => '1771733835104',
     'date_updated' => '1771733835104',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  108 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  109 => 
   array (
     'id' => '86afmeb24',
     'name' => 'Restringir estagiários de marcar férias',
@@ -4604,31 +3678,19 @@ Origem da Sugestão: Felipe Mantuano',
     'priority' => 'low',
     'date_created' => '1771733834976',
     'date_updated' => '1771733834976',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  109 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  110 => 
   array (
     'id' => '86afmeb1z',
     'name' => 'Remover a inserção da observação automática “VIA INTEGRAÇÃO S2 - MNI222”',
@@ -4640,31 +3702,19 @@ Origem da Sugestão: Felipe Mantuano',
     'priority' => 'low',
     'date_created' => '1771733834277',
     'date_updated' => '1771733834277',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  110 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  111 => 
   array (
     'id' => '86afmeb1w',
     'name' => 'Integração com MinutaIA',
@@ -4676,31 +3726,19 @@ Origem da Sugestão: Felipe Mantuano',
     'priority' => 'low',
     'date_created' => '1771733834015',
     'date_updated' => '1771733834015',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  111 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  112 => 
   array (
     'id' => '86afmeb1v',
     'name' => 'Erro ao vincular etiquetas em tarefas',
@@ -4715,29 +3753,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  112 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  113 => 
   array (
     'id' => '86afmeb1u',
     'name' => 'Erro ao remeter ofício interno dentro do supp',
@@ -4752,29 +3778,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  113 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  114 => 
   array (
     'id' => '86afmeb1t',
     'name' => 'Erro ao indexar processo no elastic search',
@@ -4789,29 +3803,17 @@ Origem da Sugestão: TI',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  114 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  115 => 
   array (
     'id' => '86afmeb1r',
     'name' => 'Conexão MNI E-Proc TJMG 1a e 2a instância',
@@ -4826,24 +3828,16 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  115 => 
+    'tags' => array ( 'implementação inicial', 'esforço:médio' ),
+  ),
+  116 => 
   array (
     'id' => '86afmeb1q',
     'name' => 'Conexão MNI E-Proc TRF6 1a e 2a instância',
@@ -4858,24 +3852,16 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  116 => 
+    'tags' => array ( 'implementação inicial', 'esforço:baixo' ),
+  ),
+  117 => 
   array (
     'id' => '86afmeb1p',
     'name' => 'Configuração da Implementação Continua CI/CD',
@@ -4889,24 +3875,16 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  117 => 
+    'tags' => array ( 'implementação inicial', 'esforço:médio' ),
+  ),
+  118 => 
   array (
     'id' => '86afmeb1n',
     'name' => 'Criação e vinculação da URL',
@@ -4920,29 +3898,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752886519',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  118 => 
+    'tags' => array ( 'implementação inicial', 'esforço:médio' ),
+  ),
+  119 => 
   array (
     'id' => '86afmeb1m',
     'name' => 'Migração para o AKS, orquestrador de containers baseado em Kubernetes da Azure. Além de utilização de serviços de banco e filesystem',
@@ -4956,29 +3922,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752891123',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  119 => 
+    'tags' => array ( 'implementação inicial', 'esforço:alto' ),
+  ),
+  120 => 
   array (
     'id' => '86afmeb1k',
     'name' => 'Correção de mensagem de erro que aparecia ao criar tarefa. Apesar da mensagem a tarefa era criada normalmente.',
@@ -4992,29 +3946,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  120 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  121 => 
   array (
     'id' => '86afmeb1j',
     'name' => 'Análise da contagem de prazos do sistema, verificar se leva em conta feriados',
@@ -5029,29 +3971,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  121 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  122 => 
   array (
     'id' => '86afmeb1h',
     'name' => 'Algumas ferramentas de busca e filtro só funcionam com letra maiuscula',
@@ -5066,29 +3996,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  122 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  123 => 
   array (
     'id' => '86afmeb1f',
     'name' => 'Criação de função de salvamento automatico assim que o usuario termina de digitar',
@@ -5103,29 +4021,17 @@ Origem da Sugestão: TI',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  123 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  124 => 
   array (
     'id' => '86afmeb1d',
     'name' => 'Demandas Editor -> Novo editor selecionado por padrão e inutilizar o switch de troca de editores',
@@ -5140,29 +4046,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  124 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  125 => 
   array (
     'id' => '86afmeb1c',
     'name' => 'Demandas Editor -> Ligar opções de Font Size, Font Family, Headings e Wrapped',
@@ -5176,29 +4070,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  125 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  126 => 
   array (
     'id' => '86afmeb1a',
     'name' => 'Demandas Editor -> Bug na hora de remover paragrafo',
@@ -5213,29 +4095,17 @@ Origem da Sugestão: TI',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  126 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  127 => 
   array (
     'id' => '86afmeb19',
     'name' => 'Bug de sumir estagiário responsável quando adiciona minuta. O bug é de frontend apenas, ao recarregar a página, o estagiário retorna.',
@@ -5249,29 +4119,17 @@ Origem da Sugestão: TI',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  127 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  128 => 
   array (
     'id' => '86afmeb18',
     'name' => 'Erro de não aparecer capa judicial quando troca de processo',
@@ -5286,39 +4144,19 @@ Origem da Sugestão: TI',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      2 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      3 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      4 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  128 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  129 => 
   array (
     'id' => '86afmeb17',
     'name' => 'Upgrade para versão do SUPP 1.24',
@@ -5332,39 +4170,19 @@ Origem da Sugestão: TI',
     'date_updated' => '1771752880253',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      2 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      3 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      4 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  129 => 
+    'tags' => array ( 'aprimoramento', 'esforço:alto' ),
+  ),
+  130 => 
   array (
     'id' => '86afmeb16',
     'name' => 'Menu de criação de tarefa -> Espécie de Tarefa: não mostra tarefas do tipo Secretária Judiciária',
@@ -5379,29 +4197,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  130 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  131 => 
   array (
     'id' => '86afmeb15',
     'name' => 'Trocar texto "Juntar no Processo" para "Juntar no Processo Administrativo”',
@@ -5415,29 +4221,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  131 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  132 => 
   array (
     'id' => '86afmeb14',
     'name' => 'Categorizar peticionamento ao protocolar para o Eproc',
@@ -5452,34 +4246,18 @@ Origem da Sugestão: TJMG',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      3 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  132 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  133 => 
   array (
     'id' => '86afmeb13',
     'name' => 'Ao pesquisar o processo, ir direto para o Número Judicial',
@@ -5494,29 +4272,17 @@ Origem da Sugestão: Gracielle',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  133 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  134 => 
   array (
     'id' => '86afmeb12',
     'name' => 'Criação de função para ignorar férias ao criar/distribuir tarefas',
@@ -5531,29 +4297,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  134 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  135 => 
   array (
     'id' => '86afmeb11',
     'name' => 'Ao pesquisar modelos para minuta, na página inicial aparecem inicialmente as espécies "Individual" ou "Nacional". Trocar "Nacional" para "Setor".',
@@ -5567,29 +4321,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  135 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  136 => 
   array (
     'id' => '86afmeb0z',
     'name' => 'Cordenador de Órgão Central dá erro quando abre as coordenações',
@@ -5603,29 +4345,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  136 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  137 => 
   array (
     'id' => '86afmeb0x',
     'name' => 'Ordenação ordem alfabética USUARIO e SETOR',
@@ -5639,29 +4369,17 @@ Origem da Sugestão: Matheus Canazart',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  137 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  138 => 
   array (
     'id' => '86afmeb0w',
     'name' => 'Capa Judicial não traz informação do Valor da Causa',
@@ -5676,29 +4394,17 @@ Origem da Sugestão: Anderson',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  138 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  139 => 
   array (
     'id' => '86afmeb0v',
     'name' => 'Botão de Tese não aparece ao elaborar minuta, porém aparece ao editar documento',
@@ -5713,19 +4419,15 @@ Origem da Sugestão: Anderson',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  139 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  140 => 
   array (
     'id' => '86afmeb0u',
     'name' => 'Partes Invertidas no Dossie Judicial',
@@ -5740,29 +4442,17 @@ Origem da Sugestão: Anderson',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  140 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  141 => 
   array (
     'id' => '86afmeb0t',
     'name' => 'Análise de petições iniciais no SUPP',
@@ -5776,29 +4466,17 @@ Origem da Sugestão: Anderson',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  141 => 
+    'tags' => array ( 'estudo', 'esforço:médio' ),
+  ),
+  142 => 
   array (
     'id' => '86afmeb0r',
     'name' => 'Análise de Como o SUPP gerencia as distribuições automáticas',
@@ -5813,19 +4491,15 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  142 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  143 => 
   array (
     'id' => '86afmeb0p',
     'name' => 'Filtro de etiqueta de processo travando quando executado uma segunda vez',
@@ -5839,29 +4513,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  143 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  144 => 
   array (
     'id' => '86afmeb0n',
     'name' => 'A função de criar tarefa da etiqueta de tarefa retorna um erro de urgente não booleano',
@@ -5875,29 +4537,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  144 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  145 => 
   array (
     'id' => '86afmeb0m',
     'name' => 'Campos selecionados não vinham com Etiquetas por padrão',
@@ -5911,29 +4561,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  145 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  146 => 
   array (
     'id' => '86afmeb0k',
     'name' => 'Trazer a Data de Disponibilidade da Intimação nas informações da Intimação, e herdar na tarefa',
@@ -5947,29 +4585,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  146 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  147 => 
   array (
     'id' => '86afmeb0j',
     'name' => 'Problema de peticionamento da versão 1.24',
@@ -5983,29 +4609,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752863076',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  147 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  148 => 
   array (
     'id' => '86afmeb0h',
     'name' => 'Bug de anexar cópias, não funciona em segunda instância',
@@ -6019,29 +4633,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752851844',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  148 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  149 => 
   array (
     'id' => '86afmeb0g',
     'name' => 'Migração de Filesystem para servidor melhor',
@@ -6055,29 +4657,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752837592',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  149 => 
+    'tags' => array ( 'melhoria de desempenho', 'esforço:médio' ),
+  ),
+  150 => 
   array (
     'id' => '86afmeb0f',
     'name' => 'Pedido dos Procuradores para o Suporte realizar upload de arquivos utilizando a função de anexo',
@@ -6091,19 +4681,15 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  150 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  151 => 
   array (
     'id' => '86afmeb0e',
     'name' => 'Integração com BI',
@@ -6117,24 +4703,16 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  151 => 
+    'tags' => array ( 'implementação inicial', 'esforço:alto' ),
+  ),
+  152 => 
   array (
     'id' => '86afmeb0d',
     'name' => 'Cadastrar BEPREM, BHTRANS e SUMOB como entidades representadas',
@@ -6148,24 +4726,16 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' )
   ),
-  152 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  153 => 
   array (
     'id' => '86afmeb0c',
     'name' => 'Erro de filtro não aplicando em tarefas de Secretária Judiciária na visualização de coordenador, nem na aba concluídos',
@@ -6179,29 +4749,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  153 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  154 => 
   array (
     'id' => '86afmeb0b',
     'name' => 'Nome não aparece riscado na aba de distribuir intimações (lógica do backend funciona)',
@@ -6215,29 +4773,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  154 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  155 => 
   array (
     'id' => '86afmeb09',
     'name' => 'Problema que o botão de upload de anexos ficava cortado quando muitos anexos eram selecionados',
@@ -6251,29 +4797,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  155 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  156 => 
   array (
     'id' => '86afmeb08',
     'name' => 'Opções judiciais não funcionam com tarefas em lote',
@@ -6287,29 +4821,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  156 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  157 => 
   array (
     'id' => '86afmeb07',
     'name' => 'Esconder opção “Enviar à fila de processamento”',
@@ -6323,29 +4845,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  157 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  158 => 
   array (
     'id' => '86afmeb01',
     'name' => 'Divida: Modelos administrativos mostram modelos do dívida após ligar o módulo dívida',
@@ -6359,29 +4869,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  158 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  159 => 
   array (
     'id' => '86afmeb00',
     'name' => 'Função de ver todos assessorados',
@@ -6395,29 +4893,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  159 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  160 => 
   array (
     'id' => '86afmeazz',
     'name' => 'Correção do Botão Executar de Ações Pendentes de Etiquetas',
@@ -6431,29 +4917,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  160 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  161 => 
   array (
     'id' => '86afmeazy',
     'name' => 'Criação de campo estagiário na tarefa com lógica de distribuição automática',
@@ -6468,29 +4942,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  161 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  162 => 
   array (
     'id' => '86afmeazx',
     'name' => 'Aumentar o limite de etiquetas da tarefa (atual 5)',
@@ -6505,29 +4967,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  162 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  163 => 
   array (
     'id' => '86afmeazw',
     'name' => 'Ordenação do grid, modo expansível automático',
@@ -6541,29 +4991,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  163 => 
+    'tags' => array ( 'ui/ux', 'esforço:médio' ),
+  ),
+  164 => 
   array (
     'id' => '86afmeazv',
     'name' => 'Correção do erro do filtro não estar voltando para a página 1',
@@ -6577,29 +5015,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752819047',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  164 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  165 => 
   array (
     'id' => '86afmeazu',
     'name' => 'Exibir número do CNJ na pesquisa após pesquisa ser efetuada',
@@ -6613,29 +5039,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  165 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  166 => 
   array (
     'id' => '86afmeazt',
     'name' => 'Tentativa de Correção do CKEditor 4 (Cursor fica saindo da tela quando documento salva automático)',
@@ -6649,29 +5063,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  166 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  167 => 
   array (
     'id' => '86afmeazr',
     'name' => 'Correção do filtro de etiqueta dupla - Está mostrando tarefas em páginas diferentes',
@@ -6685,29 +5087,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771752807071',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  167 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  168 => 
   array (
     'id' => '86afmeazq',
     'name' => 'Tipo de Documento está indo como “outro” para o Tribunal',
@@ -6721,19 +5111,15 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  168 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  169 => 
   array (
     'id' => '86afmeazp',
     'name' => 'Proibir a redistribuição para usuários que não tenham a função de distribuidor/coordenador',
@@ -6748,29 +5134,17 @@ Origem da Sugestão: Camila',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  169 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  170 => 
   array (
     'id' => '86afmeazn',
     'name' => 'Avaliar ajuste prazo de salvamento automático para um pouco mais lento',
@@ -6785,29 +5159,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  170 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  171 => 
   array (
     'id' => '86afmeazm',
     'name' => 'Viabilizar campos na pesquisa de documentos de quem foi o estagiário responsável pela conclusão do documento',
@@ -6822,29 +5184,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  171 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  172 => 
   array (
     'id' => '86afmeazk',
     'name' => 'Clonar como Minuta bugada ao entrar via pesquisa de processo',
@@ -6858,29 +5208,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  172 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  173 => 
   array (
     'id' => '86afmeazj',
     'name' => 'Aumentar prazo padrão de tarefa para 10 dias',
@@ -6894,29 +5232,17 @@ Origem da Sugestão: Felipe Mantuano',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  173 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  174 => 
   array (
     'id' => '86afmeazh',
     'name' => 'Criação de tarefas relacionadas',
@@ -6931,29 +5257,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  174 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  175 => 
   array (
     'id' => '86afmeazg',
     'name' => 'Correção dos campos judiciais no filtro não estavam funcionando',
@@ -6967,29 +5281,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  175 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  176 => 
   array (
     'id' => '86afmeazf',
     'name' => 'Opção para deixar campo estagiário responsável sem estagiário',
@@ -7003,29 +5305,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  176 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  177 => 
   array (
     'id' => '86afmeaze',
     'name' => 'Tarefas de secretaria judiciaria acionadas pelo widget vao para o path errado ocasionando bugs',
@@ -7039,29 +5329,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  177 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  178 => 
   array (
     'id' => '86afmeazd',
     'name' => 'Divida: Correção do Complemento dos endereços ao trazer Agrupamentos',
@@ -7075,29 +5353,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  178 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  179 => 
   array (
     'id' => '86afmeazc',
     'name' => 'Correção não está calculando os dias de prazo na hora da criação da tarefa',
@@ -7111,29 +5377,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  179 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  180 => 
   array (
     'id' => '86afmeazb',
     'name' => 'Criação de bloqueio de ajuste de prazo para estagiários',
@@ -7147,29 +5401,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  180 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  181 => 
   array (
     'id' => '86afmeaza',
     'name' => 'Otimização do Kubernetes, sistema de homologação e produção para redução de custos',
@@ -7183,24 +5425,16 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' )
   ),
-  181 => 
+    'tags' => array ( 'melhoria de desempenho', 'esforço:médio' ),
+  ),
+  182 => 
   array (
     'id' => '86afmeaz9',
     'name' => 'Chat no tema escuro permanece branco',
@@ -7214,29 +5448,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  182 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  183 => 
   array (
     'id' => '86afmeaz8',
     'name' => 'Divida: Criar opção de filtro de agrupamento',
@@ -7250,29 +5472,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  183 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  184 => 
   array (
     'id' => '86afmeaz7',
     'name' => 'Campo estagiário responsável na view da tarefa aberta',
@@ -7286,29 +5496,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  184 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  185 => 
   array (
     'id' => '86afmeaz6',
     'name' => 'Configurar visualização da tarefa aberta ou fechada por padrão como preferência do usuario',
@@ -7322,29 +5520,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  185 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  186 => 
   array (
     'id' => '86afmeaz5',
     'name' => 'Filtro da espécia de tarefa - Lista com opções e filtro OU, EXCETO',
@@ -7358,29 +5544,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  186 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  187 => 
   array (
     'id' => '86afmeaz4',
     'name' => 'Limitar criação de oficio para utilizar apenas modelos com templates de ofício',
@@ -7394,29 +5568,17 @@ Origem da Sugestão: Rafael',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  187 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  188 => 
   array (
     'id' => '86afmeaz3',
     'name' => 'Integração com API Cidadao',
@@ -7491,29 +5653,17 @@ Configuracao para o setor  http://localhost:4200/apps/admin/unidades/9/setores/e
     'date_updated' => '1773454615975',
     'date_closed' => '1773454615975',
     'date_done' => '1773102190884',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  188 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  189 => 
   array (
     'id' => '86afmeaz1',
     'name' => 'Agrupar pela certidao de litispendencia, pauta de reuniao de conciliação, contestação
@@ -7529,31 +5679,19 @@ Residual e Urbanístico',
     'priority' => 'normal',
     'date_created' => '1771733820069',
     'date_updated' => '1775894159171',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  189 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  190 => 
   array (
     'id' => '86afmeayx',
     'name' => 'Modulo Divida Fase 2: Automatização e integração SIATU (Parcelamento e Quitação)',
@@ -7565,31 +5703,19 @@ Residual e Urbanístico',
     'priority' => 'high',
     'date_created' => '1771733819869',
     'date_updated' => '1775894153569',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  190 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  191 => 
   array (
     'id' => '86afmeayw',
     'name' => 'Configuração do Docker e criação do ambiente de desenvolvimento',
@@ -7606,26 +5732,14 @@ Residual e Urbanístico',
     'due_date' => '1727334000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  191 => 
+    'tags' => array ( 'implementação inicial', 'esforço:médio' ),
+  ),
+  192 => 
   array (
     'id' => '86afmeayr',
     'name' => 'Configuração do Kubernetes e criação do ambiente de produção e homologação',
@@ -7643,26 +5757,14 @@ Origem da Sugestão: TI',
     'due_date' => '1738393200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.cesar@pbh.gov.br',
-        'username' => 'Danilo Rodrigues Cesar',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.cesar@pbh.gov.br', 'username' => 'Danilo Rodrigues Cesar' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' )
   ),
-  192 => 
+    'tags' => array ( 'implementação inicial', 'esforço:alto' ),
+  ),
+  193 => 
   array (
     'id' => '86afmeayq',
     'name' => 'Bug do CKEditor4, abre corretamente na primeira vez. Nas vezes subsequentes, as funções de edição não funcionam',
@@ -7680,26 +5782,14 @@ Origem da Sugestão: Matheus Canazart',
     'due_date' => '1746428400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  193 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  194 => 
   array (
     'id' => '86afmeayp',
     'name' => 'Filtro de Etiquetas não funciona quando utilizada duas etiquetas no filtro',
@@ -7717,26 +5807,14 @@ Origem da Sugestão: Rodrigo Bittencourt',
     'due_date' => '1747033200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  194 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  195 => 
   array (
     'id' => '86afmeayn',
     'name' => 'Criação de Chat vinculado a Tarefa',
@@ -7753,26 +5831,14 @@ Origem da Sugestão: Rodrigo Bittencourt',
     'due_date' => '1749452400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  195 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  196 => 
   array (
     'id' => '86afmeaym',
     'name' => 'Desenvolvimento de ações de etiquetas de processo/intimação. Etiquetas devem distribuir a intimação automaticamente',
@@ -7785,31 +5851,19 @@ Origem da Sugestão: Barbara Magalhães',
     'priority' => 'high',
     'date_created' => '1771733818718',
     'date_updated' => '1771733818718',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  196 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  197 => 
   array (
     'id' => '86afmeayk',
     'name' => 'Viabilização de ajustar assessores via coordenação (atualmente disponível apenas para o próprio usuário)',
@@ -7827,26 +5881,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1750662000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  197 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  198 => 
   array (
     'id' => '86afmeayj',
     'name' => 'Módulo Divida Fase 1: Integração com SIATU e ajuizamento de CDA\'s',
@@ -7863,26 +5905,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1750662000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  198 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  199 => 
   array (
     'id' => '86afmeayh',
     'name' => 'Criação de prazo interno para controle de estagiários',
@@ -7900,26 +5930,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759474800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  199 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  200 => 
   array (
     'id' => '86afmeayg',
     'name' => 'Registro histórico de melhorias e um rodmap de esforços em curso como estratégia de melhorar a empatia e aproximação dos usuários da PGM ao SUPP',
@@ -7936,16 +5954,12 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759474800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  200 => 
+    'tags' => array ( 'estudo', 'esforço:baixo' ),
+  ),
+  201 => 
   array (
     'id' => '86afmeaye',
     'name' => 'Incluir horário na data de distribuição',
@@ -7962,26 +5976,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759474800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  201 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  202 => 
   array (
     'id' => '86afmeayd',
     'name' => 'Alterar lógica das intimações que chegam em negrito, fazer com que sempre que troque de setor, aplique o negrito.',
@@ -7995,29 +5997,17 @@ Origem da Sugestão: Samuel Ferreira',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  202 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  203 => 
   array (
     'id' => '86afmeayc',
     'name' => 'Demandas Editor -> Remoção de Icones Desnecessários, Fonte e tamanho em modo lista, padronização de ordem dos icones',
@@ -8034,26 +6024,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759561200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  203 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  204 => 
   array (
     'id' => '86afmeayb',
     'name' => 'Demandas Editor -> Acrescentar icone de espaçamento entre linhas, ordem dos estilos, alternar padrão de lista de marcadores para “disco”',
@@ -8070,26 +6048,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759993200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  204 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  205 => 
   array (
     'id' => '86afmeaya',
     'name' => 'Demandas Editor -> Adição da fonte Book Antiqua, Trocar icone do Remover Formatação, adicionar função de subitem lista',
@@ -8106,26 +6072,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1759993200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  205 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  206 => 
   array (
     'id' => '86afmeay9',
     'name' => 'Divida: Criação da cronjob de buscar CDA no SIATU',
@@ -8142,26 +6096,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1760079600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  206 => 
+    'tags' => array ( 'aprimoramento', 'esforço:alto' ),
+  ),
+  207 => 
   array (
     'id' => '86afmeay8',
     'name' => 'Demandas Editor -> Padronização dos estilos',
@@ -8178,26 +6120,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1760079600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  207 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  208 => 
   array (
     'id' => '86afmeay7',
     'name' => 'Reordenar UI de tarefa aberta para otimizar tamanho do processo',
@@ -8214,26 +6144,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1760338800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  208 => 
+    'tags' => array ( 'ui/ux', 'esforço:médio' ),
+  ),
+  209 => 
   array (
     'id' => '86afmeay6',
     'name' => 'Destacar urgência de alguma forma',
@@ -8250,26 +6168,14 @@ Origem da Sugestão: Samuel Ferreira',
     'due_date' => '1760338800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  209 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  210 => 
   array (
     'id' => '86afmeay5',
     'name' => 'Verificar bloqueio de 15 minutos após realizar 1200 ações',
@@ -8287,26 +6193,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1760598000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  210 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  211 => 
   array (
     'id' => '86afmeay3',
     'name' => 'Problema de que algumas tarefas o prazo não era atualizado mesmo depois de ser aberto no tribunal',
@@ -8324,31 +6218,15 @@ Origem da Sugestão: Paulo',
     'due_date' => '1760770800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      3 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  211 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  212 => 
   array (
     'id' => '86afmeay2',
     'name' => 'Modificação do fluxo de oficios para ser possível a escolha do setor',
@@ -8365,26 +6243,14 @@ Origem da Sugestão: Paulo',
     'due_date' => '1761202800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  212 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  213 => 
   array (
     'id' => '86afmeay1',
     'name' => 'Bug na criação da tarefa em bloco',
@@ -8401,26 +6267,14 @@ Origem da Sugestão: Paulo',
     'due_date' => '1761202800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  213 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  214 => 
   array (
     'id' => '86afmeay0',
     'name' => 'Bug na coordenação de unidade, setores não abrem direito',
@@ -8437,26 +6291,14 @@ Origem da Sugestão: Paulo',
     'due_date' => '1761202800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  214 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  215 => 
   array (
     'id' => '86afmeaxy',
     'name' => 'Criar função de notificação do chat de tarefa com nova função de dúvida',
@@ -8473,26 +6315,14 @@ Origem da Sugestão: Paulo',
     'due_date' => '1761548400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  215 => 
+    'tags' => array ( 'aprimoramento', 'esforço:alto' ),
+  ),
+  216 => 
   array (
     'id' => '86afmeaxw',
     'name' => 'Função de editar manualmente os estagiários nas tarefas - em bloco',
@@ -8509,26 +6339,14 @@ Origem da Sugestão: Paulo',
     'due_date' => '1761634800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  216 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  217 => 
   array (
     'id' => '86afmeaxv',
     'name' => 'Atalho para abrir tarefa diretamente do processo',
@@ -8543,29 +6361,17 @@ branch: link-tarefas',
     'date_updated' => '1772076029384',
     'date_closed' => '1772076029384',
     'date_done' => '1772074674362',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  217 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  218 => 
   array (
     'id' => '86afmeaxu',
     'name' => 'Criação de Script de warning para espaço do disco do opensearch pois foi verificado que a indexação de componentes digitais é muito grande',
@@ -8582,21 +6388,13 @@ branch: link-tarefas',
     'due_date' => '1761894000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  218 => 
+    'tags' => array ( 'melhoria de desempenho', 'esforço:médio' ),
+  ),
+  219 => 
   array (
     'id' => '86afmeaxt',
     'name' => 'Ajustar distribuição de estagiário de forma que, nos ultimos 3 dias úteis, se houver estagiário responsável em algum NUP, cadastrar o mesmo',
@@ -8613,26 +6411,14 @@ branch: link-tarefas',
     'due_date' => '1761894000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  219 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  220 => 
   array (
     'id' => '86afmeaxq',
     'name' => 'Analisar possibilidade de colocar o Evento nas informações da intimação',
@@ -8649,26 +6435,14 @@ branch: link-tarefas',
     'due_date' => '1761980400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  220 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  221 => 
   array (
     'id' => '86afmeaxp',
     'name' => 'Na capa do dossiê judicial colocar os interessados na parte de cima',
@@ -8685,26 +6459,14 @@ branch: link-tarefas',
     'due_date' => '1762239600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  221 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  222 => 
   array (
     'id' => '86afmeaxn',
     'name' => 'Impedir estagiários de criarem etiquetas individuais',
@@ -8716,16 +6478,15 @@ branch: link-tarefas',
     'priority' => 'low',
     'date_created' => '1771733814671',
     'date_updated' => '1771733814671',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-    ),
+    'assignees' => array (),
+    'tags' => array ( 'novo recurso' ),
   ),
-  222 => 
+  223 => 
   array (
     'id' => '86afmeaxm',
     'name' => 'Ao abrir minuta através do gerenciar minutas, há um botão “Salvar” mas ele não salva o documento. Apenas o disquete faz isso.',
@@ -8737,31 +6498,19 @@ branch: link-tarefas',
     'priority' => 'low',
     'date_created' => '1771733814546',
     'date_updated' => '1771733814546',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  223 => 
+    'tags' => array ( 'correção de bugs' ),
+  ),
+  224 => 
   array (
     'id' => '86afmeaxj',
     'name' => 'Reformulação das etiquetas, lista com identificação do tipo (individual, setor, unidade). Identificação visual de qual é o tipo da etiqueta.',
@@ -8778,26 +6527,14 @@ branch: link-tarefas',
     'due_date' => '1763190000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  224 => 
+    'tags' => array ( 'ui/ux', 'esforço:alto' ),
+  ),
+  225 => 
   array (
     'id' => '86afmeaxh',
     'name' => 'Bug de cursor saindo do chat no modo lista',
@@ -8814,26 +6551,14 @@ branch: link-tarefas',
     'due_date' => '1764054000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  225 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  226 => 
   array (
     'id' => '86afmeaxe',
     'name' => 'Opção para colocar assessor na coluna de estagiário responsável (ele nao pode participar da distribuição)',
@@ -8850,26 +6575,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  226 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  227 => 
   array (
     'id' => '86afmeaxd',
     'name' => 'Adicionar “Sem estagiário responsável” no filtro',
@@ -8886,26 +6599,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  227 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  228 => 
   array (
     'id' => '86afmeaxc',
     'name' => 'Adicionar opções de dias de prazo através da criação de oficio via etiqueta, atualmente só aceita multíplos de 5. Ex: Similar a tarefa.',
@@ -8922,26 +6623,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  228 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  229 => 
   array (
     'id' => '86afmeaxa',
     'name' => 'Trazer petição incidental como categoria padrão na espécie de atividade (apenas em tarefas judiciais)',
@@ -8958,26 +6647,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  229 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  230 => 
   array (
     'id' => '86afmeax9',
     'name' => 'Adicionar campo Data de Distribuição do Estagiário e populá-lo',
@@ -8994,26 +6671,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  230 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  231 => 
   array (
     'id' => '86afmeax8',
     'name' => 'Impedir que tarefas possam ser criadas com prazo inicial anterior a data atual',
@@ -9030,26 +6695,14 @@ branch: link-tarefas',
     'due_date' => '1764313200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  231 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  232 => 
   array (
     'id' => '86afmeax7',
     'name' => 'Ordenar setores de coordenação, ordem alfabetica',
@@ -9066,26 +6719,14 @@ branch: link-tarefas',
     'due_date' => '1764658800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  232 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  233 => 
   array (
     'id' => '86afmeax5',
     'name' => 'Prazo dos ofícios era setado quando criado e não remetido',
@@ -9102,26 +6743,14 @@ branch: link-tarefas',
     'due_date' => '1764658800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  233 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  234 => 
   array (
     'id' => '86afmeax6',
     'name' => 'Botão no processo que leva ao link do mesmo processo no e-proc',
@@ -9134,31 +6763,19 @@ Origem da Sugestão: Marina Ferreira',
     'priority' => 'low',
     'date_created' => '1771733812814',
     'date_updated' => '1771733812814',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  234 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  235 => 
   array (
     'id' => '86afmeax4',
     'name' => 'Bug de icone duplo do relatório',
@@ -9175,26 +6792,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764745200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  235 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  236 => 
   array (
     'id' => '86afmeax3',
     'name' => 'Verificação da lentidão causada pelo “últimas atividades”',
@@ -9208,29 +6813,17 @@ Origem da Sugestão: Marina Ferreira',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  236 => 
+    'tags' => array ( 'melhoria de desempenho', 'esforço:médio' ),
+  ),
+  237 => 
   array (
     'id' => '86afmeax2',
     'name' => 'Criação de view de estagiários responsáveis pela tarefa',
@@ -9247,26 +6840,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764831600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  237 => 
+    'tags' => array ( 'novo recurso', 'esforço:médio' ),
+  ),
+  238 => 
   array (
     'id' => '86afmeax1',
     'name' => 'Criar filtro OU ou NÃO TEM na etiqueta',
@@ -9283,26 +6864,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764831600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  238 => 
+    'tags' => array ( 'ui/ux', 'esforço:alto' ),
+  ),
+  239 => 
   array (
     'id' => '86afmeawz',
     'name' => 'Arrumar função de reiterar oficio',
@@ -9319,26 +6888,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764831600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  239 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  240 => 
   array (
     'id' => '86afmeawy',
     'name' => 'Salvar opções de preferência de colunas por usuário',
@@ -9355,26 +6912,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764918000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  240 => 
+    'tags' => array ( 'ui/ux', 'esforço:alto' ),
+  ),
+  241 => 
   array (
     'id' => '86afmeawx',
     'name' => 'Criar opção de editar última mensagem da discussão de tarefa, limite de tempo de 10 minutos',
@@ -9391,26 +6936,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764918000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  241 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  242 => 
   array (
     'id' => '86afmeaww',
     'name' => 'Filtro de só documentos no processo',
@@ -9427,26 +6960,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764918000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  242 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  243 => 
   array (
     'id' => '86afmeawv',
     'name' => 'Criação de pastas de núcleo na aba intimações',
@@ -9463,26 +6984,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764918000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  243 => 
+    'tags' => array ( 'ui/ux', 'esforço:alto' ),
+  ),
+  244 => 
   array (
     'id' => '86afmeawu',
     'name' => 'Ignorar “Notificações” vindas do Tribunal',
@@ -9499,26 +7008,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1764918000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  244 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  245 => 
   array (
     'id' => '86afmeawr',
     'name' => 'Exibir informações dos Interessados e Valor da Causa no cabeçalho do Processo',
@@ -9535,26 +7032,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1765350000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  245 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  246 => 
   array (
     'id' => '86afmeawq',
     'name' => 'Criar opção de teor e classe processual nas regras de etiqueta',
@@ -9571,26 +7056,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1765436400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  246 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  247 => 
   array (
     'id' => '86afmeawp',
     'name' => 'Corrigir erro de SQL Data ao abrir chat',
@@ -9607,26 +7080,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1765436400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  247 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  248 => 
   array (
     'id' => '86afmeawn',
     'name' => 'Remover setor do cabeçalho - Aprovado pelo comitê',
@@ -9643,26 +7104,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1765436400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  248 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  249 => 
   array (
     'id' => '86afmeawm',
     'name' => 'Carregar assinatura do responsável da tarefa mesmo se for o coordenador',
@@ -9679,26 +7128,14 @@ Origem da Sugestão: Marina Ferreira',
     'due_date' => '1765436400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  249 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  250 => 
   array (
     'id' => '86afmeawk',
     'name' => 'Redistribuir automaticamente tarefas de usuarios afastados',
@@ -9711,31 +7148,19 @@ Origem da Sugestão: Conselho',
     'priority' => 'normal',
     'date_created' => '1771733810298',
     'date_updated' => '1775894144741',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  250 => 
+    'tags' => array ( 'novo recurso' ),
+  ),
+  251 => 
   array (
     'id' => '86afmeawh',
     'name' => 'Função de agrupar processos no grid (já existe no modo lista)',
@@ -9752,26 +7177,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765609200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  251 => 
+    'tags' => array ( 'novo recurso', 'esforço:alto' ),
+  ),
+  252 => 
   array (
     'id' => '86afmeawg',
     'name' => 'Criar opção de selecionar e ordenar por data hora conclusão do prazo',
@@ -9788,26 +7201,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765609200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  252 => 
+    'tags' => array ( 'novo recurso', 'esforço:baixo' ),
+  ),
+  253 => 
   array (
     'id' => '86afmeawf',
     'name' => 'Alterar visualização de estagiário de forma que ele consiga visualizar setor todo',
@@ -9824,26 +7225,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765609200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  253 => 
+    'tags' => array ( 'ui/ux', 'esforço:baixo' ),
+  ),
+  254 => 
   array (
     'id' => '86afmeawe',
     'name' => 'Criar opção de coordenador de setor poder adicionar usuários no sistema e em seu setor',
@@ -9860,26 +7249,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765609200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  254 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  255 => 
   array (
     'id' => '86afmeawd',
     'name' => 'Criar opção de coordenador ver tarefas concluídas',
@@ -9896,26 +7273,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765695600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  255 => 
+    'tags' => array ( 'esforço:médio', 'ui/ux' ),
+  ),
+  256 => 
   array (
     'id' => '86afmeawc',
     'name' => 'Função Apenas Documentos vir marcado por padrão',
@@ -9927,31 +7292,19 @@ Origem da Sugestão: Conselho',
     'priority' => 'low',
     'date_created' => '1771733809304',
     'date_updated' => '1771733809304',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  256 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  257 => 
   array (
     'id' => '86afmeawb',
     'name' => 'Somente integração vir marcado por padrão',
@@ -9963,31 +7316,19 @@ Origem da Sugestão: Conselho',
     'priority' => 'low',
     'date_created' => '1771733809062',
     'date_updated' => '1771733809062',
-    'date_closed' => NULL,
-    'date_done' => NULL,
-    'due_date' => NULL,
+    'date_closed' => '',
+    'date_done' => '',
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  257 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  258 => 
   array (
     'id' => '86afmeawa',
     'name' => 'Divida: Implementar no frontend a quantidade de tarefas de petições iniciais',
@@ -10004,26 +7345,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765868400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  258 => 
+    'tags' => array ( 'esforço:médio', 'ui/ux' ),
+  ),
+  259 => 
   array (
     'id' => '86afmeaw9',
     'name' => 'Verificar forma de realizar distribuição de estagiário automática apenas no setor da exec fiscal',
@@ -10040,26 +7369,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765868400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  259 => 
+    'tags' => array ( 'aprimoramento', 'esforço:médio' ),
+  ),
+  260 => 
   array (
     'id' => '86afmeaw8',
     'name' => 'Informações das tarefas virem resumidas e minimizadas',
@@ -10076,26 +7393,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765868400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  260 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  261 => 
   array (
     'id' => '86afmeaw7',
     'name' => 'Colocar CPF e CNJP no interessados do cabeçalho do processo',
@@ -10112,26 +7417,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765868400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  261 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  262 => 
   array (
     'id' => '86afmeaw6',
     'name' => 'Urgente com a cor mais forte',
@@ -10148,26 +7441,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765868400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  262 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  263 => 
   array (
     'id' => '86afmeaw3',
     'name' => 'Dívida: Verificar lentidão de exibição de tarefas do dívida no grid',
@@ -10184,26 +7465,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765954800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  263 => 
+    'tags' => array ( 'esforço:baixo', 'melhoria de desempenho' ),
+  ),
+  264 => 
   array (
     'id' => '86afmeaw1',
     'name' => 'Prazo final não cair em dia útil',
@@ -10220,26 +7489,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765954800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  264 => 
+    'tags' => array ( 'aprimoramento', 'esforço:baixo' ),
+  ),
+  265 => 
   array (
     'id' => '86afmeaw0',
     'name' => 'Estagiário não poder remover etiqueta de unidade',
@@ -10253,29 +7510,17 @@ Origem da Sugestão: Conselho',
     'date_updated' => '1771735961907',
     'date_closed' => '1771734245573',
     'date_done' => '1771734245573',
-    'due_date' => NULL,
+    'due_date' => '',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' )
   ),
-  265 => 
+    'tags' => array ( 'ui/ux' ),
+  ),
+  266 => 
   array (
     'id' => '86afmeavz',
     'name' => 'Valor da causa nas regras de etiqueta',
@@ -10292,26 +7537,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1765954800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  266 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  267 => 
   array (
     'id' => '86afmeavx',
     'name' => 'Mensagem na discussão da tarefa gerar notificação visual',
@@ -10328,26 +7561,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766127600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  267 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  268 => 
   array (
     'id' => '86afmeavw',
     'name' => 'Opção para criar minuta diretamente com o anexo da CDA',
@@ -10364,26 +7585,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766127600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  268 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  269 => 
   array (
     'id' => '86afmeavv',
     'name' => 'Restruturação do layout do card da lista',
@@ -10400,26 +7609,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766127600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  269 => 
+    'tags' => array ( 'esforço:alto', 'ui/ux' ),
+  ),
+  270 => 
   array (
     'id' => '86afmeavu',
     'name' => 'Destaque de prazo menor que 5 dias',
@@ -10436,26 +7633,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766127600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  270 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  271 => 
   array (
     'id' => '86afmeavt',
     'name' => 'Destacar mensagem de peticionamento concluído com sucesso',
@@ -10472,26 +7657,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766300400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  271 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  272 => 
   array (
     'id' => '86afmeavr',
     'name' => 'Impedir que usuário movimente antes de salvar o documento ou salvar antes de movimentar',
@@ -10508,26 +7681,14 @@ Origem da Sugestão: Conselho',
     'due_date' => '1766300400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  272 => 
+    'tags' => array ( 'esforço:médio', 'ui/ux' ),
+  ),
+  273 => 
   array (
     'id' => '86afmeavp',
     'name' => 'Atualizar processo com CDA do siatu em documento administrativo - regras: se processo recebeu cda a menos de 15 dias não recebe de novo',
@@ -10545,26 +7706,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1766386800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  273 => 
+    'tags' => array ( 'esforço:alto', 'novo recurso' ),
+  ),
+  274 => 
   array (
     'id' => '86afmeavn',
     'name' => 'Adicionado accent insensitive',
@@ -10581,26 +7730,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1766732400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  274 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  275 => 
   array (
     'id' => '86afmeavm',
     'name' => 'Divida - Criada validação para verificar se agrupamento já existe',
@@ -10617,26 +7754,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1767769200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  275 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  276 => 
   array (
     'id' => '86afmeavk',
     'name' => 'Dívida: Verificar erro intermitente na hora do ajuizamento de ações',
@@ -10653,26 +7778,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1767942000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  276 => 
+    'tags' => array ( 'correção de bugs', 'esforço:médio' ),
+  ),
+  277 => 
   array (
     'id' => '86afmeavj',
     'name' => 'Correção da ordenação e exibição do peso no contexto de coordenação',
@@ -10689,26 +7802,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1767942000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  277 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  278 => 
   array (
     'id' => '86afmeavh',
     'name' => 'Demandas Editor  -> Desenvolver régua de formatação',
@@ -10725,26 +7826,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768114800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  278 => 
+    'tags' => array ( 'esforço:alto', 'novo recurso' ),
+  ),
+  279 => 
   array (
     'id' => '86afmeavg',
     'name' => 'Criação de comando que sincroniza todos processos com tarefas abertas',
@@ -10761,26 +7850,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768460400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  279 => 
+    'tags' => array ( 'esforço:baixo', 'implementação inicial' ),
+  ),
+  280 => 
   array (
     'id' => '86afmeavf',
     'name' => 'Criar subpastas de setor na caixa de entrada',
@@ -10797,26 +7874,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768546800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  280 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  281 => 
   array (
     'id' => '86afmeavd',
     'name' => 'Filtro e ordenação da coluna Valor da Causa',
@@ -10833,26 +7898,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768546800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  281 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  282 => 
   array (
     'id' => '86afmeavc',
     'name' => 'Incluir Classe Processual no cabeçalho do Processo',
@@ -10869,26 +7922,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768546800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  282 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  283 => 
   array (
     'id' => '86afmeavb',
     'name' => 'Criar Ofício e Criar tarefa visualizado na linha principal (sem precisar clicar no três pontos)',
@@ -10905,26 +7946,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768546800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  283 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  284 => 
   array (
     'id' => '86afmeava',
     'name' => 'Configurar Agrupar por CNJ vir por padrão como preferência do usuário',
@@ -10941,26 +7970,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768633200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  284 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  285 => 
   array (
     'id' => '86afmeav9',
     'name' => 'Dívida: Criação de mensagem de confirmação que peça foi ajuizada com sucesso',
@@ -10977,26 +7994,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768806000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  285 => 
+    'tags' => array ( 'esforço:alto', 'ui/ux' ),
+  ),
+  286 => 
   array (
     'id' => '86afmeav8',
     'name' => 'Propor coluna status da tarefa',
@@ -11013,26 +8018,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768806000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  286 => 
+    'tags' => array ( 'esforço:alto', 'ui/ux' ),
+  ),
+  287 => 
   array (
     'id' => '86afmeav6',
     'name' => 'No chat, ferramenta para colocar em revisão',
@@ -11049,26 +8042,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768892400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  287 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  288 => 
   array (
     'id' => '86afmeav4',
     'name' => 'Data de prazo do estagiário não cair fim de semana',
@@ -11085,26 +8066,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768892400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  288 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  289 => 
   array (
     'id' => '86afmeav5',
     'name' => 'Tarefas Relacionadas exibirem status dos oficios',
@@ -11121,26 +8090,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768892400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  289 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  290 => 
   array (
     'id' => '86afmeav3',
     'name' => 'Criar filtro NÃO TEM nos status',
@@ -11157,26 +8114,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1768978800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  290 => 
+    'tags' => array ( 'esforço:médio', 'ui/ux' ),
+  ),
+  291 => 
   array (
     'id' => '86afmeav2',
     'name' => 'Pesquisa de Processos através de Dados Judiciais retorna erro Erro!Ao menos um campo deve ser preenchido!',
@@ -11193,26 +8138,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769410800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  291 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  292 => 
   array (
     'id' => '86afmeav1',
     'name' => 'Adicionar filtro e ordenação da Classe Processual, filtro com OU e EXCETO',
@@ -11229,26 +8162,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769410800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  292 => 
+    'tags' => array ( 'esforço:médio', 'ui/ux' ),
+  ),
+  293 => 
   array (
     'id' => '86afmeav0',
     'name' => 'Criação de coluna exibindo o valor total da ação do siatu',
@@ -11265,26 +8186,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769583600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  293 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  294 => 
   array (
     'id' => '86afmeauz',
     'name' => 'Criação de novo critério de banco → valor total ação do siatu',
@@ -11301,26 +8210,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769583600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  294 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  295 => 
   array (
     'id' => '86afmeauy',
     'name' => 'Criação de coluna para exibir data da REdistribuição da tarefa',
@@ -11337,26 +8234,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769583600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  295 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  296 => 
   array (
     'id' => '86afmeaux',
     'name' => 'Revamp Tarefas Relacionadas - Mostrar Todas as Tarefas de forma opcional',
@@ -11373,26 +8258,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769670000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  296 => 
+    'tags' => array ( 'esforço:alto', 'novo recurso' ),
+  ),
+  297 => 
   array (
     'id' => '86afmeauw',
     'name' => 'Tab adicionar paragrafo no editor',
@@ -11409,26 +8282,14 @@ Origem da Sugestão: Samuel',
     'due_date' => '1769670000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  297 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  298 => 
   array (
     'id' => '86afmeauv',
     'name' => 'Configurações do DJE/CNJ',
@@ -11446,26 +8307,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1769756400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  298 => 
+    'tags' => array ( 'esforço:médio', 'implementação inicial' ),
+  ),
+  299 => 
   array (
     'id' => '86afmeauu',
     'name' => 'Divisão de filas rabbit entre pods',
@@ -11482,21 +8331,13 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1769929200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      1 => 
-      array (
-        'email' => 'cristhian.ramos@edu.pbh.gov.br',
-        'username' => 'Cristhian Ramos',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'cristhian.ramos@edu.pbh.gov.br', 'username' => 'Cristhian Ramos' )
   ),
-  299 => 
+    'tags' => array ( 'esforço:alto', 'melhoria de desempenho' ),
+  ),
+  300 => 
   array (
     'id' => '86afmeaut',
     'name' => 'Chat - Modificar status sempre independente se duvida aberta ou nao',
@@ -11513,26 +8354,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1770015600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  300 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  301 => 
   array (
     'id' => '86afmeauq',
     'name' => 'Reformular visual do processo - Parecido com PJe e eProc',
@@ -11549,26 +8378,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1770102000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  301 => 
+    'tags' => array ( 'esforço:alto', 'ui/ux' ),
+  ),
+  302 => 
   array (
     'id' => '86afmeaup',
     'name' => 'Chat - Icone ficar vermelho quando mensagem for nova',
@@ -11585,26 +8402,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1770102000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  302 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  303 => 
   array (
     'id' => '86afmeaum',
     'name' => 'Funcionalidade de adicionar etiquetas de processo em bloco',
@@ -11621,26 +8426,14 @@ Origem da Sugestão: Felipe Mantuano',
     'due_date' => '1770102000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  303 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  304 => 
   array (
     'id' => '86afmeauj',
     'name' => 'Etiqueta com ação de redistribuir + alterar tarefa não executa por restrições',
@@ -11658,26 +8451,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770274800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  304 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  305 => 
   array (
     'id' => '86afmeauh',
     'name' => 'Bug do mouse pulando no modo lista',
@@ -11694,26 +8475,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770274800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-      1 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      2 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' ),
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' )
   ),
-  305 => 
+    'tags' => array ( 'correção de bugs', 'esforço:baixo' ),
+  ),
+  306 => 
   array (
     'id' => '86afmeauf',
     'name' => 'Verificar porque o peticionamento assyncrono não funciona',
@@ -11730,26 +8499,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770361200000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  306 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  307 => 
   array (
     'id' => '86afmeaug',
     'name' => 'Dar opção de criar tarefa caso a tarefa origem do oficio ja esteja encerrada',
@@ -11766,26 +8523,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770447600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  307 => 
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  ),
+  308 => 
   array (
     'id' => '86afmeaue',
     'name' => 'Correção de bug que quando clicavamos em uma tarefa judicial, o form da tarefa de secr. judiciaria aparecia Peticionamento Eletronico.',
@@ -11802,26 +8547,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770447600000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  308 => 
+    'tags' => array ( 'correção de bugs', 'esforço:alto' ),
+  ),
+  309 => 
   array (
     'id' => '86afmeauc',
     'name' => 'Adição do cdk-virtual-scroll para melhorar a lentidão do scroll de juntadas após abrir muitos documentos',
@@ -11838,26 +8571,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770620400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  309 => 
+    'tags' => array ( 'esforço:médio', 'melhoria de desempenho' ),
+  ),
+  310 => 
   array (
     'id' => '86afmeaub',
     'name' => 'Desenvolver excluir minutas em lote',
@@ -11874,26 +8595,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770620400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  310 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  311 => 
   array (
     'id' => '86afmeaua',
     'name' => 'Alteração de metodo de busca findByAdvanced pra aumentar performance no retorno das Juntadas',
@@ -11910,26 +8619,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770706800000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  311 => 
+    'tags' => array ( 'esforço:alto', 'melhoria de desempenho' ),
+  ),
+  312 => 
   array (
     'id' => '86afmeau9',
     'name' => 'Alterar espécie de aprovação de documento para Secr. Judiciaria',
@@ -11946,26 +8643,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770966000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  312 => 
+    'tags' => array ( 'esforço:baixo', 'ui/ux' ),
+  ),
+  313 => 
   array (
     'id' => '86afmeau7',
     'name' => 'Restringir envio de minutas quando especie for ciência tácita ou processo já peticionado',
@@ -11982,26 +8667,14 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1770966000000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
-  313 => 
+    'tags' => array ( 'esforço:baixo', 'novo recurso' ),
+  ),
+  314 => 
   array (
     'id' => '86afmeau8',
     'name' => 'Criar coluna de processo Materia e Assunto/Objeto',
@@ -12018,23 +8691,11 @@ Origem da Sugestão: Camila Bittencourt',
     'due_date' => '1771052400000',
     'creator_email' => 'rafael.assumpcao@pbh.gov.br',
     'creator_name' => 'Rafael Assumpcao de Oliveira',
-    'assignees' => 
-    array (
-      0 => 
-      array (
-        'email' => 'danilo.dlima@pbh.gov.br',
-        'username' => 'Danilo de Souza Lima',
-      ),
-      1 => 
-      array (
-        'email' => 'rafael.assumpcao@pbh.gov.br',
-        'username' => 'Rafael Assumpcao de Oliveira',
-      ),
-      2 => 
-      array (
-        'email' => 'isaac.martins@pbh.gov.br',
-        'username' => 'Isaac Martins',
-      ),
-    ),
+    'assignees' => array (
+    array ( 'email' => 'danilo.dlima@pbh.gov.br', 'username' => 'Danilo de Souza Lima' ),
+    array ( 'email' => 'rafael.assumpcao@pbh.gov.br', 'username' => 'Rafael Assumpcao de Oliveira' ),
+    array ( 'email' => 'isaac.martins@pbh.gov.br', 'username' => 'Isaac Martins' )
   ),
+    'tags' => array ( 'esforço:médio', 'novo recurso' ),
+  )
 );

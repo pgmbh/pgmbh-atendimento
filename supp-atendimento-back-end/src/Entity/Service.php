@@ -11,24 +11,18 @@ use Doctrine\Common\Collections\Collection;
 #[ORM\Entity(repositoryClass: ServiceRepository::class)]
 class Service
 {
-
-
-
-    // Definimos as constantes para as prioridades permitidas
-    public const PRIORITY_LOW = 'BAIXA';
+    // Constantes de prioridade mantidas por compatibilidade
+    public const PRIORITY_LOW    = 'BAIXA';
     public const PRIORITY_NORMAL = 'NORMAL';
-    public const PRIORITY_HIGH = 'ALTA';
+    public const PRIORITY_HIGH   = 'ALTA';
     public const PRIORITY_URGENT = 'URGENTE';
 
-
-    // Lista de prioridades válidas para validação
     public const VALID_PRIORITIES = [
         self::PRIORITY_LOW,
         self::PRIORITY_NORMAL,
         self::PRIORITY_HIGH,
-        self::PRIORITY_URGENT
+        self::PRIORITY_URGENT,
     ];
-
 
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -41,11 +35,15 @@ class Service
     #[ORM\Column(type: Types::TEXT)]
     private ?string $description = null;
 
-    #[ORM\Column(length: 30)]
-    private ?string $status = null;
+    /** FK para tabela status (substitui a coluna status VARCHAR) */
+    #[ORM\ManyToOne(targetEntity: Status::class)]
+    #[ORM\JoinColumn(name: 'status_id', nullable: false)]
+    private ?Status $statusEntity = null;
 
-    #[ORM\Column(length: 20, nullable: false, options: ['default' => 'NORMAL'])]
-    private string $priority = self::PRIORITY_NORMAL;
+    /** FK para tabela priority (substitui a coluna priority VARCHAR) */
+    #[ORM\ManyToOne(targetEntity: Priority::class)]
+    #[ORM\JoinColumn(name: 'priority_id', nullable: false)]
+    private ?Priority $priorityEntity = null;
 
     #[ORM\ManyToOne(inversedBy: 'id_service')]
     #[ORM\JoinColumn(nullable: false)]
@@ -69,71 +67,111 @@ class Service
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
     private ?\DateTimeInterface $deadline = null;
 
-
     #[ORM\OneToMany(mappedBy: 'service', targetEntity: ServiceHistory::class, orphanRemoval: true)]
     private Collection $histories;
-
 
     #[ORM\OneToMany(mappedBy: 'service', targetEntity: ServiceAttachment::class, cascade: ['persist', 'remove'])]
     private Collection $attachments;
 
-
-    // Adicionar nova propriedade para rastrear se foi criado por admin
     #[ORM\Column(type: 'boolean', options: ['default' => false])]
     private bool $createdByAdmin = false;
 
-    // Adicionar relação ao atendente admin que criou o ticket
     #[ORM\ManyToOne]
     #[ORM\JoinColumn(name: 'created_by_admin_id', referencedColumnName: 'id', nullable: true)]
     private ?Attendant $createdByAdminAttendant = null;
 
-
-    // Relacionamento com Category
     #[ORM\ManyToOne(inversedBy: 'services')]
     #[ORM\JoinColumn(nullable: true)]
     private ?Category $category = null;
 
-    // Relacionamento com ServiceType
     #[ORM\ManyToOne(inversedBy: 'services')]
     #[ORM\JoinColumn(nullable: true)]
     private ?ServiceType $serviceType = null;
 
-    // Relacionamento com Project (RF-002)
     #[ORM\ManyToOne]
     #[ORM\JoinColumn(nullable: true, onDelete: 'SET NULL')]
     private ?Project $project = null;
 
+    /** Etiquetas (muitos-para-muitos com Tag) */
+    #[ORM\ManyToMany(targetEntity: Tag::class, inversedBy: 'services')]
+    #[ORM\JoinTable(name: 'service_tag')]
+    private Collection $tags;
+
     public function __construct()
     {
         $this->attachments = new ArrayCollection();
-        $this->histories = new ArrayCollection();
+        $this->histories   = new ArrayCollection();
+        $this->tags        = new ArrayCollection();
     }
 
+    // -------------------------------------------------------------------------
+    // Acessores de compatibilidade: retornam string, mantendo a API estável
+    // -------------------------------------------------------------------------
 
-
-    public function getHistories(): Collection
+    /** Retorna o nome do status como string (ex: "CONCLUDED"). Compatível com código legado. */
+    public function getStatus(): ?string
     {
-        return $this->histories;
+        return $this->statusEntity?->getName();
     }
 
-    public function addHistory(ServiceHistory $history): self
+    /** Retorna o nome da prioridade como string (ex: "ALTA"). Compatível com código legado. */
+    public function getPriority(): ?string
     {
-        if (!$this->histories->contains($history)) {
-            $this->histories->add($history);
-            $history->setService($this); // Agora usa setService
+        return $this->priorityEntity?->getName();
+    }
+
+    // -------------------------------------------------------------------------
+    // Getters/setters FK (usados internamente e nos services)
+    // -------------------------------------------------------------------------
+
+    public function getStatusEntity(): ?Status
+    {
+        return $this->statusEntity;
+    }
+
+    public function setStatusEntity(?Status $status): static
+    {
+        $this->statusEntity = $status;
+        return $this;
+    }
+
+    public function getPriorityEntity(): ?Priority
+    {
+        return $this->priorityEntity;
+    }
+
+    public function setPriorityEntity(?Priority $priority): static
+    {
+        $this->priorityEntity = $priority;
+        return $this;
+    }
+
+    // -------------------------------------------------------------------------
+    // Tags
+    // -------------------------------------------------------------------------
+
+    public function getTags(): Collection
+    {
+        return $this->tags;
+    }
+
+    public function addTag(Tag $tag): static
+    {
+        if (!$this->tags->contains($tag)) {
+            $this->tags->add($tag);
         }
         return $this;
     }
 
-    public function removeHistory(ServiceHistory $history): self
+    public function removeTag(Tag $tag): static
     {
-        if ($this->histories->removeElement($history)) {
-            if ($history->getService() === $this) {
-                $history->setService(null);
-            }
-        }
+        $this->tags->removeElement($tag);
         return $this;
     }
+
+    // -------------------------------------------------------------------------
+    // Restante dos getters/setters
+    // -------------------------------------------------------------------------
 
     public function getId(): ?int
     {
@@ -148,7 +186,6 @@ class Service
     public function setTitle(string $title): static
     {
         $this->title = $title;
-
         return $this;
     }
 
@@ -160,19 +197,6 @@ class Service
     public function setDescription(string $description): static
     {
         $this->description = $description;
-
-        return $this;
-    }
-
-    public function getStatus(): ?string
-    {
-        return $this->status;
-    }
-
-    public function setStatus(string $status): static
-    {
-        $this->status = $status;
-
         return $this;
     }
 
@@ -184,7 +208,6 @@ class Service
     public function setSector(?Sector $sector): static
     {
         $this->sector = $sector;
-
         return $this;
     }
 
@@ -196,7 +219,6 @@ class Service
     public function setRequester(?User $requester): static
     {
         $this->requester = $requester;
-
         return $this;
     }
 
@@ -208,7 +230,6 @@ class Service
     public function setReponsible(?Attendant $reponsible): static
     {
         $this->reponsible = $reponsible;
-
         return $this;
     }
 
@@ -220,7 +241,6 @@ class Service
     public function setDateCreate(\DateTimeInterface $date_create): static
     {
         $this->date_create = $date_create;
-
         return $this;
     }
 
@@ -232,7 +252,6 @@ class Service
     public function setDateUpdate(?\DateTimeInterface $date_update): static
     {
         $this->date_update = $date_update;
-
         return $this;
     }
 
@@ -244,56 +263,30 @@ class Service
     public function setDateConclusion(?\DateTimeInterface $date_conclusion): static
     {
         $this->date_conclusion = $date_conclusion;
-
         return $this;
     }
 
-    public function getIdService(): ?ServiceHistory
+    public function getHistories(): Collection
     {
-        return $this->id_service;
+        return $this->histories;
     }
 
-    public function setIdService(?ServiceHistory $id_service): static
+    public function addHistory(ServiceHistory $history): self
     {
-        $this->id_service = $id_service;
-
-        return $this;
-    }
-
-    public function addServiceHistory(ServiceHistory $history): self
-    {
-        if (!$this->serviceHistory->contains($history)) {
-            $this->serviceHistory->add($history);
+        if (!$this->histories->contains($history)) {
+            $this->histories->add($history);
             $history->setService($this);
         }
-
         return $this;
     }
 
-    public function removeServiceHistory(ServiceHistory $history): self
+    public function removeHistory(ServiceHistory $history): self
     {
-        if ($this->serviceHistory->removeElement($history)) {
+        if ($this->histories->removeElement($history)) {
             if ($history->getService() === $this) {
                 $history->setService(null);
             }
         }
-
-        return $this;
-    }
-
-    public function getPriority(): ?string
-    {
-        return $this->priority;
-    }
-
-    // Método setter com validação
-    public function setPriority(string $priority): self
-    {
-        if (!in_array($priority, self::VALID_PRIORITIES)) {
-            throw new \InvalidArgumentException('Prioridade inválida. Valores permitidos: BAIXA, NORMAL, ALTA, URGENTE');
-        }
-
-        $this->priority = $priority;
         return $this;
     }
 
@@ -343,7 +336,6 @@ class Service
         return $this;
     }
 
-    // Adicione os getters e setters
     public function getCategory(): ?Category
     {
         return $this->category;

@@ -20,6 +20,9 @@ use App\Entity\Project;
 use App\Entity\ServiceAttachment; // Adicione esta linha para importar a classe
 use Symfony\Component\HttpFoundation\BinaryFileResponse; // Também adicione esta para o download
 use Symfony\Component\HttpFoundation\File\UploadedFile;
+use App\Entity\Tag;
+use App\Entity\Status;
+use App\Entity\Priority;
 
 
 #[Route('/api/service')]
@@ -38,7 +41,15 @@ class ServiceController extends AbstractController
         $this->serviceManager = $serviceManager;
     }
 
-
+    /** Serializa tags de um Service para array simples. */
+    private function serializeTags(Service $service): array
+    {
+        return array_map(fn($tag) => [
+            'id'    => $tag->getId(),
+            'name'  => $tag->getName(),
+            'color' => $tag->getColor(),
+        ], $service->getTags()->toArray());
+    }
 
     #[Route('/my-tickets', methods: ['GET'])]
     public function listUserTickets(Request $request): JsonResponse
@@ -140,6 +151,7 @@ class ServiceController extends AbstractController
                         'concluded' => $service->getDateConclusion()?->format('Y-m-d H:i:s'),
                         'deadline' => $service->getDeadline()?->format('Y-m-d H:i:s'),
                     ],
+                    'tags' => $this->serializeTags($service),
                 ];
             }, $services);
 
@@ -221,7 +233,8 @@ class ServiceController extends AbstractController
                             'filename' => $attachment->getFilename(),
                             'originalFilename' => $attachment->getOriginalFilename()
                         ];
-                    }, $service->getAttachments()->toArray())
+                    }, $service->getAttachments()->toArray()),
+                    'tags' => $this->serializeTags($service),
                 ]
             ]);
         } catch (\Exception $e) {
@@ -375,13 +388,17 @@ class ServiceController extends AbstractController
         try {
             // Obter parâmetros de filtragem
             $title = $request->query->get('title');
+            $description = $request->query->get('description');
             $requester = $request->query->get('requester');
             $status = $request->query->get('status');
             $priority = $request->query->get('priority');
             $categoryId = $request->query->get('category_id');
             $serviceTypeId = $request->query->get('service_type_id');
             $projectId = $request->query->get('project_id');
+            $tagId = $request->query->get('tag_id');
             $excludeStatuses = array_filter(explode(',', $request->query->get('exclude_status', '')));
+            $sortField = $request->query->get('sort', 'created_at');
+            $sortOrder = $request->query->get('order', 'desc');
 
             // Parâmetros de paginação
             $page = $request->query->get('page', 1);
@@ -407,6 +424,11 @@ class ServiceController extends AbstractController
 
                 // Filtro por título
                 if ($title && !str_contains(strtolower($service->getTitle()), strtolower($title))) {
+                    $keepService = false;
+                }
+
+                // Filtro por descrição
+                if ($description && !str_contains(strtolower($service->getDescription() ?? ''), strtolower($description))) {
                     $keepService = false;
                 }
 
@@ -448,29 +470,36 @@ class ServiceController extends AbstractController
                     $keepService = false;
                 }
 
+                // Filtro por etiqueta
+                if ($tagId) {
+                    $tagIds = array_map(fn($t) => $t->getId(), $service->getTags()->toArray());
+                    if (!in_array((int)$tagId, $tagIds, true)) {
+                        $keepService = false;
+                    }
+                }
+
                 if ($keepService) {
                     $filteredServices[] = $service;
                 }
             }
 
-            // Ordenar por prioridade e depois por data (mais recente primeiro)
-            usort($filteredServices, function ($a, $b) {
-                $priorityOrder = [
-                    'URGENTE' => 0,
-                    'ALTA' => 1,
-                    'NORMAL' => 2,
-                    'BAIXA' => 3
-                ];
-
-                $priorityA = $priorityOrder[$a->getPriority()] ?? 4;
-                $priorityB = $priorityOrder[$b->getPriority()] ?? 4;
-
-                if ($priorityA === $priorityB) {
-                    // Se prioridades iguais, ordena por data (mais recente primeiro)
-                    return $b->getDateCreate() <=> $a->getDateCreate();
-                }
-
-                return $priorityA <=> $priorityB;
+            // Ordenação dinâmica conforme parâmetros sort/order
+            $priorityWeight = ['URGENTE' => 0, 'ALTA' => 1, 'NORMAL' => 2, 'BAIXA' => 3];
+            usort($filteredServices, function ($a, $b) use ($sortField, $sortOrder, $priorityWeight) {
+                $asc = $sortOrder === 'asc';
+                $cmp = match ($sortField) {
+                    'id'              => $a->getId() <=> $b->getId(),
+                    'title'           => strnatcasecmp($a->getTitle() ?? '', $b->getTitle() ?? ''),
+                    'description'     => strnatcasecmp($a->getDescription() ?? '', $b->getDescription() ?? ''),
+                    'status'          => strcmp($a->getStatus() ?? '', $b->getStatus() ?? ''),
+                    'priority'        => ($priorityWeight[$a->getPriority()] ?? 4) <=> ($priorityWeight[$b->getPriority()] ?? 4),
+                    'deadline'        => $a->getDeadline() <=> $b->getDeadline(),
+                    'conclusion_date' => $a->getDateConclusion() <=> $b->getDateConclusion(),
+                    default           => $b->getDateCreate() <=> $a->getDateCreate(), // created_at desc
+                };
+                // Para created_at o padrão já é desc; para os demais respeitamos $asc
+                if ($sortField === 'created_at') return $cmp;
+                return $asc ? $cmp : -$cmp;
             });
 
             // Aplicar paginação
@@ -517,6 +546,7 @@ class ServiceController extends AbstractController
                         'concluded' => $service->getDateConclusion()?->format('Y-m-d H:i:s'),
                         'deadline' => $service->getDeadline()?->format('Y-m-d H:i:s'),
                     ],
+                    'tags' => $this->serializeTags($service),
                 ];
             }, $paginatedServices);
 
@@ -939,7 +969,8 @@ class ServiceController extends AbstractController
                             'filename' => $attachment->getFilename(),
                             'originalFilename' => $attachment->getOriginalFilename()
                         ];
-                    }, $service->getAttachments()->toArray())
+                    }, $service->getAttachments()->toArray()),
+                    'tags' => $this->serializeTags($service),
                 ]
             ], 201);
         } catch (AccessDeniedException $e) {

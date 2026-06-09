@@ -3,6 +3,9 @@
 namespace App\Service;
 
 use App\Entity\Service;
+use App\Entity\Status;
+use App\Entity\Priority;
+use App\Entity\Tag;
 use App\Entity\Attendant;
 use App\Entity\Category;
 use App\Entity\Project;
@@ -22,7 +25,7 @@ use Twig\Environment;
 
 class ServiceManager
 {
-    private const VALID_STATUS = ['NEW', 'OPEN', 'IN_PROGRESS', 'RESOLVED', 'CANCELADO', 'RETORNO', 'CONCLUDED', 'NOVO'];
+    private const VALID_STATUS = ['NEW', 'OPEN', 'IN_PROGRESS', 'RESOLVED', 'CANCELADO', 'RETORNO', 'CONCLUDED', 'NOVO', 'backlog', 'product backlog'];
     private string $uploadDir;
     private DateTimeZone $timezone; // <-- ALTERAÇÃO AQUI: Propriedade para o fuso horário
 
@@ -84,7 +87,7 @@ class ServiceManager
         $service->setDescription($data['description']);
         $service->setSector($sector);
         $service->setRequester($requester);
-        $service->setStatus('NOVO');
+        $service->setStatusEntity($this->resolveStatus('NOVO'));
         $service->setDateCreate(new DateTime('now', $this->timezone));
 
         // Buscar categoria se fornecida
@@ -111,7 +114,7 @@ class ServiceManager
         }
 
         $priority = $data['priority'] ?? Service::PRIORITY_NORMAL;
-        $service->setPriority($priority);
+        $service->setPriorityEntity($this->resolvePriority($priority));
 
         // Vincular projeto se fornecido (RF-002)
         if (!empty($data['project_id'])) {
@@ -215,7 +218,7 @@ class ServiceManager
 
         //   die('parou uuuuuuuuuuuuuuuuu');
 
-        if (!in_array(strtoupper($newStatus), self::VALID_STATUS)) {
+        if (!in_array($newStatus, self::VALID_STATUS) && !in_array(strtoupper($newStatus), self::VALID_STATUS)) {
             throw new BadRequestException('Invalid status provided');
         }
 
@@ -235,7 +238,7 @@ class ServiceManager
         }
 
         if ($priority !== null && in_array($priority, Service::VALID_PRIORITIES)) {
-            $service->setPriority($priority);
+            $service->setPriorityEntity($this->resolvePriority($priority));
         }
 
         if ($projectId !== null) {
@@ -277,7 +280,7 @@ class ServiceManager
             $service->setReponsible($attendant);
         }
         // Atualizar o serviço
-        $service->setStatus($newStatus);
+        $service->setStatusEntity($this->resolveStatus($newStatus));
         $service->setDateUpdate(new DateTime('now', $this->timezone));
 
         // Se status for RESOLVED, enviar email para o usuário
@@ -500,12 +503,9 @@ class ServiceManager
             )->setParameter('attendantId', $attendantId);
         }
 
-        $queryBuilder->orderBy('CASE s.priority 
-        WHEN \'URGENTE\' THEN 0 
-        WHEN \'ALTA\' THEN 1 
-        WHEN \'NORMAL\' THEN 2 
-        WHEN \'BAIXA\' THEN 3 
-        ELSE 4 END', 'ASC')
+        $queryBuilder
+            ->leftJoin('s.priorityEntity', 'pr_ord')
+            ->orderBy('pr_ord.weight', 'ASC')
             ->addOrderBy('s.date_create', 'DESC');
 
         return $queryBuilder->getQuery()->getResult();
@@ -572,6 +572,8 @@ class ServiceManager
             ->leftJoin('s.requester', 'u')
             ->leftJoin('s.reponsible', 'a')
             ->leftJoin('s.histories', 'h')
+            ->leftJoin('s.statusEntity', 'st')
+            ->leftJoin('s.priorityEntity', 'pr')
             ->where('s.requester = :userId')
             ->setParameter('userId', $user);
 
@@ -582,13 +584,13 @@ class ServiceManager
         }
 
         if (!empty($filters['status'])) {
-            $queryBuilder->andWhere('s.status = :status')
-                ->setParameter('status', $filters['status']);
+            $queryBuilder->andWhere('st.name = :statusName')
+                ->setParameter('statusName', $filters['status']);
         }
 
         if (!empty($filters['priority'])) {
-            $queryBuilder->andWhere('s.priority = :priority')
-                ->setParameter('priority', $filters['priority']);
+            $queryBuilder->andWhere('pr.name = :priorityName')
+                ->setParameter('priorityName', $filters['priority']);
         }
 
         // Ordenação
@@ -619,6 +621,8 @@ class ServiceManager
             ->from(Service::class, 's')
             ->leftJoin('s.sector', 'sect')
             ->leftJoin('s.requester', 'u')
+            ->leftJoin('s.statusEntity', 'st')
+            ->leftJoin('s.priorityEntity', 'pr')
             ->where('s.requester = :user')
             ->setParameter('user', $user);
 
@@ -629,13 +633,13 @@ class ServiceManager
         }
 
         if (!empty($filters['status'])) {
-            $queryBuilder->andWhere('s.status = :status')
-                ->setParameter('status', $filters['status']);
+            $queryBuilder->andWhere('st.name = :statusName')
+                ->setParameter('statusName', $filters['status']);
         }
 
         if (!empty($filters['priority'])) {
-            $queryBuilder->andWhere('s.priority = :priority')
-                ->setParameter('priority', $filters['priority']);
+            $queryBuilder->andWhere('pr.name = :priorityName')
+                ->setParameter('priorityName', $filters['priority']);
         }
 
         // Adicionar filtros de data
@@ -651,8 +655,8 @@ class ServiceManager
 
         // Adicionar filtro para excluir status específico
         if (!empty($filters['exclude_status'])) {
-            $queryBuilder->andWhere('s.status != :exclude_status')
-                ->setParameter('exclude_status', $filters['exclude_status']);
+            $queryBuilder->andWhere('st.name != :excludeStatusName')
+                ->setParameter('excludeStatusName', $filters['exclude_status']);
         }
 
         // Filtro por sistema (projeto)
@@ -694,9 +698,10 @@ class ServiceManager
         $tickets = $queryBuilder
             ->select('s')
             ->from(Service::class, 's')
-            ->where('s.status = :status')
+            ->join('s.statusEntity', 'st')
+            ->where('st.name = :statusName')
             ->andWhere('s.date_update <= :limitDate')
-            ->setParameter('status', 'RESOLVED')
+            ->setParameter('statusName', 'RESOLVED')
             ->setParameter('limitDate', $limitDate)
             ->getQuery()
             ->getResult();
@@ -706,7 +711,7 @@ class ServiceManager
         foreach ($tickets as $ticket) {
             try {
                 // Atualizar status para CONCLUDED
-                $ticket->setStatus('CONCLUDED');
+                $ticket->setStatusEntity($this->resolveStatus('CONCLUDED'));
                 $ticket->setDateConclusion(new DateTime('now', $this->timezone));
                 $ticket->setDateUpdate(new DateTime('now', $this->timezone));
 
@@ -753,10 +758,49 @@ class ServiceManager
         // Isso diferenciará de comentários de atendentes
         
         $this->entityManager->persist($history);
-        
+
         // Atualizar data de modificação do service
         $service->setDateUpdate(new DateTime('now', $this->timezone));
-        
+
         $this->entityManager->flush();
+    }
+
+    // -------------------------------------------------------------------------
+    // Helpers de resolução de domínio
+    // -------------------------------------------------------------------------
+
+    /**
+     * Resolve um Status pelo nome (string) → entidade Status.
+     * Lança BadRequestException se não encontrado.
+     */
+    public function resolveStatus(string $name): Status
+    {
+        $status = $this->entityManager->getRepository(Status::class)->findOneBy(['name' => $name]);
+        if (!$status) {
+            throw new BadRequestException("Status '{$name}' não encontrado na tabela de domínio.");
+        }
+        return $status;
+    }
+
+    /**
+     * Resolve uma Priority pelo nome (string) → entidade Priority.
+     * Lança BadRequestException se não encontrado.
+     */
+    public function resolvePriority(string $name): Priority
+    {
+        $priority = $this->entityManager->getRepository(Priority::class)->findOneBy(['name' => $name]);
+        if (!$priority) {
+            // Fallback: NORMAL
+            $priority = $this->entityManager->getRepository(Priority::class)->findOneBy(['name' => 'NORMAL']);
+        }
+        return $priority;
+    }
+
+    /**
+     * Resolve uma Tag pelo nome (string) → entidade Tag (ou null).
+     */
+    public function resolveTag(string $name): ?Tag
+    {
+        return $this->entityManager->getRepository(Tag::class)->findOneBy(['name' => $name]);
     }
 }

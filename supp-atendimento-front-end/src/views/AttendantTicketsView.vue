@@ -23,6 +23,12 @@
                     @input="handleSearchInput"></v-text-field>
                 </v-col>
 
+                <!-- Campo de pesquisa por descrição -->
+                <v-col cols="12" sm="3">
+                  <v-text-field v-model="searchDescription" label="Pesquisar por descrição" outlined dense
+                    @input="handleSearchInput"></v-text-field>
+                </v-col>
+
                 <!-- Filtro de Status -->
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchStatus" :items="statusOptions" label="Status" outlined dense
@@ -48,6 +54,12 @@
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchProject" :items="projectOptions" item-title="title"
                     item-value="value" label="Sistema" outlined dense @update:model-value="handleSearch"></v-select>
+                </v-col>
+
+                <!-- Filtro de Etiqueta -->
+                <v-col cols="12" sm="3">
+                  <v-select v-model="searchTag" :items="tagFilterOptions" item-title="title"
+                    item-value="value" label="Etiqueta" outlined dense @update:model-value="handleSearch"></v-select>
                 </v-col>
 
                 <!-- Filtro de Período -->
@@ -119,12 +131,25 @@
             <v-table hover>
               <thead>
                 <tr>
-                  <th class="text-left sortable-th" @click="changeSort('title')">
+                  <th class="text-left sortable-th" @click="changeSort('id')">
                     Número
+                    <v-icon size="x-small" :class="sortField === 'id' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'id' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
+                  <th class="text-left sortable-th" @click="changeSort('title')">
+                    Título
                     <v-icon size="x-small" :class="sortField === 'title' ? 'sort-icon-active' : 'sort-icon-idle'">
                       {{ sortField === 'title' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
                     </v-icon>
                   </th>
+                  <th class="text-left sortable-th" @click="changeSort('description')">
+                    Descrição
+                    <v-icon size="x-small" :class="sortField === 'description' ? 'sort-icon-active' : 'sort-icon-idle'">
+                      {{ sortField === 'description' ? (sortOrder === 'asc' ? 'mdi-arrow-up' : 'mdi-arrow-down') : 'mdi-unfold-more-horizontal' }}
+                    </v-icon>
+                  </th>
+                  <th class="text-left">Etiquetas</th>
                   <th class="text-left">Solicitante</th>
                   <th class="text-left sortable-th" @click="changeSort('priority')">
                     Prioridade
@@ -164,7 +189,16 @@
               <tbody>
                 <tr v-for="ticket in tickets" :key="ticket.id">
                   <td>#{{ ticket.id }}</td>
-                  <td>{{ ticket.requester?.name }}</td> <!-- Nova célula -->
+                  <td>{{ ticket.title }}</td>
+                  <td class="description-cell">{{ ticket.description }}</td>
+                  <td class="tags-cell">
+                    <v-chip v-for="tag in (ticket.tags || [])" :key="tag.id"
+                      size="x-small" class="me-1 mb-1"
+                      :style="{ backgroundColor: tag.color, color: '#fff' }">
+                      {{ tag.name }}
+                    </v-chip>
+                  </td>
+                  <td>{{ ticket.requester?.name }}</td>
                   <td>
                     <v-chip :color="getPriorityColor(ticket.priority)"
                       :text-color="getPriorityTextColor(ticket.priority)" size="small" class="priority-chip">
@@ -577,6 +611,8 @@ const resetFilters = () => {
   // Limpa todos os campos de filtro
   searchTitle.value = '';
   searchRequester.value = '';
+  searchDescription.value = '';
+  searchTag.value = '';
   searchStatus.value = '';
   searchPriority.value = '';
   searchCategory.value = '';
@@ -606,6 +642,9 @@ const toggleCancelled = () => {
 
 const searchTitle = ref('');
 const searchRequester = ref('');
+const searchDescription = ref('');
+const searchTag = ref('');
+const availableTags = ref([]);
 const searchStatus = ref('');
 const searchPriority = ref('');
 const searchCategory = ref('');
@@ -714,6 +753,13 @@ const projectOptions = computed(() => {
   ];
 });
 
+const tagFilterOptions = computed(() => {
+  return [
+    { title: 'Todas as etiquetas', value: '' },
+    ...availableTags.value.map(t => ({ title: t.name, value: t.id }))
+  ];
+});
+
 const currentPage = ref(1);
 const sortField = ref('created_at');
 const sortOrder = ref('desc');
@@ -792,7 +838,9 @@ const getStatusColor = (status) => {
     'RESOLVED': 'green',
     'CANCELADO': 'red',
     'RETORNO': 'cyan',
-    'CONCLUDED': 'purple'
+    'CONCLUDED': 'purple',
+    'backlog': 'blue-grey',
+    'product backlog': 'blue-grey',
   }
   return colors[status] || 'grey'
 }
@@ -808,7 +856,9 @@ const translateStatus = (status) => {
     'RESOLVED': 'RESOLVIDO',
     'CANCELADO': 'CANCELADO',
     'RETORNO': 'RETORNO',
-    'CONCLUDED': 'CONCLUÍDO'
+    'CONCLUDED': 'CONCLUÍDO',
+    'backlog': 'BACKLOG',
+    'product backlog': 'PRODUCT BACKLOG',
   }
   return translations[status] || status
 }
@@ -1139,6 +1189,12 @@ const loadTickets = async (page = 1) => {
     if (searchRequester.value) {
       params.append('requester', searchRequester.value);
     }
+    if (searchDescription.value) {
+      params.append('description', searchDescription.value);
+    }
+    if (searchTag.value) {
+      params.append('tag_id', searchTag.value);
+    }
     if (searchStatus.value) {
       params.append('status', searchStatus.value);
     }
@@ -1248,7 +1304,9 @@ const statusOptions = [
   { title: 'Resolvido', value: 'RESOLVED' },
   { title: 'Cancelado', value: 'CANCELADO' },
   { title: 'Retorno', value: 'RETORNO' },
-  { title: 'Concluído', value: 'CONCLUDED' }
+  { title: 'Concluído', value: 'CONCLUDED' },
+  { title: 'Backlog', value: 'backlog' },
+  { title: 'Product Backlog', value: 'product backlog' },
 ]
 
 // Replace the current priorityOptions with:
@@ -1303,6 +1361,17 @@ const downloadAttachment = async (attachment) => {
   }
 };
 
+const loadTags = async () => {
+  try {
+    const response = await api.get('/tags');
+    if (response.data.success) {
+      availableTags.value = response.data.data;
+    }
+  } catch (error) {
+    console.error('Erro ao carregar etiquetas:', error);
+  }
+};
+
 const loadCategoriesAndServiceTypes = async () => {
   try {
     // Carrega categorias
@@ -1340,7 +1409,8 @@ onMounted(() => {
   loadCategoriesview();
   loadServiceTypes();
   loadProjects();
-  loadCategoriesAndServiceTypes(); // Nova função combinada
+  loadCategoriesAndServiceTypes();
+  loadTags();
 })
 </script>
 
@@ -1765,6 +1835,18 @@ onMounted(() => {
   height: 40px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 1rem;
+}
+
+.description-cell {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tags-cell {
+  max-width: 180px;
+  white-space: normal;
 }
 
 /* Estilo para prazos vencidos */

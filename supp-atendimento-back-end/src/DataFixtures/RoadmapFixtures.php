@@ -4,12 +4,15 @@ namespace App\DataFixtures;
 
 use App\Entity\Attendant;
 use App\Entity\Category;
+use App\Entity\Priority;
 use App\Entity\Project;
 use App\Entity\Sector;
 use App\Entity\Service;
 use App\Entity\ServiceAttendant;
 use App\Entity\ServiceHistory;
 use App\Entity\ServiceType;
+use App\Entity\Status;
+use App\Entity\Tag;
 use App\Entity\User;
 use App\Repository\AttendantRepository;
 use App\Repository\ProjectRepository;
@@ -363,19 +366,23 @@ class RoadmapFixtures extends Fixture implements FixtureGroupInterface
             $description = implode("\n\n", $descParts) ?: ($fullName . "\n\n" . $marker);
 
             // Status / Prioridade
-            $status   = $this->mapClickUpStatus(strtolower($task['status']), strtolower($task['status_type']));
-            $priority = match (strtolower($task['priority'])) {
+            $statusName   = $this->mapClickUpStatus(strtolower($task['status']), strtolower($task['status_type']));
+            $priorityName = match (strtolower($task['priority'])) {
                 'low'    => Service::PRIORITY_LOW,
                 'high'   => Service::PRIORITY_HIGH,
                 'urgent' => Service::PRIORITY_URGENT,
                 default  => Service::PRIORITY_NORMAL,
             };
+            $statusEntity   = $manager->getRepository(Status::class)->findOneBy(['name' => $statusName])
+                              ?? $manager->getRepository(Status::class)->findOneBy(['name' => 'NOVO']);
+            $priorityEntity = $manager->getRepository(Priority::class)->findOneBy(['name' => $priorityName])
+                              ?? $manager->getRepository(Priority::class)->findOneBy(['name' => 'NORMAL']);
 
             // Datas
             $dateCreate = $this->epochMsToDateTime((int) ($task['date_created'] ?? 0), $tz);
             $dateUpdate = $task['date_updated'] ? $this->epochMsToDateTime((int) $task['date_updated'], $tz) : null;
             $dateConclusion = null;
-            if (in_array($status, ['CONCLUDED', 'CANCELADO'], true)) {
+            if (in_array($statusName, ['CONCLUDED', 'CANCELADO'], true)) {
                 $raw = $task['date_closed'] ?? $task['date_done'] ?? null;
                 if ($raw) $dateConclusion = $this->epochMsToDateTime((int) $raw, $tz);
             }
@@ -397,13 +404,21 @@ class RoadmapFixtures extends Fixture implements FixtureGroupInterface
             $service = new Service();
             $service
                 ->setTitle($title)->setDescription($description)
-                ->setStatus($status)->setPriority($priority)
+                ->setStatusEntity($statusEntity)->setPriorityEntity($priorityEntity)
                 ->setSector($sector)->setRequester($requester)->setReponsible($responsible)
                 ->setDateCreate($dateCreate)->setDateUpdate($dateUpdate)
                 ->setDateConclusion($dateConclusion)->setDeadline($deadline)
                 ->setCreatedByAdmin(false)->setProject($suppProject);
 
             $manager->persist($service);
+
+            // Vincular etiquetas (tags) da tarefa ClickUp
+            foreach ($task['tags'] ?? [] as $tagName) {
+                $tagEntity = $manager->getRepository(Tag::class)->findOneBy(['name' => $tagName]);
+                if ($tagEntity) {
+                    $service->addTag($tagEntity);
+                }
+            }
 
             foreach (array_slice($task['assignees'], 1) as $extra) {
                 [$extraAttendant, $nuX, $naX] = $this->resolveAttendant(
@@ -418,7 +433,7 @@ class RoadmapFixtures extends Fixture implements FixtureGroupInterface
             }
 
             $history = new ServiceHistory();
-            $history->setService($service)->setStatusPrev('Nenhum')->setStatusPost($status)
+            $history->setService($service)->setStatusPrev('Nenhum')->setStatusPost($statusName)
                     ->setComment('Importado automaticamente')->setDateHistory($dateCreate)
                     ->setType('STATUS_CHANGE')->setResponsible(null);
             $manager->persist($history);
@@ -463,8 +478,8 @@ class RoadmapFixtures extends Fixture implements FixtureGroupInterface
             $clickupStatus === 'pendente decisão'        => 'OPEN',
             $clickupStatus === 'suspenso'                => 'OPEN',
             $clickupStatus === 'homologação'             => 'OPEN',
-            $clickupStatus === 'backlog'                 => 'NOVO',
-            $clickupStatus === 'product backlog'         => 'NOVO',
+            $clickupStatus === 'backlog'                 => 'backlog',
+            $clickupStatus === 'product backlog'         => 'product backlog',
             default                                      => 'NOVO',
         };
     }
