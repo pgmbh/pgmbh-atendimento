@@ -36,22 +36,22 @@
                 <!-- Filtro de Status -->
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchStatus" :items="statusOptions" label="Status" outlined dense
-                    @change="handleSearch"></v-select>
+                    @update:model-value="handleSearch"></v-select>
                 </v-col>
 
                 <!-- Filtro de Prioridade -->
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchPriority" :items="priorityOptions" label="Prioridade" outlined dense
-                    @change="handleSearch"></v-select>
+                    @update:model-value="handleSearch"></v-select>
                 </v-col>
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchCategory" :items="categoryOptions" item-title="title" item-value="value"
-                    label="Categoria" outlined dense @change="handleSearch"></v-select>
+                    label="Categoria" outlined dense @update:model-value="handleSearch"></v-select>
                 </v-col>
 
                 <v-col cols="12" sm="3">
                   <v-select v-model="searchServiceType" :items="serviceTypeOptions" item-title="title"
-                    item-value="value" label="Tipo de Serviço" outlined dense @change="handleSearch"></v-select>
+                    item-value="value" label="Tipo de Serviço" outlined dense @update:model-value="handleSearch"></v-select>
                 </v-col>
 
                 <!-- Filtro de Sistema -->
@@ -278,7 +278,7 @@
                   </v-btn>
                 </template>
 
-                <v-btn :disabled="currentPage === meta.last_page" @click="handlePageChange(currentPage + 1)"
+                <v-btn :disabled="currentPage >= meta.last_page" @click="handlePageChange(currentPage + 1)"
                   size="small" variant="text" class="pagination-button">
                   Próximo
                 </v-btn>
@@ -534,16 +534,18 @@
 
         <AdminCreateTicket v-model="createDialog" @created="handleTicketCreated" />
 
-
-
-
       </div>
     </div>
   </div>
+
+  <v-snackbar v-model="snackbar.show" :color="snackbar.color" timeout="3000" location="bottom right">
+    {{ snackbar.message }}
+  </v-snackbar>
 </template>
 
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
+import { useRouter } from 'vue-router'
 import { format } from 'date-fns'
 import { ptBR } from 'date-fns/locale'
 import { useSidebar } from '@/composables/useSidebar'
@@ -553,9 +555,9 @@ import AdminCreateTicket from '@/components/common/AdminCreateTicket.vue' // Imp
 import TicketDetailsModal from '@/components/tickets/TicketDetailsModal.vue'
 import api from '@/services/api'
 import { authService } from '@/services/auth.service'
-import { mdiPencilBoxOutline } from "@mdi/js";
 
 const { sidebarCollapsed } = useSidebar()
+const router = useRouter()
 const loading = ref(false)
 const tickets = ref([])
 
@@ -565,31 +567,6 @@ watch(activeTab, () => {
   currentPage.value = 1
   loadTickets(1)
 })
-
-// Dentro do script setup
-const loadCategoriesview = async () => {
-  try {
-    const response = await api.get('/categories');
-    if (response.data.success) {
-      console.log('Categorias carregadas =========>>>>>:', categories.value);
-      categories.value = response.data.data;
-    }
-  } catch (error) {
-    console.error('Erro ao carregar categorias:', error);
-  }
-};
-
-
-const loadServiceTypes = async () => {
-  try {
-    const response = await api.get('/service-types');
-    if (response.data.success) {
-      serviceTypes.value = response.data.data;
-    }
-  } catch (error) {
-    console.error('Erro ao carregar tipos de serviço:', error);
-  }
-};
 
 const loadProjects = async () => {
   try {
@@ -648,6 +625,11 @@ const handleSearch = async () => {
 
 const createDialog = ref(false)
 const attendantData = ref(null)
+const snackbar = ref({ show: false, message: '', color: 'success' })
+
+const showSnackbar = (message, color = 'success') => {
+  snackbar.value = { show: true, message, color }
+}
 const categories = ref([]);
 const serviceTypes = ref([]);
 
@@ -708,11 +690,9 @@ const showCancelled = ref(false);
 const startDate = ref(null);
 const endDate = ref(null);
 
-const handleTicketCreated = (newTicket) => {
-  // Adicionar o novo ticket à lista ou recarregar os dados
+const handleTicketCreated = () => {
   loadTickets()
-  // Exibir mensagem de sucesso
-  alert('Atendimento criado com sucesso!')
+  showSnackbar('Atendimento criado com sucesso!')
 }
 
 // Estado para os diálogos
@@ -857,20 +837,6 @@ const changeSort = (field) => {
 
 const sectors = ref([])
 
-// Ordena tickets por prioridade
-const priorityOrder = {
-  'URGENTE': 0,
-  'ALTA': 1,
-  'NORMAL': 2,
-  'BAIXA': 3
-}
-
-const sortedTickets = computed(() => {
-  return [...tickets.value].sort((a, b) => {
-    return priorityOrder[a.priority] - priorityOrder[b.priority]
-  })
-})
-
 // Funções auxiliares
 const getPriorityColor = (priority) => {
   if (!priority) return 'grey'
@@ -891,6 +857,8 @@ const getStatusColor = (status) => {
   if (!status) return 'grey'
   const colors = {
     'NEW': 'grey',
+    'NOVO': 'grey',
+    'Novo': 'grey',
     'OPEN': 'blue',
     'IN_PROGRESS': 'orange',
     'RESOLVED': 'green',
@@ -909,6 +877,7 @@ const translateStatus = (status) => {
     'new': 'NOVO',
     'NEW': 'NOVO',
     'NOVO': 'NOVO',
+    'Novo': 'NOVO',
     'OPEN': 'ABERTO',
     'IN_PROGRESS': 'EM ANDAMENTO',
     'RESOLVED': 'RESOLVIDO',
@@ -1015,44 +984,34 @@ const openEvolveDialog = async (ticket) => {
         attachments: ticket.attachments || [],
         histories: []
       },
-      newStatus: ticket.status === 'NOVO' ? 'OPEN' : ticket.status,
+      newStatus: ['NOVO', 'Novo', 'NEW', 'new'].includes(ticket.status) ? 'OPEN' : ticket.status,
       comment: '',
       // Inicializar com os valores existentes do ticket
       category_id: ticket.category?.id || null,
       service_type_id: ticket.serviceType?.id || null,
+      tag_ids: (ticket.tags || []).map(t => t.id),
+      deadline: null,
+      deadlineMenu: false,
+      formattedDeadline: '',
       loading: true
     };
 
-    // Carrega detalhes completos do ticket
+    // Carrega detalhes completos do ticket (histórico + dados completos)
     await loadServiceHistory(ticket.id);
 
-    const response = await api.get(`/service/${ticket.id}`);
+    // loadServiceHistory já preencheu evolveDialog.value.ticket com os dados completos;
+    // apenas sincronizamos os campos do formulário a partir do ticket carregado.
+    const loadedTicket = evolveDialog.value.ticket;
+    evolveDialog.value.category_id = loadedTicket.category?.id || ticket.category?.id || null;
+    evolveDialog.value.service_type_id = loadedTicket.serviceType?.id || ticket.serviceType?.id || null;
+    evolveDialog.value.tag_ids = (loadedTicket.tags || []).map(t => t.id);
 
-    if (response.data.success) {
-      // Importante: preservar os valores de categoria e tipo de atendimento
-      const categoryId = response.data.data.category?.id || ticket.category?.id;
-      const serviceTypeId = response.data.data.serviceType?.id || ticket.serviceType?.id;
-
-      evolveDialog.value.ticket = {
-        ...response.data.data,
-        histories: evolveDialog.value.ticket.histories || [],
-        attachments: response.data.data.attachments || []
-      };
-
-      // Atualizar os valores nos campos do formulário
-      evolveDialog.value.category_id = categoryId;
-      evolveDialog.value.service_type_id = serviceTypeId;
-      // Inicializar etiquetas a partir do ticket carregado
-      evolveDialog.value.tag_ids = (response.data.data.tags || []).map(t => t.id);
-
-      // Configurar deadline
-      if (response.data.data.dates?.deadline) {
-        evolveDialog.value.deadline = new Date(response.data.data.dates.deadline);
-        evolveDialog.value.formattedDeadline = formatDeadlineForDisplay(evolveDialog.value.deadline);
-      } else {
-        evolveDialog.value.deadline = null;
-        evolveDialog.value.formattedDeadline = '';
-      }
+    if (loadedTicket.dates?.deadline) {
+      evolveDialog.value.deadline = new Date(loadedTicket.dates.deadline);
+      evolveDialog.value.formattedDeadline = formatDeadlineForDisplay(evolveDialog.value.deadline);
+    } else {
+      evolveDialog.value.deadline = null;
+      evolveDialog.value.formattedDeadline = '';
     }
   } catch (error) {
     console.error('Erro ao carregar detalhes do ticket:', error);
@@ -1113,6 +1072,14 @@ const openHistoryDialog = async (ticket) => {
 }
 
 const evolveTicket = async () => {
+  if (!evolveDialog.value.newStatus) {
+    alert('Selecione o novo status.');
+    return;
+  }
+  if (!evolveDialog.value.comment || !evolveDialog.value.comment.trim()) {
+    alert('Informe um comentário para a evolução.');
+    return;
+  }
   evolveDialog.value.loading = true;
   try {
     const ticketId = evolveDialog.value.ticket.id;
@@ -1368,7 +1335,7 @@ const handleTicketReopened = () => {
 // Replace the current statusOptions with:
 const statusOptions = [
   { title: 'Todos os status', value: '' },
-  { title: 'Novo', value: 'NEW' },
+  { title: 'Novo', value: 'NOVO' },
   { title: 'Aberto', value: 'OPEN' },
   { title: 'Em Andamento', value: 'IN_PROGRESS' },
   { title: 'Resolvido', value: 'RESOLVED' },
@@ -1476,8 +1443,6 @@ onMounted(() => {
   attendantData.value = authService.getAttendantData()
   loadTickets();
   loadSectors();
-  loadCategoriesview();
-  loadServiceTypes();
   loadProjects();
   loadCategoriesAndServiceTypes();
   loadTags();

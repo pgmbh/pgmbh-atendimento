@@ -434,8 +434,23 @@ class ServiceController extends AbstractController
         $excludeStatuses = array_filter(explode(',', $request->query->get('exclude_status', '')));
         $sortField      = $request->query->get('sort', 'created_at');
         $sortOrder      = $request->query->get('order', 'desc');
-        $page           = $request->query->get('page', 1);
-        $perPage        = $request->query->get('per_page', 10);
+        $page           = max(1, (int)$request->query->get('page', 1));
+        $perPage        = max(1, (int)$request->query->get('per_page', 10));
+
+        // Filtro de período (data de criação)
+        $startDate = null;
+        $endDate   = null;
+        try {
+            if ($request->query->get('start_date')) {
+                $startDate = new \DateTime($request->query->get('start_date') . ' 00:00:00');
+            }
+            if ($request->query->get('end_date')) {
+                $endDate = new \DateTime($request->query->get('end_date') . ' 23:59:59');
+            }
+        } catch (\Exception) {
+            // Datas inválidas são ignoradas
+            $startDate = $endDate = null;
+        }
 
         // Aplicar filtros
         $filteredServices = [];
@@ -478,6 +493,12 @@ class ServiceController extends AbstractController
             if ($attendantId && (!$service->getReponsible() || $service->getReponsible()->getId() != $attendantId)) {
                 $keepService = false;
             }
+            if ($startDate && (!$service->getDateCreate() || $service->getDateCreate() < $startDate)) {
+                $keepService = false;
+            }
+            if ($endDate && (!$service->getDateCreate() || $service->getDateCreate() > $endDate)) {
+                $keepService = false;
+            }
 
             if ($keepService) {
                 $filteredServices[] = $service;
@@ -496,9 +517,8 @@ class ServiceController extends AbstractController
                 'priority'        => ($priorityWeight[$a->getPriority()] ?? 4) <=> ($priorityWeight[$b->getPriority()] ?? 4),
                 'deadline'        => $a->getDeadline() <=> $b->getDeadline(),
                 'conclusion_date' => $a->getDateConclusion() <=> $b->getDateConclusion(),
-                default           => $b->getDateCreate() <=> $a->getDateCreate(),
+                default           => $a->getDateCreate() <=> $b->getDateCreate(),
             };
-            if ($sortField === 'created_at') return $cmp;
             return $asc ? $cmp : -$cmp;
         });
 
@@ -557,9 +577,9 @@ class ServiceController extends AbstractController
             'data'    => $response,
             'meta'    => [
                 'total'        => $total,
-                'per_page'     => (int)$perPage,
-                'current_page' => (int)$page,
-                'last_page'    => ceil($total / $perPage),
+                'per_page'     => $perPage,
+                'current_page' => $page,
+                'last_page'    => (int)ceil($total / $perPage),
             ],
         ]);
     }
