@@ -71,12 +71,36 @@
       </ul>
 
       <template v-if="isAdmin">
-        <p class="nav-section-label" v-show="!isCollapsed">ADMINISTRAÇÃO</p>
+        <p class="nav-section-label" v-show="!isCollapsed">CONFIGURAÇÕES</p>
         <ul>
           <li>
             <router-link to="/attendant/admin/users" active-class="active">
               <i class="mdi mdi-account-group-outline nav-icon"></i>
               <span class="nav-text" v-show="!isCollapsed">Gerenciar Usuários</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/attendant/admin/service-types" active-class="active">
+              <i class="mdi mdi-tag-text-outline nav-icon"></i>
+              <span class="nav-text" v-show="!isCollapsed">Tipos de Demanda</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/attendant/admin/priorities" active-class="active">
+              <i class="mdi mdi-flag-outline nav-icon"></i>
+              <span class="nav-text" v-show="!isCollapsed">Prioridades</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/attendant/admin/sectors" active-class="active">
+              <i class="mdi mdi-domain nav-icon"></i>
+              <span class="nav-text" v-show="!isCollapsed">Setores</span>
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/attendant/admin/tags" active-class="active">
+              <i class="mdi mdi-label-outline nav-icon"></i>
+              <span class="nav-text" v-show="!isCollapsed">Etiquetas</span>
             </router-link>
           </li>
         </ul>

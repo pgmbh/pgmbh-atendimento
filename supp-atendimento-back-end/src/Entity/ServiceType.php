@@ -21,6 +21,9 @@ class ServiceType
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $description = null;
 
+    #[ORM\Column(options: ['default' => true])]
+    private bool $active = true;
+
     #[ORM\OneToMany(mappedBy: 'serviceType', targetEntity: Service::class)]
     private Collection $services;
 
@@ -53,6 +56,17 @@ class ServiceType
     public function setDescription(?string $description): static
     {
         $this->description = $description;
+        return $this;
+    }
+
+    public function isActive(): bool
+    {
+        return $this->active;
+    }
+
+    public function setActive(bool $active): static
+    {
+        $this->active = $active;
         return $this;
     }
 

@@ -64,10 +64,31 @@ const routes = [
     path: '/attendant/admin/users',
     name: 'admin-users',
     component: () => import('@/views/AdminUsersView.vue'),
-    meta: {
-      requiresAttendantAuth: true,
-      requiresAdmin: true
-    }
+    meta: { requiresAttendantAuth: true, requiresAdmin: true }
+  },
+  {
+    path: '/attendant/admin/service-types',
+    name: 'admin-service-types',
+    component: () => import('@/views/AdminServiceTypesView.vue'),
+    meta: { requiresAttendantAuth: true, requiresAdmin: true }
+  },
+  {
+    path: '/attendant/admin/priorities',
+    name: 'admin-priorities',
+    component: () => import('@/views/AdminPrioritiesView.vue'),
+    meta: { requiresAttendantAuth: true, requiresAdmin: true }
+  },
+  {
+    path: '/attendant/admin/sectors',
+    name: 'admin-sectors',
+    component: () => import('@/views/AdminSectorsView.vue'),
+    meta: { requiresAttendantAuth: true, requiresAdmin: true }
+  },
+  {
+    path: '/attendant/admin/tags',
+    name: 'admin-tags',
+    component: () => import('@/views/AdminTagsView.vue'),
+    meta: { requiresAttendantAuth: true, requiresAdmin: true }
   },
   {
     path: '/attendant/change-password',

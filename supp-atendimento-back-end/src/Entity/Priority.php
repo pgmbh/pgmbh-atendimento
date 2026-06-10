@@ -27,6 +27,9 @@ class Priority
     #[ORM\Column]
     private int $weight;
 
+    #[ORM\Column(options: ['default' => true])]
+    private bool $active = true;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -73,6 +76,17 @@ class Priority
     public function setWeight(int $weight): static
     {
         $this->weight = $weight;
+        return $this;
+    }
+
+    public function isActive(): bool
+    {
+        return $this->active;
+    }
+
+    public function setActive(bool $active): static
+    {
+        $this->active = $active;
         return $this;
     }
 }

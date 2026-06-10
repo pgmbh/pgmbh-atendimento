@@ -18,6 +18,9 @@ class Sector
     #[ORM\Column(length: 20)]
     private ?string $name = null;
 
+    #[ORM\Column(options: ['default' => true])]
+    private bool $active = true;
+
     /**
      * @var Collection<int, Service>
      */
@@ -42,7 +45,17 @@ class Sector
     public function setName(string $name): static
     {
         $this->name = $name;
+        return $this;
+    }
 
+    public function isActive(): bool
+    {
+        return $this->active;
+    }
+
+    public function setActive(bool $active): static
+    {
+        $this->active = $active;
         return $this;
     }
 

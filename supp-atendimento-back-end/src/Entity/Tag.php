@@ -22,6 +22,9 @@ class Tag
     #[ORM\Column(length: 20)]
     private string $color;
 
+    #[ORM\Column(options: ['default' => true])]
+    private bool $active = true;
+
     #[ORM\ManyToMany(targetEntity: Service::class, mappedBy: 'tags')]
     private Collection $services;
 
@@ -54,6 +57,17 @@ class Tag
     public function setColor(string $color): static
     {
         $this->color = $color;
+        return $this;
+    }
+
+    public function isActive(): bool
+    {
+        return $this->active;
+    }
+
+    public function setActive(bool $active): static
+    {
+        $this->active = $active;
         return $this;
     }
 
